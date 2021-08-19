@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.6.2...@sproutsocial/seeds-networkcolor@2.7.0) (2021-08-19)
+
+
+### Features
+
+* **seeds-networkcolor:** add color for yelp ([#268](https://github.com/sproutsocial/seeds-packets/issues/268)) ([83cb8a0](https://github.com/sproutsocial/seeds-packets/commit/83cb8a033fac61c01dceb3f424353a3fd9ed5a55))
+
+
+
+
+
 ## [2.6.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.6.1...@sproutsocial/seeds-networkcolor@2.6.2) (2021-06-04)
 
 
