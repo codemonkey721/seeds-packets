@@ -2,10 +2,40 @@
 # yarn lockfile v1
 
 
+"@sproutsocial/seeds-border@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-border/-/seeds-border-1.1.1.tgz#3f530cfb5b898e78108be0f4f52484bf65497a3d"
+  integrity sha512-nFzuEadcACG6JldX7450vikEHtJW0vhSiesMeNPbqvbAZSbo/t8jm2+4ZCt1sInmMc+O34ShEW9lkN+uuCcNtw==
+
+"@sproutsocial/seeds-color@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-color/-/seeds-color-1.5.3.tgz#413eb89a58c493759b784a246a8e6bf5856f1c5f"
+  integrity sha512-gI/U2fJWLvXmZ3qbtm/6HTyrs0fJ70u6usCCTGOYXadblYpYH0nMZCPjF8FS8mL6trId7ygxRiCX12hW8+g1dg==
+
 "@sproutsocial/seeds-motion@^0.4.4":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-motion/-/seeds-motion-0.4.4.tgz#11bc1e36a8f5030a6d3cfaee33cfb9515a4e583d"
   integrity sha512-HQER/Gs6OLWDJKvdK+sbc44fHF8Ty05LTzqzAE66fHvDjpUy/N/8k/+EujoSDSNizfMLPx2Y/Y2RiJSYnQZNqg==
+
+"@sproutsocial/seeds-networkcolor@^2.6.2":
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-networkcolor/-/seeds-networkcolor-2.6.2.tgz#2d3cb928a5f96611b79a0889a812567c56c48a46"
+  integrity sha512-OZXtkqCVePa8BD58YpgPFywUmtf2W7H9G+jqJDVU1WyHvMqdNMp3JfM2yT0NRnSI/V4awElBbaw2RaceurMb3A==
+
+"@sproutsocial/seeds-space@^0.4.9":
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-space/-/seeds-space-0.4.9.tgz#f1caea459f4c568d6963d2a4f46efbbc6d63c661"
+  integrity sha512-OayCa6ta/RmsFuhp2TKiSHi0kBY71g/LpVEvkp61Wng9IiyLPKMVNueswubObPw3+rf/e0cZDyrxscRp1jYMbw==
+
+"@sproutsocial/seeds-typography@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-typography/-/seeds-typography-3.1.0.tgz#9c8f5f6d200b08a45f22d4c743446b84812bb581"
+  integrity sha512-oMjyh8zPsdrqWhYc2kwgUSfi1Sz2oCHVZZ9t38JRDv495HjVyL/v7r/ov3TlGtVsopqAIfa7GjblkVqqsV9kOQ==
+
+"@sproutsocial/seeds-utils@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@sproutsocial/seeds-utils/-/seeds-utils-1.2.1.tgz#4d3fd10916115db1cb6e69aac2a998e67434b334"
+  integrity sha512-nuOEDTJYeuC5zbnWN9QoNrqzn3fYu2A3Ei9pCCIejGGUMestz7GjowC1ClJXxhkVe59nW6fsOCHcm2OPpfMJ4A==
 
 abbrev@1:
   version "1.1.1"
@@ -843,9 +873,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^1.0.0:
   version "1.1.0"
