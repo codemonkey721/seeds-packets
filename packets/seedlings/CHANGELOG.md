@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.11.2...@sproutsocial/seedlings@1.12.0) (2021-09-07)
+
+
+### Features
+
+* add pointer event utility classes ([5d4fb1d](https://github.com/sproutsocial/seeds-packets/commit/5d4fb1d89ed29c02069493a9c0af9e9bcfb7310f))
+
+
+
+
+
 ## [1.11.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.11.1...@sproutsocial/seedlings@1.11.2) (2021-08-19)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
