@@ -4,10 +4,10 @@ Name: Pointer Events
 Base:
     pointer-events: pointer events
 Modifiers:
-    none: none
-    auto: auto
-    all: all
-    initial: initial
+    -none: none
+    -auto: auto
+    -all: all
+    -initial: initial
 Breakpoints:
     -ns: not-small
     -m: medium
