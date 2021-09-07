@@ -15685,6 +15685,64 @@ Breakpoints:
 
 /*
 ---
+Name: Pointer Events
+Base:
+    pointer-events: pointer events
+Modifiers:
+    none: none
+    auto: auto
+    all: all
+    initial: initial
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+---
+*/
+.pointer-events-none {
+  pointer-events: none; }
+
+.pointer-events-auto {
+  pointer-events: auto; }
+
+.pointer-events-all {
+  pointer-events: all; }
+
+.pointer-events-initial {
+  pointer-events: initial; }
+
+@media screen and (min-width: 480px) {
+  .pointer-events-none-ns {
+    pointer-events: none; }
+  .pointer-events-auto-ns {
+    pointer-events: auto; }
+  .pointer-events-all-ns {
+    pointer-events: all; }
+  .pointer-events-initial-ns {
+    pointer-events: initial; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .pointer-events-none-m {
+    pointer-events: none; }
+  .pointer-events-auto-m {
+    pointer-events: auto; }
+  .pointer-events-all-m {
+    pointer-events: all; }
+  .pointer-events-initial-m {
+    pointer-events: initial; } }
+
+@media screen and (min-width: 960px) {
+  .pointer-events-none-l {
+    pointer-events: none; }
+  .pointer-events-auto-l {
+    pointer-events: auto; }
+  .pointer-events-all-l {
+    pointer-events: all; }
+  .pointer-events-initial-l {
+    pointer-events: initial; } }
+
+/*
+---
 Name: Position
 Modifiers:
     static: static

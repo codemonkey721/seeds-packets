@@ -1,0 +1,39 @@
+/*
+---
+Name: Pointer Events
+Base:
+    pointer-events: pointer events
+Modifiers:
+    none: none
+    auto: auto
+    all: all
+    initial: initial
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+---
+*/
+
+@mixin pointer-events($breakpoint-name: "") {
+  $positions: (
+          none: none,
+          auto: auto,
+          all: all,
+          initial: initial
+  );
+  @each $name, $position in $positions {
+    .pointer-events-#{$name}#{$breakpoint-name} {
+      pointer-events: $position;
+    }
+  }
+}
+@each $breakpoint-name, $breakpoint in $breakpoints {
+  @if ($breakpoint != "") {
+    @media #{$breakpoint} {
+      @include pointer-events($breakpoint-name);
+    }
+  } @else {
+    @include pointer-events;
+  }
+}
