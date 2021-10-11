@@ -101,3 +101,9 @@ Test any local packet in another project by utilizing [yarn link](https://yarnpk
   ```
   $ yarn unlink "@sproutsocial/seeds-{packet name}"
   ```
+
+## Contributing
+
+### Adding a new color and/or network color
+
+In order to add a new color to our color palette or network-branded color palette, you will need to make an edit to the tokens.json file within [seeds-color](https://github.com/sproutsocial/seeds-packets/blob/develop/packets/seeds-color/tokens.json) or [seeds-networkcolor](https://github.com/sproutsocial/seeds-packets/blob/develop/packets/seeds-networkcolor/tokens.json). After doing this, you can run `yarn build` and the build system will generate appropriate tokens for CSS, SCSS, JS, and several other platforms. If you've just cloned the repo, you may need to run `yarn install && yarn build` in order to make sure the appropriate dependencies have been pulled in.
