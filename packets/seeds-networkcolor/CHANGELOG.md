@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.8.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.7.0...@sproutsocial/seeds-networkcolor@2.8.0) (2021-10-11)
+
+
+### Features
+
+* **seeds-networkcolor:** add color for whatsapp ([0a21fa4](https://github.com/sproutsocial/seeds-packets/commit/0a21fa46640ace578208ed10b41b1227365d36f8))
+
+
+
+
+
 # [2.7.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.6.2...@sproutsocial/seeds-networkcolor@2.7.0) (2021-08-19)
 
 
