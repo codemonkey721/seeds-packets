@@ -250,6 +250,12 @@ $colors-networks: (
         ),
         shopify: (
                 default: $NetworkColor-shopify
+        ),
+        whatsapp: (
+                default: $NetworkColor-whatsapp
+        ),
+        yelp: (
+                default: $NetworkColor-yelp
         )
 ) !default;
 
