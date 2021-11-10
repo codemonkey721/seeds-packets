@@ -369,6 +369,12 @@ HoverClasses: true
 .bg--shopify {
   background-color: #96bf48; }
 
+.bg--whatsapp {
+  background-color: #25D366; }
+
+.bg--yelp {
+  background-color: #FF1A1A; }
+
 .hover-bg--twitter:hover {
   background-color: #1da1f2; }
 
@@ -416,6 +422,12 @@ HoverClasses: true
 
 .hover-bg--shopify:hover {
   background-color: #96bf48; }
+
+.hover-bg--whatsapp:hover {
+  background-color: #25D366; }
+
+.hover-bg--yelp:hover {
+  background-color: #FF1A1A; }
 
 .bg--green-0 {
   background-color: #ebf9eb; }
@@ -1494,6 +1506,10 @@ HoverClasses: true
     background-color: #03363D; }
   .bg--shopify-ns {
     background-color: #96bf48; }
+  .bg--whatsapp-ns {
+    background-color: #25D366; }
+  .bg--yelp-ns {
+    background-color: #FF1A1A; }
   .hover-bg--twitter-ns:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-ns:hover {
@@ -1526,6 +1542,10 @@ HoverClasses: true
     background-color: #03363D; }
   .hover-bg--shopify-ns:hover {
     background-color: #96bf48; }
+  .hover-bg--whatsapp-ns:hover {
+    background-color: #25D366; }
+  .hover-bg--yelp-ns:hover {
+    background-color: #FF1A1A; }
   .bg--green-0-ns {
     background-color: #ebf9eb; }
   .bg--green-100-ns {
@@ -2256,6 +2276,10 @@ HoverClasses: true
     background-color: #03363D; }
   .bg--shopify-m {
     background-color: #96bf48; }
+  .bg--whatsapp-m {
+    background-color: #25D366; }
+  .bg--yelp-m {
+    background-color: #FF1A1A; }
   .hover-bg--twitter-m:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-m:hover {
@@ -2288,6 +2312,10 @@ HoverClasses: true
     background-color: #03363D; }
   .hover-bg--shopify-m:hover {
     background-color: #96bf48; }
+  .hover-bg--whatsapp-m:hover {
+    background-color: #25D366; }
+  .hover-bg--yelp-m:hover {
+    background-color: #FF1A1A; }
   .bg--green-0-m {
     background-color: #ebf9eb; }
   .bg--green-100-m {
@@ -3018,6 +3046,10 @@ HoverClasses: true
     background-color: #03363D; }
   .bg--shopify-l {
     background-color: #96bf48; }
+  .bg--whatsapp-l {
+    background-color: #25D366; }
+  .bg--yelp-l {
+    background-color: #FF1A1A; }
   .hover-bg--twitter-l:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-l:hover {
@@ -3050,6 +3082,10 @@ HoverClasses: true
     background-color: #03363D; }
   .hover-bg--shopify-l:hover {
     background-color: #96bf48; }
+  .hover-bg--whatsapp-l:hover {
+    background-color: #25D366; }
+  .hover-bg--yelp-l:hover {
+    background-color: #FF1A1A; }
   .bg--green-0-l {
     background-color: #ebf9eb; }
   .bg--green-100-l {
@@ -7218,6 +7254,12 @@ HoverClasses: true
 .c--shopify {
   color: #96bf48; }
 
+.c--whatsapp {
+  color: #25D366; }
+
+.c--yelp {
+  color: #FF1A1A; }
+
 .hover-c--twitter:hover {
   color: #1da1f2; }
 
@@ -7265,6 +7307,12 @@ HoverClasses: true
 
 .hover-c--shopify:hover {
   color: #96bf48; }
+
+.hover-c--whatsapp:hover {
+  color: #25D366; }
+
+.hover-c--yelp:hover {
+  color: #FF1A1A; }
 
 .c--green-0 {
   color: #ebf9eb; }
@@ -8335,6 +8383,10 @@ HoverClasses: true
     color: #03363D; }
   .c--shopify-ns {
     color: #96bf48; }
+  .c--whatsapp-ns {
+    color: #25D366; }
+  .c--yelp-ns {
+    color: #FF1A1A; }
   .hover-c--twitter-ns:hover {
     color: #1da1f2; }
   .hover-c--facebook-ns:hover {
@@ -8367,6 +8419,10 @@ HoverClasses: true
     color: #03363D; }
   .hover-c--shopify-ns:hover {
     color: #96bf48; }
+  .hover-c--whatsapp-ns:hover {
+    color: #25D366; }
+  .hover-c--yelp-ns:hover {
+    color: #FF1A1A; }
   .c--green-0-ns {
     color: #ebf9eb; }
   .c--green-100-ns {
@@ -9092,6 +9148,10 @@ HoverClasses: true
     color: #03363D; }
   .c--shopify-m {
     color: #96bf48; }
+  .c--whatsapp-m {
+    color: #25D366; }
+  .c--yelp-m {
+    color: #FF1A1A; }
   .hover-c--twitter-m:hover {
     color: #1da1f2; }
   .hover-c--facebook-m:hover {
@@ -9124,6 +9184,10 @@ HoverClasses: true
     color: #03363D; }
   .hover-c--shopify-m:hover {
     color: #96bf48; }
+  .hover-c--whatsapp-m:hover {
+    color: #25D366; }
+  .hover-c--yelp-m:hover {
+    color: #FF1A1A; }
   .c--green-0-m {
     color: #ebf9eb; }
   .c--green-100-m {
@@ -9849,6 +9913,10 @@ HoverClasses: true
     color: #03363D; }
   .c--shopify-l {
     color: #96bf48; }
+  .c--whatsapp-l {
+    color: #25D366; }
+  .c--yelp-l {
+    color: #FF1A1A; }
   .hover-c--twitter-l:hover {
     color: #1da1f2; }
   .hover-c--facebook-l:hover {
@@ -9881,6 +9949,10 @@ HoverClasses: true
     color: #03363D; }
   .hover-c--shopify-l:hover {
     color: #96bf48; }
+  .hover-c--whatsapp-l:hover {
+    color: #25D366; }
+  .hover-c--yelp-l:hover {
+    color: #FF1A1A; }
   .c--green-0-l {
     color: #ebf9eb; }
   .c--green-100-l {
