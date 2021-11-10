@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.1...@sproutsocial/seedlings@1.12.2) (2021-11-10)
+
+
+### Bug Fixes
+
+* add whatsapp and yelp network colors to seedlings ([9264560](https://github.com/sproutsocial/seeds-packets/commit/92645608fef509298a3d9339c9cae4013a356186))
+
+
+
+
+
 ## [1.12.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.0...@sproutsocial/seedlings@1.12.1) (2021-10-11)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
