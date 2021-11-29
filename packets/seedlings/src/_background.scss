@@ -11,6 +11,10 @@ Modifiers:
     -transparent: transparent
     --dark-translucent: dark transparent
     --light-translucent: light transparent
+    --bg--teal-700-o-30p: teal 700 (30% opacity)
+    --bg--neutral-0-o-10p: neutral 0 (10% opacity)
+    --bg--neutral-0-o-30p: neutral 0 (30% opacity)
+    --bg--neutral-0-o-80p: neutral 0 (80% opacity)
     --color-name: name of a color variable
 Breakpoints:
     -ns: not-small
@@ -41,6 +45,18 @@ HoverClasses: true
       .bg--light-translucent#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .6);
       }
+      .bg--teal-700-o-30p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 700), .3);
+      }
+      .bg--neutral-0-o-10p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .1);
+      }
+      .bg--neutral-0-o-30p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .3);
+      }
+      .bg--neutral-0-o-80p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .8);
+      }
     }
   } @else {
     @include generate-utility-color($colors-networks, "background-color", "bg-", "");
@@ -60,6 +76,18 @@ HoverClasses: true
     }
     .bg--light-translucent {
       background-color: rgba(get-color(neutral, 0), .6);
+    }
+    .bg--teal-700-o-30p {
+      background-color: rgba(get-color(teal, 700), .3);
+    }
+    .bg--neutral-0-o-10p {
+      background-color: rgba(get-color(neutral, 0), .1);
+    }
+    .bg--neutral-0-o-30p {
+      background-color: rgba(get-color(neutral, 0), .3);
+    }
+    .bg--neutral-0-o-80p {
+      background-color: rgba(get-color(neutral, 0), .8);
     }
   }
 }

@@ -313,6 +313,10 @@ Modifiers:
     -transparent: transparent
     --dark-translucent: dark transparent
     --light-translucent: light transparent
+    --bg--teal-700-o-30p: teal 700 (30% opacity)
+    --bg--neutral-0-o-10p: neutral 0 (10% opacity)
+    --bg--neutral-0-o-30p: neutral 0 (30% opacity)
+    --bg--neutral-0-o-80p: neutral 0 (80% opacity)
     --color-name: name of a color variable
 Breakpoints:
     -ns: not-small
@@ -1473,6 +1477,18 @@ HoverClasses: true
 .bg--light-translucent {
   background-color: rgba(255, 255, 255, 0.6); }
 
+.bg--teal-700-o-30p {
+  background-color: rgba(11, 150, 143, 0.3); }
+
+.bg--neutral-0-o-10p {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.bg--neutral-0-o-30p {
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.bg--neutral-0-o-80p {
+  background-color: rgba(255, 255, 255, 0.8); }
+
 @media screen and (min-width: 480px) {
   .bg--twitter-ns {
     background-color: #1da1f2; }
@@ -2241,7 +2257,15 @@ HoverClasses: true
   .bg--dark-translucent-ns {
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-ns {
-    background-color: rgba(255, 255, 255, 0.6); } }
+    background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-700-o-30p-ns {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .bg--neutral-0-o-10p-ns {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .bg--neutral-0-o-30p-ns {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .bg--neutral-0-o-80p-ns {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
   .bg--twitter-m {
@@ -3011,7 +3035,15 @@ HoverClasses: true
   .bg--dark-translucent-m {
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-m {
-    background-color: rgba(255, 255, 255, 0.6); } }
+    background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-700-o-30p-m {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .bg--neutral-0-o-10p-m {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .bg--neutral-0-o-30p-m {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .bg--neutral-0-o-80p-m {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 @media screen and (min-width: 960px) {
   .bg--twitter-l {
@@ -3781,7 +3813,15 @@ HoverClasses: true
   .bg--dark-translucent-l {
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-l {
-    background-color: rgba(255, 255, 255, 0.6); } }
+    background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-700-o-30p-l {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .bg--neutral-0-o-10p-l {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .bg--neutral-0-o-30p-l {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .bg--neutral-0-o-80p-l {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 /*
 ---
