@@ -313,10 +313,11 @@ Modifiers:
     -transparent: transparent
     --dark-translucent: dark transparent
     --light-translucent: light transparent
-    --bg--teal-700-o-30p: teal 700 (30% opacity)
-    --bg--neutral-0-o-10p: neutral 0 (10% opacity)
-    --bg--neutral-0-o-30p: neutral 0 (30% opacity)
-    --bg--neutral-0-o-80p: neutral 0 (80% opacity)
+    --teal-200-o-30p: Teal 200 (30% opacity)
+    --teal-700-o-30p: Teal 700 (30% opacity)
+    --neutral-0-o-10p: Neutral 0 (10% opacity)
+    --neutral-0-o-30p: Neutral 0 (30% opacity)
+    --neutral-0-o-80p: Neutral 0 (80% opacity)
     --color-name: name of a color variable
 Breakpoints:
     -ns: not-small
@@ -2258,6 +2259,8 @@ HoverClasses: true
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-ns {
     background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-200-o-30p-ns {
+    background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-ns {
@@ -3036,6 +3039,8 @@ HoverClasses: true
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-m {
     background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-200-o-30p-m {
+    background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-m {
@@ -3814,6 +3819,8 @@ HoverClasses: true
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-l {
     background-color: rgba(255, 255, 255, 0.6); }
+  .bg--teal-200-o-30p-l {
+    background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-l {
@@ -7239,6 +7246,10 @@ Base:
 Modifiers:
     -inherit: Inherit
     --color-name: name of a color variable
+    --teal-700-o-30p: Teal 700 (30% opacity)
+    --neutral-0-o-10p: Neutral 0 (10% opacity)
+    --neutral-0-o-30p: Neutral 0 (30% opacity)
+    --neutral-0-o-80p: Neutral 0 (80% opacity)
 Breakpoints:
     -ns: not-small
     -m: medium
@@ -9153,7 +9164,15 @@ HoverClasses: true
     color: #008b46; }
   .c-inherit-ns,
   .hover-c-inherit-ns:hover {
-    color: inherit; } }
+    color: inherit; }
+  .c--teal-700-o-30p-ns {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .c--neutral-0-o-10p-ns {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .c--neutral-0-o-30p-ns {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .c--neutral-0-o-80p-ns {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
   .c--twitter-m {
@@ -9918,7 +9937,15 @@ HoverClasses: true
     color: #008b46; }
   .c-inherit-m,
   .hover-c-inherit-m:hover {
-    color: inherit; } }
+    color: inherit; }
+  .c--teal-700-o-30p-m {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .c--neutral-0-o-10p-m {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .c--neutral-0-o-30p-m {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .c--neutral-0-o-80p-m {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 @media screen and (min-width: 960px) {
   .c--twitter-l {
@@ -10683,7 +10710,15 @@ HoverClasses: true
     color: #008b46; }
   .c-inherit-l,
   .hover-c-inherit-l:hover {
-    color: inherit; } }
+    color: inherit; }
+  .c--teal-700-o-30p-l {
+    background-color: rgba(11, 150, 143, 0.3); }
+  .c--neutral-0-o-10p-l {
+    background-color: rgba(255, 255, 255, 0.1); }
+  .c--neutral-0-o-30p-l {
+    background-color: rgba(255, 255, 255, 0.3); }
+  .c--neutral-0-o-80p-l {
+    background-color: rgba(255, 255, 255, 0.8); } }
 
 /*
 ---
