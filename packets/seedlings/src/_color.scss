@@ -8,6 +8,10 @@ Base:
 Modifiers:
     -inherit: Inherit
     --color-name: name of a color variable
+    --teal-700-o-30p: Teal 700 (30% opacity)
+    --neutral-0-o-10p: Neutral 0 (10% opacity)
+    --neutral-0-o-30p: Neutral 0 (30% opacity)
+    --neutral-0-o-80p: Neutral 0 (80% opacity)
 Breakpoints:
     -ns: not-small
     -m: medium
@@ -27,6 +31,18 @@ HoverClasses: true
       .c-inherit#{$breakpoint-name},
       .hover-c-inherit#{$breakpoint-name}:hover {
         color: inherit;
+      }
+      .c--teal-700-o-30p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 700), .3);
+      }
+      .c--neutral-0-o-10p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .1);
+      }
+      .c--neutral-0-o-30p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .3);
+      }
+      .c--neutral-0-o-80p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .8);
       }
     }
   } @else {
