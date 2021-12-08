@@ -11,6 +11,7 @@ Modifiers:
     --dark-translucent: dark transparent
     --light-translucent: light transparent
     --teal-200-o-30p: Teal 200 (30% opacity)
+    --teal-300-o-30p: Teal 300 (30% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
@@ -48,7 +49,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
         background-color: rgba(get-color(neutral, 0), .6);
       }
       .bg--teal-200-o-30p#{$breakpoint-name} {
-        background-color: rgba(get-color(teal, 700), .3);
+        background-color: rgba(get-color(teal, 200), .3);
+      }
+      .bg--teal-300-o-30p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 300), .3);
       }
       .bg--teal-700-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 700), .3);
