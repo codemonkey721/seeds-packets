@@ -17,6 +17,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="db square750 bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 @mixin shadow($breakpoint-name: "") {

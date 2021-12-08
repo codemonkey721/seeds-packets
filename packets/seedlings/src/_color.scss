@@ -13,6 +13,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the lazy dog</p></div><p>{{label}}</p>
 ---
 */
 @each $breakpoint-name, $breakpoint in $breakpoints {

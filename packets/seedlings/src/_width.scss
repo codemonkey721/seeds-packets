@@ -68,6 +68,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="dib bg--neutral-200 py300 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 @mixin width($breakpoint-name: "") {

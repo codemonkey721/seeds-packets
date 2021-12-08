@@ -38,6 +38,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db square750 bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 
@@ -58,6 +59,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</div><p>{{label}}</p>
 ---
 */
 

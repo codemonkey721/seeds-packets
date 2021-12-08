@@ -14,6 +14,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 @each $breakpoint-name, $breakpoint in $breakpoints {

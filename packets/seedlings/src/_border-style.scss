@@ -7,6 +7,7 @@ Modifiers:
     --dotted: dotted
     --dashed: dashed
     --solid: solid
+Example: <div class="ba bw600 b--neutral-200 square750 {{modifier}}"></div><p>{{label}}</p>
  */
 
 .b--dotted  { border-style: dotted; }
