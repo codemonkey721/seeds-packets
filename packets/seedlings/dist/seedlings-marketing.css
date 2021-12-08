@@ -314,6 +314,7 @@ Modifiers:
     --dark-translucent: dark transparent
     --light-translucent: light transparent
     --teal-200-o-30p: Teal 200 (30% opacity)
+    --teal-300-o-30p: Teal 300 (30% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
@@ -2260,7 +2261,9 @@ HoverClasses: true
   .bg--light-translucent-ns {
     background-color: rgba(255, 255, 255, 0.6); }
   .bg--teal-200-o-30p-ns {
-    background-color: rgba(11, 150, 143, 0.3); }
+    background-color: rgba(179, 242, 230, 0.3); }
+  .bg--teal-300-o-30p-ns {
+    background-color: rgba(125, 234, 213, 0.3); }
   .bg--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-ns {
@@ -3040,7 +3043,9 @@ HoverClasses: true
   .bg--light-translucent-m {
     background-color: rgba(255, 255, 255, 0.6); }
   .bg--teal-200-o-30p-m {
-    background-color: rgba(11, 150, 143, 0.3); }
+    background-color: rgba(179, 242, 230, 0.3); }
+  .bg--teal-300-o-30p-m {
+    background-color: rgba(125, 234, 213, 0.3); }
   .bg--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-m {
@@ -3820,7 +3825,9 @@ HoverClasses: true
   .bg--light-translucent-l {
     background-color: rgba(255, 255, 255, 0.6); }
   .bg--teal-200-o-30p-l {
-    background-color: rgba(11, 150, 143, 0.3); }
+    background-color: rgba(179, 242, 230, 0.3); }
+  .bg--teal-300-o-30p-l {
+    background-color: rgba(125, 234, 213, 0.3); }
   .bg--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--neutral-0-o-10p-l {
