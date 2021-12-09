@@ -18,6 +18,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="ba b--neutral-200 db square750 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 @mixin border-width($breakpoint-name: "") {

@@ -40,6 +40,7 @@ Modifiers:
 Name: Accessibility
 Modifiers:
     screenreader: screenreader
+Example: <span class="{{modifier}}">I am secret text only readable by AT</span><p>{{label}}</p>
 ---
 */
 .screenreader {
@@ -323,6 +324,8 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Description: Background is our utilities to allow for setting background colors with both breakpoints and hover states
+Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 ---
 */
 .bg--twitter {
@@ -3839,6 +3842,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db square700 bw600 b--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .ba {
@@ -3938,6 +3942,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .b--green-0 {
@@ -7068,6 +7073,7 @@ Modifiers:
     --left: left only
     --leaf: leaf frame
     --x: rounded left & right
+Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .br0 {
@@ -7120,6 +7126,7 @@ Modifiers:
     --dotted: dotted
     --dashed: dashed
     --solid: solid
+Example: <div class="ba bw600 b--neutral-200 square750 {{modifier}}"></div><p>{{label}}</p>
  */
 .b--dotted {
   border-style: dotted; }
@@ -7151,6 +7158,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="ba b--neutral-200 db square750 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .bw500 {
@@ -7244,6 +7252,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the lazy dog</p></div><p>{{label}}</p>
 ---
 */
 .c--twitter {
@@ -13564,6 +13573,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db bg--blue-700 py200 {{modifier}}"><img src="https://media.sproutsocial.com/uploads/LGO_Shopify-2.svg" loading="lazy" /></div><p>{{label}}</p>
 ---
 */
 @supports (filter: none) {
@@ -14152,6 +14162,7 @@ Modifiers:
     -proxima-nova: Proxima Nova
     -system: System Font Stack
     -recoleta: Recoleta semi-bold
+Example: <div class="f500 {{modifier}}">The quick brown fox jumps over the lazy dog</div><p>{{label}}</p>
 ---
 */
 .ff-proxima-nova {
@@ -14177,6 +14188,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db f500 {{modifier}}">The quick brown fox..</div><p>{{label}}</p>
 ---
 */
 .fw-extrabold {
@@ -14258,6 +14270,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .h0 {
@@ -15618,6 +15631,7 @@ Modifiers:
     o-20: Opacity .2
     o-10: Opacity .1
     o-0: Opacity 0
+Example: <div class="db bg--neutral-900 square750 {{modifier}}"></div><p>{{label}}</p>
 ---
  */
 .o-100 {
@@ -16207,6 +16221,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="db square750 bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .shadow100 {
@@ -16355,6 +16370,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db square750 bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 /*
@@ -16374,6 +16390,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</div><p>{{label}}</p>
 ---
 */
 .ma-auto {
@@ -18988,6 +19005,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .square-auto {
@@ -19244,6 +19262,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="f500 {{modifier}}">The quick brown fox jumps over the lazy dog</div><p>{{label}}</p>
 ---
 */
 .tl {
@@ -19304,6 +19323,7 @@ Breakpoints:
     -m: medium
     -l: large
 HoverClasses: true
+Example: <div class="db f500 {{modifier}}">The quick brown fox...</div><p>{{label}}</p>
 ---
 */
 .strike {
@@ -19560,6 +19580,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db f500 {{modifier}}">The quick brown fox...</div><p>{{label}}</p>
 ---
 */
 .ttc {
@@ -19643,6 +19664,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy dog</div><p>{{label}}</p>
 ---
 */
 .humongoose {
@@ -20221,6 +20243,7 @@ Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="dib bg--neutral-200 py300 {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .w-auto {
