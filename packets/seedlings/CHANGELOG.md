@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.12.5](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.4...@sproutsocial/seedlings@1.12.5) (2021-12-09)
+
+
+### Bug Fixes
+
+* add examples of utilities ([228d029](https://github.com/sproutsocial/seeds-packets/commit/228d02904d6686b8643e87e41bb5081e5f1d480f))
+
+
+
+
+
 ## [1.12.4](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.3...@sproutsocial/seedlings@1.12.4) (2021-11-30)
 
 
