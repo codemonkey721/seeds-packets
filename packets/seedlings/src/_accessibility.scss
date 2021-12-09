@@ -3,6 +3,7 @@
 Name: Accessibility
 Modifiers:
     screenreader: screenreader
+Example: <span class="{{modifier}}">I am secret text only readable by AT</span><p>{{label}}</p>
 ---
 */
 
