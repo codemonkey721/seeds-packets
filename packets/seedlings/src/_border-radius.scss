@@ -17,7 +17,7 @@ Modifiers:
     --left: left only
     --leaf: leaf frame
     --x: rounded left & right
-Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
+    --hero_leaf: top left 
 ---
 */
 @each $name, $size in $radiusSizes {
@@ -55,4 +55,13 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
     .br--leaf {
         border-radius: 167px 0;
     }
+}
+
+.br--hero_leaf {
+    border-top-left-radius: 150px;
+}
+@media #{$breakpoint-not-small} {
+  .br--hero_leaf {
+    border-top-left-radius: 250px;
+  }
 }

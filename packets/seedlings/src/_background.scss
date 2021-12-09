@@ -10,11 +10,12 @@ Modifiers:
     -transparent: transparent
     --dark-translucent: dark transparent
     --light-translucent: light transparent
-    --teal-200-o-30p: Teal 200 (30% opacity)
-    --teal-300-o-30p: Teal 300 (30% opacity)
+    --teal-100-o-80p: Teal 100 (80% opacity)
+    --teal-600-o-40p: Teal 600 (40% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
+    --neutral-0-o-40p: Neutral 0 (40% opacity)
     --neutral-0-o-80p: Neutral 0 (80% opacity)
     --color-name: name of a color variable
 Breakpoints:
@@ -48,11 +49,11 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
       .bg--light-translucent#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .6);
       }
-      .bg--teal-200-o-30p#{$breakpoint-name} {
-        background-color: rgba(get-color(teal, 200), .3);
+      .bg--teal-100-o-80p#{$breakpoint-name {
+        background-color: rgba(get-color(teal, 100), .8);
       }
-      .bg--teal-300-o-30p#{$breakpoint-name} {
-        background-color: rgba(get-color(teal, 300), .3);
+      .bg--teal-600-o-40p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 600), .4);
       }
       .bg--teal-700-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 700), .3);
@@ -62,6 +63,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
       }
       .bg--neutral-0-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .3);
+      }
+      .bg--neutral-0-o-40p#{$breakpoint-name} {
+        background-color: rgba(get-color(neutral, 0), .4);
       }
       .bg--neutral-0-o-80p#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .8);
@@ -86,6 +90,12 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     .bg--light-translucent {
       background-color: rgba(get-color(neutral, 0), .6);
     }
+    .bg--teal-100-o-80p {
+      background-color: rgba(get-color(teal, 100), .8);
+    }
+    .bg--teal-600-o-40p {
+      background-color: rgba(get-color(teal, 600), .4);
+    }
     .bg--teal-700-o-30p {
       background-color: rgba(get-color(teal, 700), .3);
     }
@@ -94,6 +104,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     }
     .bg--neutral-0-o-30p {
       background-color: rgba(get-color(neutral, 0), .3);
+    }
+    .bg--neutral-0-o-40p {
+      background-color: rgba(get-color(neutral, 0), .4);
     }
     .bg--neutral-0-o-80p {
       background-color: rgba(get-color(neutral, 0), .8);
