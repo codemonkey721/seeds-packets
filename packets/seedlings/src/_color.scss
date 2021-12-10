@@ -37,7 +37,7 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
         color: inherit;
       }
       .c--teal-100-o-80p#{$breakpoint-name {
-        background-color: rgba(get-color(teal, 100), .7);
+        background-color: rgba(get-color(teal, 100), .8);
       }
       .c--teal-600-o-40p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 600), .4);
