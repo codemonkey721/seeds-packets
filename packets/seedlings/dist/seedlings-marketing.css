@@ -9204,9 +9204,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-ns,
   .hover-c-inherit-ns:hover {
     color: inherit; }
-  .c--teal-100-o-80p-ns {
-    background-color: rgba(205, 247, 239, 0.8); }
-  .c--teal-600-o-40p-ns {
+  .c--teal-100-o-80p-ns
+.c--teal-600-o-40p-ns {
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
@@ -9983,9 +9982,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-m,
   .hover-c-inherit-m:hover {
     color: inherit; }
-  .c--teal-100-o-80p-m {
-    background-color: rgba(205, 247, 239, 0.8); }
-  .c--teal-600-o-40p-m {
+  .c--teal-100-o-80p-m
+.c--teal-600-o-40p-m {
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
@@ -10762,9 +10760,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-l,
   .hover-c-inherit-l:hover {
     color: inherit; }
-  .c--teal-100-o-80p-l {
-    background-color: rgba(205, 247, 239, 0.8); }
-  .c--teal-600-o-40p-l {
+  .c--teal-100-o-80p-l
+.c--teal-600-o-40p-l {
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
