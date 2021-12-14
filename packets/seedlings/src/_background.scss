@@ -49,7 +49,7 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
       .bg--light-translucent#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .6);
       }
-      .bg--teal-100-o-80p#{$breakpoint-name {
+      .bg--teal-100-o-80p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 100), .8);
       }
       .bg--teal-600-o-40p#{$breakpoint-name} {

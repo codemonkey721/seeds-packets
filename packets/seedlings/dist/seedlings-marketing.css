@@ -2273,8 +2273,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-ns {
     background-color: rgba(255, 255, 255, 0.6); }
-  .bg--teal-100-o-80p-ns
-.bg--teal-600-o-40p-ns {
+  .bg--teal-100-o-80p-ns {
+    background-color: rgba(205, 247, 239, 0.8); }
+  .bg--teal-600-o-40p-ns {
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
@@ -3056,8 +3057,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-m {
     background-color: rgba(255, 255, 255, 0.6); }
-  .bg--teal-100-o-80p-m
-.bg--teal-600-o-40p-m {
+  .bg--teal-100-o-80p-m {
+    background-color: rgba(205, 247, 239, 0.8); }
+  .bg--teal-600-o-40p-m {
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
@@ -3839,8 +3841,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(22, 32, 32, 0.6); }
   .bg--light-translucent-l {
     background-color: rgba(255, 255, 255, 0.6); }
-  .bg--teal-100-o-80p-l
-.bg--teal-600-o-40p-l {
+  .bg--teal-100-o-80p-l {
+    background-color: rgba(205, 247, 239, 0.8); }
+  .bg--teal-600-o-40p-l {
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
