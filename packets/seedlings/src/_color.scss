@@ -11,6 +11,7 @@ Modifiers:
     --teal-100-o-80p: Teal 100 (80% opacity)
     --teal-600-o-40p: Teal 600 (40% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
+    --teal-1000-o-40p: Teal 1000 (40% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
     --neutral-0-o-40p: Neutral 0 (40% opacity)
@@ -44,6 +45,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
       }
       .c--teal-700-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 700), .3);
+      }
+      .c--teal-1000-o-40p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 1000), .4);
+      }
+      .c--teal-1000-o-40p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 1000), .4);
       }
       .c--neutral-0-o-10p#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .1);

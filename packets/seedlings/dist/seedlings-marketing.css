@@ -317,6 +317,7 @@ Modifiers:
     --teal-100-o-80p: Teal 100 (80% opacity)
     --teal-600-o-40p: Teal 600 (40% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
+    --teal-1000-o-40p: Teal 1000 (40% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
     --neutral-0-o-40p: Neutral 0 (40% opacity)
@@ -1492,6 +1493,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 .bg--teal-700-o-30p {
   background-color: rgba(11, 150, 143, 0.3); }
 
+.bg--teal-1000-o-40p {
+  background-color: rgba(27, 62, 62, 0.4); }
+
 .bg--neutral-0-o-10p {
   background-color: rgba(255, 255, 255, 0.1); }
 
@@ -2279,6 +2283,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
+  .bg--teal-1000-o-40p-ns {
+    background-color: rgba(27, 62, 62, 0.4); }
   .bg--neutral-0-o-10p-ns {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-ns {
@@ -3063,6 +3069,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
+  .bg--teal-1000-o-40p-m {
+    background-color: rgba(27, 62, 62, 0.4); }
   .bg--neutral-0-o-10p-m {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-m {
@@ -3847,6 +3855,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: rgba(0, 169, 156, 0.4); }
   .bg--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
+  .bg--teal-1000-o-40p-l {
+    background-color: rgba(27, 62, 62, 0.4); }
   .bg--neutral-0-o-10p-l {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-l {
@@ -7287,6 +7297,7 @@ Modifiers:
     --teal-100-o-80p: Teal 100 (80% opacity)
     --teal-600-o-40p: Teal 600 (40% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
+    --teal-1000-o-40p: Teal 1000 (40% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
     --neutral-0-o-30p: Neutral 0 (30% opacity)
     --neutral-0-o-40p: Neutral 0 (40% opacity)
@@ -9213,6 +9224,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
+  .c--teal-1000-o-40p-ns {
+    background-color: rgba(27, 62, 62, 0.4); }
   .c--neutral-0-o-10p-ns {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-ns {
@@ -9992,6 +10005,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
+  .c--teal-1000-o-40p-m {
+    background-color: rgba(27, 62, 62, 0.4); }
   .c--neutral-0-o-10p-m {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-m {
@@ -10771,6 +10786,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     background-color: rgba(0, 169, 156, 0.4); }
   .c--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
+  .c--teal-1000-o-40p-l {
+    background-color: rgba(27, 62, 62, 0.4); }
   .c--neutral-0-o-10p-l {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-l {
