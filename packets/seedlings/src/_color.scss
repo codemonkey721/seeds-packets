@@ -49,9 +49,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
       .c--teal-1000-o-40p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 1000), .4);
       }
-      .c--teal-1000-o-40p#{$breakpoint-name} {
-        background-color: rgba(get-color(teal, 1000), .4);
-      }
       .c--neutral-0-o-10p#{$breakpoint-name} {
         background-color: rgba(get-color(neutral, 0), .1);
       }
