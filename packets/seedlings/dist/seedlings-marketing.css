@@ -7114,7 +7114,7 @@ Modifiers:
     --leaf: leaf frame
     --hero_leaf: leaf frame top left only
     --x: rounded left & right
-    Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p> 
+Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p> 
 ---
 */
 .br0 {
