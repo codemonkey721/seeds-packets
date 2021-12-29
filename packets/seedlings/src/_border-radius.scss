@@ -16,8 +16,9 @@ Modifiers:
     --bottom: bottom only
     --left: left only
     --leaf: leaf frame
+    --hero_leaf: leaf frame top left only
     --x: rounded left & right
-    --hero_leaf: top left 
+    Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 @each $name, $size in $radiusSizes {
