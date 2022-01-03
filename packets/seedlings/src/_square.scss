@@ -46,8 +46,16 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   @if ($breakpoint != "") {
     @media #{$breakpoint} {
       @include square($breakpoint-name);
+      .square675#{$breakpoint-name} {
+        height: setUnits(2 * $Space-size--500);
+        width: setUnits(2 * $Space-size--500);
+      }
     }
   } @else {
     @include square;
+    .square675 {
+        height: setUnits(2 * $Space-size--500);
+        width: setUnits(2 * $Space-size--500);
+      }
   }
 }

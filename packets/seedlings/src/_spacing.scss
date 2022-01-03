@@ -27,7 +27,6 @@ Modifiers:
     500: Size 500
     600: Size 600
     650: Size 650
-    675: Size 675
     700: Size 700
     750: Size 750
     800: Size 800
@@ -76,7 +75,6 @@ $space-map: (
         500: setUnits($Space-size--500),
         600: setUnits($Space-size--600),
         650: setUnits($Space-size--600 + $Space-size--400),
-        675: setUnits(2 * $Space-size--500),
         700: setUnits(2 * $Space-size--600),
         750: setUnits(2 * ($Space-size--600 + $Space-size--300)),
         800: setUnits(3 * $Space-size--600),

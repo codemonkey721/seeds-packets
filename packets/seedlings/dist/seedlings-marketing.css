@@ -16463,7 +16463,6 @@ Modifiers:
     500: Size 500
     600: Size 600
     650: Size 650
-    675: Size 675
     700: Size 700
     750: Size 750
     800: Size 800
@@ -16531,9 +16530,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .ma650 {
   margin: 3.11111rem; }
 
-.ma675 {
-  margin: 3.55556rem; }
-
 .ma700 {
   margin: 4.44444rem; }
 
@@ -16584,9 +16580,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 
 .pa650 {
   padding: 3.11111rem; }
-
-.pa675 {
-  padding: 3.55556rem; }
 
 .pa700 {
   padding: 4.44444rem; }
@@ -16652,10 +16645,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .mx650 {
   margin-right: 3.11111rem;
   margin-left: 3.11111rem; }
-
-.mx675 {
-  margin-right: 3.55556rem;
-  margin-left: 3.55556rem; }
 
 .mx700 {
   margin-right: 4.44444rem;
@@ -16724,10 +16713,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .px650 {
   padding-right: 3.11111rem;
   padding-left: 3.11111rem; }
-
-.px675 {
-  padding-right: 3.55556rem;
-  padding-left: 3.55556rem; }
 
 .px700 {
   padding-right: 4.44444rem;
@@ -16801,10 +16786,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   margin-top: 3.11111rem;
   margin-bottom: 3.11111rem; }
 
-.my675 {
-  margin-top: 3.55556rem;
-  margin-bottom: 3.55556rem; }
-
 .my700 {
   margin-top: 4.44444rem;
   margin-bottom: 4.44444rem; }
@@ -16873,10 +16854,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   padding-top: 3.11111rem;
   padding-bottom: 3.11111rem; }
 
-.py675 {
-  padding-top: 3.55556rem;
-  padding-bottom: 3.55556rem; }
-
 .py700 {
   padding-top: 4.44444rem;
   padding-bottom: 4.44444rem; }
@@ -16938,9 +16915,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .mt650 {
   margin-top: 3.11111rem; }
 
-.mt675 {
-  margin-top: 3.55556rem; }
-
 .mt700 {
   margin-top: 4.44444rem; }
 
@@ -16991,9 +16965,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 
 .pt650 {
   padding-top: 3.11111rem; }
-
-.pt675 {
-  padding-top: 3.55556rem; }
 
 .pt700 {
   padding-top: 4.44444rem; }
@@ -17049,9 +17020,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .mr650 {
   margin-right: 3.11111rem; }
 
-.mr675 {
-  margin-right: 3.55556rem; }
-
 .mr700 {
   margin-right: 4.44444rem; }
 
@@ -17102,9 +17070,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 
 .pr650 {
   padding-right: 3.11111rem; }
-
-.pr675 {
-  padding-right: 3.55556rem; }
 
 .pr700 {
   padding-right: 4.44444rem; }
@@ -17160,9 +17125,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .mb650 {
   margin-bottom: 3.11111rem; }
 
-.mb675 {
-  margin-bottom: 3.55556rem; }
-
 .mb700 {
   margin-bottom: 4.44444rem; }
 
@@ -17213,9 +17175,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 
 .pb650 {
   padding-bottom: 3.11111rem; }
-
-.pb675 {
-  padding-bottom: 3.55556rem; }
 
 .pb700 {
   padding-bottom: 4.44444rem; }
@@ -17271,9 +17230,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 .ml650 {
   margin-left: 3.11111rem; }
 
-.ml675 {
-  margin-left: 3.55556rem; }
-
 .ml700 {
   margin-left: 4.44444rem; }
 
@@ -17324,9 +17280,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
 
 .pl650 {
   padding-left: 3.11111rem; }
-
-.pl675 {
-  padding-left: 3.55556rem; }
 
 .pl700 {
   padding-left: 4.44444rem; }
@@ -17402,8 +17355,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin: 2.22222rem; }
   .ma650-ns {
     margin: 3.11111rem; }
-  .ma675-ns {
-    margin: 3.55556rem; }
   .ma700-ns {
     margin: 4.44444rem; }
   .ma750-ns {
@@ -17438,8 +17389,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding: 2.22222rem; }
   .pa650-ns {
     padding: 3.11111rem; }
-  .pa675-ns {
-    padding: 3.55556rem; }
   .pa700-ns {
     padding: 4.44444rem; }
   .pa750-ns {
@@ -17487,9 +17436,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .mx650-ns {
     margin-right: 3.11111rem;
     margin-left: 3.11111rem; }
-  .mx675-ns {
-    margin-right: 3.55556rem;
-    margin-left: 3.55556rem; }
   .mx700-ns {
     margin-right: 4.44444rem;
     margin-left: 4.44444rem; }
@@ -17541,9 +17487,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .px650-ns {
     padding-right: 3.11111rem;
     padding-left: 3.11111rem; }
-  .px675-ns {
-    padding-right: 3.55556rem;
-    padding-left: 3.55556rem; }
   .px700-ns {
     padding-right: 4.44444rem;
     padding-left: 4.44444rem; }
@@ -17598,9 +17541,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .my650-ns {
     margin-top: 3.11111rem;
     margin-bottom: 3.11111rem; }
-  .my675-ns {
-    margin-top: 3.55556rem;
-    margin-bottom: 3.55556rem; }
   .my700-ns {
     margin-top: 4.44444rem;
     margin-bottom: 4.44444rem; }
@@ -17652,9 +17592,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .py650-ns {
     padding-top: 3.11111rem;
     padding-bottom: 3.11111rem; }
-  .py675-ns {
-    padding-top: 3.55556rem;
-    padding-bottom: 3.55556rem; }
   .py700-ns {
     padding-top: 4.44444rem;
     padding-bottom: 4.44444rem; }
@@ -17698,8 +17635,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-top: 2.22222rem; }
   .mt650-ns {
     margin-top: 3.11111rem; }
-  .mt675-ns {
-    margin-top: 3.55556rem; }
   .mt700-ns {
     margin-top: 4.44444rem; }
   .mt750-ns {
@@ -17734,8 +17669,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-top: 2.22222rem; }
   .pt650-ns {
     padding-top: 3.11111rem; }
-  .pt675-ns {
-    padding-top: 3.55556rem; }
   .pt700-ns {
     padding-top: 4.44444rem; }
   .pt750-ns {
@@ -17772,8 +17705,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-right: 2.22222rem; }
   .mr650-ns {
     margin-right: 3.11111rem; }
-  .mr675-ns {
-    margin-right: 3.55556rem; }
   .mr700-ns {
     margin-right: 4.44444rem; }
   .mr750-ns {
@@ -17808,8 +17739,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-right: 2.22222rem; }
   .pr650-ns {
     padding-right: 3.11111rem; }
-  .pr675-ns {
-    padding-right: 3.55556rem; }
   .pr700-ns {
     padding-right: 4.44444rem; }
   .pr750-ns {
@@ -17846,8 +17775,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-bottom: 2.22222rem; }
   .mb650-ns {
     margin-bottom: 3.11111rem; }
-  .mb675-ns {
-    margin-bottom: 3.55556rem; }
   .mb700-ns {
     margin-bottom: 4.44444rem; }
   .mb750-ns {
@@ -17882,8 +17809,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-bottom: 2.22222rem; }
   .pb650-ns {
     padding-bottom: 3.11111rem; }
-  .pb675-ns {
-    padding-bottom: 3.55556rem; }
   .pb700-ns {
     padding-bottom: 4.44444rem; }
   .pb750-ns {
@@ -17920,8 +17845,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-left: 2.22222rem; }
   .ml650-ns {
     margin-left: 3.11111rem; }
-  .ml675-ns {
-    margin-left: 3.55556rem; }
   .ml700-ns {
     margin-left: 4.44444rem; }
   .ml750-ns {
@@ -17956,8 +17879,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-left: 2.22222rem; }
   .pl650-ns {
     padding-left: 3.11111rem; }
-  .pl675-ns {
-    padding-left: 3.55556rem; }
   .pl700-ns {
     padding-left: 4.44444rem; }
   .pl750-ns {
@@ -18017,8 +17938,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin: 2.22222rem; }
   .ma650-m {
     margin: 3.11111rem; }
-  .ma675-m {
-    margin: 3.55556rem; }
   .ma700-m {
     margin: 4.44444rem; }
   .ma750-m {
@@ -18053,8 +17972,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding: 2.22222rem; }
   .pa650-m {
     padding: 3.11111rem; }
-  .pa675-m {
-    padding: 3.55556rem; }
   .pa700-m {
     padding: 4.44444rem; }
   .pa750-m {
@@ -18102,9 +18019,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .mx650-m {
     margin-right: 3.11111rem;
     margin-left: 3.11111rem; }
-  .mx675-m {
-    margin-right: 3.55556rem;
-    margin-left: 3.55556rem; }
   .mx700-m {
     margin-right: 4.44444rem;
     margin-left: 4.44444rem; }
@@ -18156,9 +18070,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .px650-m {
     padding-right: 3.11111rem;
     padding-left: 3.11111rem; }
-  .px675-m {
-    padding-right: 3.55556rem;
-    padding-left: 3.55556rem; }
   .px700-m {
     padding-right: 4.44444rem;
     padding-left: 4.44444rem; }
@@ -18213,9 +18124,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .my650-m {
     margin-top: 3.11111rem;
     margin-bottom: 3.11111rem; }
-  .my675-m {
-    margin-top: 3.55556rem;
-    margin-bottom: 3.55556rem; }
   .my700-m {
     margin-top: 4.44444rem;
     margin-bottom: 4.44444rem; }
@@ -18267,9 +18175,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .py650-m {
     padding-top: 3.11111rem;
     padding-bottom: 3.11111rem; }
-  .py675-m {
-    padding-top: 3.55556rem;
-    padding-bottom: 3.55556rem; }
   .py700-m {
     padding-top: 4.44444rem;
     padding-bottom: 4.44444rem; }
@@ -18313,8 +18218,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-top: 2.22222rem; }
   .mt650-m {
     margin-top: 3.11111rem; }
-  .mt675-m {
-    margin-top: 3.55556rem; }
   .mt700-m {
     margin-top: 4.44444rem; }
   .mt750-m {
@@ -18349,8 +18252,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-top: 2.22222rem; }
   .pt650-m {
     padding-top: 3.11111rem; }
-  .pt675-m {
-    padding-top: 3.55556rem; }
   .pt700-m {
     padding-top: 4.44444rem; }
   .pt750-m {
@@ -18387,8 +18288,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-right: 2.22222rem; }
   .mr650-m {
     margin-right: 3.11111rem; }
-  .mr675-m {
-    margin-right: 3.55556rem; }
   .mr700-m {
     margin-right: 4.44444rem; }
   .mr750-m {
@@ -18423,8 +18322,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-right: 2.22222rem; }
   .pr650-m {
     padding-right: 3.11111rem; }
-  .pr675-m {
-    padding-right: 3.55556rem; }
   .pr700-m {
     padding-right: 4.44444rem; }
   .pr750-m {
@@ -18461,8 +18358,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-bottom: 2.22222rem; }
   .mb650-m {
     margin-bottom: 3.11111rem; }
-  .mb675-m {
-    margin-bottom: 3.55556rem; }
   .mb700-m {
     margin-bottom: 4.44444rem; }
   .mb750-m {
@@ -18497,8 +18392,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-bottom: 2.22222rem; }
   .pb650-m {
     padding-bottom: 3.11111rem; }
-  .pb675-m {
-    padding-bottom: 3.55556rem; }
   .pb700-m {
     padding-bottom: 4.44444rem; }
   .pb750-m {
@@ -18535,8 +18428,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-left: 2.22222rem; }
   .ml650-m {
     margin-left: 3.11111rem; }
-  .ml675-m {
-    margin-left: 3.55556rem; }
   .ml700-m {
     margin-left: 4.44444rem; }
   .ml750-m {
@@ -18571,8 +18462,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-left: 2.22222rem; }
   .pl650-m {
     padding-left: 3.11111rem; }
-  .pl675-m {
-    padding-left: 3.55556rem; }
   .pl700-m {
     padding-left: 4.44444rem; }
   .pl750-m {
@@ -18632,8 +18521,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin: 2.22222rem; }
   .ma650-l {
     margin: 3.11111rem; }
-  .ma675-l {
-    margin: 3.55556rem; }
   .ma700-l {
     margin: 4.44444rem; }
   .ma750-l {
@@ -18668,8 +18555,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding: 2.22222rem; }
   .pa650-l {
     padding: 3.11111rem; }
-  .pa675-l {
-    padding: 3.55556rem; }
   .pa700-l {
     padding: 4.44444rem; }
   .pa750-l {
@@ -18717,9 +18602,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .mx650-l {
     margin-right: 3.11111rem;
     margin-left: 3.11111rem; }
-  .mx675-l {
-    margin-right: 3.55556rem;
-    margin-left: 3.55556rem; }
   .mx700-l {
     margin-right: 4.44444rem;
     margin-left: 4.44444rem; }
@@ -18771,9 +18653,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .px650-l {
     padding-right: 3.11111rem;
     padding-left: 3.11111rem; }
-  .px675-l {
-    padding-right: 3.55556rem;
-    padding-left: 3.55556rem; }
   .px700-l {
     padding-right: 4.44444rem;
     padding-left: 4.44444rem; }
@@ -18828,9 +18707,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .my650-l {
     margin-top: 3.11111rem;
     margin-bottom: 3.11111rem; }
-  .my675-l {
-    margin-top: 3.55556rem;
-    margin-bottom: 3.55556rem; }
   .my700-l {
     margin-top: 4.44444rem;
     margin-bottom: 4.44444rem; }
@@ -18882,9 +18758,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
   .py650-l {
     padding-top: 3.11111rem;
     padding-bottom: 3.11111rem; }
-  .py675-l {
-    padding-top: 3.55556rem;
-    padding-bottom: 3.55556rem; }
   .py700-l {
     padding-top: 4.44444rem;
     padding-bottom: 4.44444rem; }
@@ -18928,8 +18801,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-top: 2.22222rem; }
   .mt650-l {
     margin-top: 3.11111rem; }
-  .mt675-l {
-    margin-top: 3.55556rem; }
   .mt700-l {
     margin-top: 4.44444rem; }
   .mt750-l {
@@ -18964,8 +18835,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-top: 2.22222rem; }
   .pt650-l {
     padding-top: 3.11111rem; }
-  .pt675-l {
-    padding-top: 3.55556rem; }
   .pt700-l {
     padding-top: 4.44444rem; }
   .pt750-l {
@@ -19002,8 +18871,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-right: 2.22222rem; }
   .mr650-l {
     margin-right: 3.11111rem; }
-  .mr675-l {
-    margin-right: 3.55556rem; }
   .mr700-l {
     margin-right: 4.44444rem; }
   .mr750-l {
@@ -19038,8 +18905,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-right: 2.22222rem; }
   .pr650-l {
     padding-right: 3.11111rem; }
-  .pr675-l {
-    padding-right: 3.55556rem; }
   .pr700-l {
     padding-right: 4.44444rem; }
   .pr750-l {
@@ -19076,8 +18941,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-bottom: 2.22222rem; }
   .mb650-l {
     margin-bottom: 3.11111rem; }
-  .mb675-l {
-    margin-bottom: 3.55556rem; }
   .mb700-l {
     margin-bottom: 4.44444rem; }
   .mb750-l {
@@ -19112,8 +18975,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-bottom: 2.22222rem; }
   .pb650-l {
     padding-bottom: 3.11111rem; }
-  .pb675-l {
-    padding-bottom: 3.55556rem; }
   .pb700-l {
     padding-bottom: 4.44444rem; }
   .pb750-l {
@@ -19150,8 +19011,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     margin-left: 2.22222rem; }
   .ml650-l {
     margin-left: 3.11111rem; }
-  .ml675-l {
-    margin-left: 3.55556rem; }
   .ml700-l {
     margin-left: 4.44444rem; }
   .ml750-l {
@@ -19186,8 +19045,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}">The quick brown fox...</di
     padding-left: 2.22222rem; }
   .pl650-l {
     padding-left: 3.11111rem; }
-  .pl675-l {
-    padding-left: 3.55556rem; }
   .pl700-l {
     padding-left: 4.44444rem; }
   .pl750-l {
@@ -19300,10 +19157,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   height: 3.11111rem;
   width: 3.11111rem; }
 
-.square675 {
-  height: 3.55556rem;
-  width: 3.55556rem; }
-
 .square700 {
   height: 4.44444rem;
   width: 4.44444rem; }
@@ -19331,6 +19184,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
 .square1000 {
   height: 17.77778rem;
   width: 17.77778rem; }
+
+.square675 {
+  height: 3.55556rem;
+  width: 3.55556rem; }
 
 @media screen and (min-width: 480px) {
   .square-auto-ns {
@@ -19366,9 +19223,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   .square650-ns {
     height: 3.11111rem;
     width: 3.11111rem; }
-  .square675-ns {
-    height: 3.55556rem;
-    width: 3.55556rem; }
   .square700-ns {
     height: 4.44444rem;
     width: 4.44444rem; }
@@ -19389,7 +19243,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-ns {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-ns {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
   .square-auto-m {
@@ -19425,9 +19282,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   .square650-m {
     height: 3.11111rem;
     width: 3.11111rem; }
-  .square675-m {
-    height: 3.55556rem;
-    width: 3.55556rem; }
   .square700-m {
     height: 4.44444rem;
     width: 4.44444rem; }
@@ -19448,7 +19302,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-m {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-m {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 @media screen and (min-width: 960px) {
   .square-auto-l {
@@ -19484,9 +19341,6 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   .square650-l {
     height: 3.11111rem;
     width: 3.11111rem; }
-  .square675-l {
-    height: 3.55556rem;
-    width: 3.55556rem; }
   .square700-l {
     height: 4.44444rem;
     width: 4.44444rem; }
@@ -19507,7 +19361,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-l {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-l {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 /*
 ---
