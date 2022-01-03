@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.13.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.5...@sproutsocial/seedlings@1.13.0) (2022-01-03)
+
+
+### Bug Fixes
+
+* built packages ([fbe6d6d](https://github.com/sproutsocial/seeds-packets/commit/fbe6d6d0d2e36bfd908103219a32d4bb7c8315e0))
+* built packages ([200746c](https://github.com/sproutsocial/seeds-packets/commit/200746c765dc0ca77d59f5d9fefa7faa07ee29fb))
+* confine new space token to _square only ([f65ae1a](https://github.com/sproutsocial/seeds-packets/commit/f65ae1a2186beba2a40c134e8972e5f74e0447b6))
+* fix bg utilities ([530c96a](https://github.com/sproutsocial/seeds-packets/commit/530c96a6419fa0543a661ad4dd3259f1c9aec256))
+* fix bg utilities ([8358e9f](https://github.com/sproutsocial/seeds-packets/commit/8358e9f3022811d0b3822269f9d5107f24e7e385))
+
+
+### Features
+
+* adds new size token ([2e2a751](https://github.com/sproutsocial/seeds-packets/commit/2e2a751f8bae80adfb51b0e7b3855a31c0dac31f))
+* **seeds-color:** adding teal 200 30% opacity ([0822817](https://github.com/sproutsocial/seeds-packets/commit/0822817bc1a954b6b8b0ec7566deb077d970d32b))
+* **seeds-color:** adding teal 200 30% opacity ([30cf074](https://github.com/sproutsocial/seeds-packets/commit/30cf0744cb78f41e9a8132390f790132430c045b))
+
+
+
+
+
 ## [1.12.5](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.4...@sproutsocial/seedlings@1.12.5) (2021-12-09)
 
 
