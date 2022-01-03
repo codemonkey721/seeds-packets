@@ -1494,7 +1494,7 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   background-color: rgba(11, 150, 143, 0.3); }
 
 .bg--teal-1000-o-40p {
-  background-color: rgba(27, 62, 62, 0.4); }
+  background-color: rgba(8, 63, 63, 0.4); }
 
 .bg--neutral-0-o-10p {
   background-color: rgba(255, 255, 255, 0.1); }
@@ -2284,7 +2284,7 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-1000-o-40p-ns {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .bg--neutral-0-o-10p-ns {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-ns {
@@ -3070,7 +3070,7 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-1000-o-40p-m {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .bg--neutral-0-o-10p-m {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-m {
@@ -3856,7 +3856,7 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
   .bg--teal-1000-o-40p-l {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .bg--neutral-0-o-10p-l {
     background-color: rgba(255, 255, 255, 0.1); }
   .bg--neutral-0-o-30p-l {
@@ -7114,7 +7114,7 @@ Modifiers:
     --leaf: leaf frame
     --hero_leaf: leaf frame top left only
     --x: rounded left & right
-Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p> 
+Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
 ---
 */
 .br0 {
@@ -9226,7 +9226,7 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--teal-700-o-30p-ns {
     background-color: rgba(11, 150, 143, 0.3); }
   .c--teal-1000-o-40p-ns {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .c--neutral-0-o-10p-ns {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-ns {
@@ -10007,7 +10007,7 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--teal-700-o-30p-m {
     background-color: rgba(11, 150, 143, 0.3); }
   .c--teal-1000-o-40p-m {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .c--neutral-0-o-10p-m {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-m {
@@ -10788,7 +10788,7 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--teal-700-o-30p-l {
     background-color: rgba(11, 150, 143, 0.3); }
   .c--teal-1000-o-40p-l {
-    background-color: rgba(27, 62, 62, 0.4); }
+    background-color: rgba(8, 63, 63, 0.4); }
   .c--neutral-0-o-10p-l {
     background-color: rgba(255, 255, 255, 0.1); }
   .c--neutral-0-o-30p-l {
@@ -19098,6 +19098,7 @@ Modifiers:
     500: Size 500
     600: Size 600
     650: Size 650
+    675: Size 675
     700: Size 700
     750: Size 750
     800: Size 800
@@ -19184,6 +19185,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   height: 17.77778rem;
   width: 17.77778rem; }
 
+.square675 {
+  height: 3.55556rem;
+  width: 3.55556rem; }
+
 @media screen and (min-width: 480px) {
   .square-auto-ns {
     height: auto;
@@ -19238,7 +19243,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-ns {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-ns {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
   .square-auto-m {
@@ -19294,7 +19302,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-m {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-m {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 @media screen and (min-width: 960px) {
   .square-auto-l {
@@ -19350,7 +19361,10 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
     width: 13.33333rem; }
   .square1000-l {
     height: 17.77778rem;
-    width: 17.77778rem; } }
+    width: 17.77778rem; }
+  .square675-l {
+    height: 3.55556rem;
+    width: 3.55556rem; } }
 
 /*
 ---

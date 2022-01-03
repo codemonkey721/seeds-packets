@@ -18,6 +18,7 @@ Modifiers:
     500: Size 500
     600: Size 600
     650: Size 650
+    675: Size 675
     700: Size 700
     750: Size 750
     800: Size 800
@@ -45,8 +46,16 @@ Example: <div class="db bg--neutral-200 {{modifier}}"></div><p>{{label}}</p>
   @if ($breakpoint != "") {
     @media #{$breakpoint} {
       @include square($breakpoint-name);
+      .square675#{$breakpoint-name} {
+        height: setUnits(2 * $Space-size--500);
+        width: setUnits(2 * $Space-size--500);
+      }
     }
   } @else {
     @include square;
+    .square675 {
+        height: setUnits(2 * $Space-size--500);
+        width: setUnits(2 * $Space-size--500);
+      }
   }
 }
