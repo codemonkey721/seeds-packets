@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.9.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.8.0...@sproutsocial/seeds-networkcolor@2.9.0) (2022-01-04)
+
+
+### Features
+
+* add tiktok network color ([584758d](https://github.com/sproutsocial/seeds-packets/commit/584758d1b32626a904e7e36188e233d137a3d749))
+
+
+
+
+
 # [2.8.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-networkcolor@2.7.0...@sproutsocial/seeds-networkcolor@2.8.0) (2021-10-11)
 
 
