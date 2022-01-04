@@ -176,6 +176,13 @@
 			"green": 0.8274509803921568,
 			"blue": 0.4,
 			"alpha": 1
+		},
+		{
+			"name": "Other tiktok",
+			"red": 0,
+			"green": 0,
+			"blue": 0,
+			"alpha": 1
 		}
   ]
 }
