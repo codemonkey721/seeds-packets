@@ -7114,6 +7114,10 @@ Modifiers:
     --leaf: leaf frame
     --hero_leaf: leaf frame top left only
     --x: rounded left & right
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
 Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
 ---
 */
@@ -7131,6 +7135,42 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
 
 .br--round {
   border-radius: 50%; }
+
+@media screen and (min-width: 480px) {
+  .br0-ns {
+    border-radius: 0; }
+  .br500-ns {
+    border-radius: 4px; }
+  .br600-ns {
+    border-radius: 8px; }
+  .br1000-ns {
+    border-radius: 999999px; }
+  .br--round-ns {
+    border-radius: 50%; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .br0-m {
+    border-radius: 0; }
+  .br500-m {
+    border-radius: 4px; }
+  .br600-m {
+    border-radius: 8px; }
+  .br1000-m {
+    border-radius: 999999px; }
+  .br--round-m {
+    border-radius: 50%; } }
+
+@media screen and (min-width: 960px) {
+  .br0-l {
+    border-radius: 0; }
+  .br500-l {
+    border-radius: 4px; }
+  .br600-l {
+    border-radius: 8px; }
+  .br1000-l {
+    border-radius: 999999px; }
+  .br--round-l {
+    border-radius: 50%; } }
 
 .br--top {
   border-bottom-right-radius: 0;
