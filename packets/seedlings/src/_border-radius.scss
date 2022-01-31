@@ -18,14 +18,31 @@ Modifiers:
     --leaf: leaf frame
     --hero_leaf: leaf frame top left only
     --x: rounded left & right
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
 Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}"></div><p>{{label}}</p>
 ---
 */
-@each $name, $size in $radiusSizes {
-  .br#{$name} {
-    border-radius: $size;
+@mixin border-radius($breakpoint-name: "") {
+  @each $name, $size in $radiusSizes {
+    .br#{$name}#{$breakpoint-name} {
+      border-radius: $size;
+    }
   }
 }
+
+@each $breakpoint-name, $breakpoint in $breakpoints {
+  @if ($breakpoint != "") {
+    @media #{$breakpoint} {
+      @include border-radius($breakpoint-name);
+    }
+  } @else {
+    @include border-radius;
+  }
+}
+
 .br--top {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
