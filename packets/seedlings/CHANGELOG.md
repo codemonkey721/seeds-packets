@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.14.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.13.1...@sproutsocial/seedlings@1.14.0) (2022-01-31)
+
+
+### Features
+
+* add breakpoints to border radius ([1595b28](https://github.com/sproutsocial/seeds-packets/commit/1595b287081396dba1bcf5ea8d48ab028c7f05b1))
+
+
+
+
+
+## [1.13.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.13.0...@sproutsocial/seedlings@1.13.1) (2022-01-04)
+
+**Note:** Version bump only for package @sproutsocial/seedlings
+
+
+
+
+
 # [1.13.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.12.5...@sproutsocial/seedlings@1.13.0) (2022-01-03)
 
 

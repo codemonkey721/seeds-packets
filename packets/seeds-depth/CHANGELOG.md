@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-depth@1.1.4...@sproutsocial/seeds-depth@2.0.0) (2022-02-01)
+
+
+* feat(seeds-depth)!: remove color from depth values ([7c8101b](https://github.com/sproutsocial/seeds-packets/commit/7c8101b62e9be614cc2f8f59ebb502af39c5d158))
+
+
+### BREAKING CHANGES
+
+* color will no longer be available as apart of depth
+
+
+
+
+
 ## [1.1.4](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-depth@1.1.3...@sproutsocial/seeds-depth@1.1.4) (2021-05-12)
 
 **Note:** Version bump only for package @sproutsocial/seeds-depth
