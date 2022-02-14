@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-depth@2.0.0...@sproutsocial/seeds-depth@3.0.0) (2022-02-14)
+
+
+* chore(seeds-depth)!: removed depth 200 ([0957832](https://github.com/sproutsocial/seeds-packets/commit/0957832479636a5633b8d941c0caec72270c863a))
+
+
+### BREAKING CHANGES
+
+* replace depth 200 with depth 300
+
+
+
+
+
 # [2.0.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-depth@1.1.4...@sproutsocial/seeds-depth@2.0.0) (2022-02-01)
 
 
