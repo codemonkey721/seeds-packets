@@ -73,6 +73,32 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
 .f1200 {
   @include f1200;
 }
+
+// Legacy Type Scale Includes
+html.legacy-type-scale {
+  .f600 {
+    @include f600--legacy;
+  }
+  .f700 {
+    @include f700--legacy;
+  }
+  .f800 {
+    @include f800--legacy;
+  }
+  .f900 {
+    @include f900--legacy;
+  }
+  .f1000 {
+    @include f1000--legacy;
+  }
+  .f1100 {
+    @include f1100--legacy;
+  }
+  .f1200 {
+    @include f1200--legacy;
+  }
+}
+
 @mixin type-scale($breakpoint-name: "") {
   // We can't interpolate the name of the mixin, so we have to write out each class :/
   .f100#{$breakpoint-name} {

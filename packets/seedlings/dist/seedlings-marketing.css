@@ -19887,7 +19887,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   line-height: 1.3333333333333333; }
 
 .f700 {
-  color: red;
   font-size: 1.77778rem;
   line-height: 1.25; }
 
@@ -19900,8 +19899,8 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   line-height: 1.1228070175438596; }
 
 .f1000 {
-  font-size: 3.16667rem;
-  line-height: 1.1228070175438596; }
+  font-size: 4.22222rem;
+  line-height: 1.0526315789473684; }
 
 .f1100 {
   font-size: 5.61111rem;
@@ -19910,6 +19909,79 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
 .f1200 {
   font-size: 7.5rem;
   line-height: 0.928395061728395; }
+
+html.legacy-type-scale .f600 {
+  font-size: 1.16667rem;
+  line-height: 1.3968253968253967; }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f600 {
+      font-size: 1.33333rem;
+      line-height: 1.3333333333333333; } }
+
+html.legacy-type-scale .f700 {
+  font-size: 1.33333rem;
+  line-height: 1.3333333333333333; }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f700 {
+      font-size: 1.77778rem;
+      line-height: 1.25; } }
+
+html.legacy-type-scale .f800 {
+  font-size: 1.77778rem;
+  line-height: 1.25; }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f800 {
+      font-size: 2.38889rem;
+      line-height: 1.1782945736434107; } }
+
+html.legacy-type-scale .f900 {
+  font-size: 2.38889rem;
+  line-height: 1.1782945736434107; }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f900 {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+
+html.legacy-type-scale .f1000 {
+  font-size: 2.38889rem;
+  line-height: 1.1782945736434107; }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f1000 {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) {
+    html.legacy-type-scale .f1000 {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+
+html.legacy-type-scale .f1100 {
+  font-size: 3.16667rem;
+  line-height: 1.1228070175438596; }
+  @media screen and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1100 {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 960px) {
+    html.legacy-type-scale .f1100 {
+      font-size: 5.61111rem;
+      line-height: 1.0033003300330032; } }
+
+html.legacy-type-scale .f1200 {
+  font-size: 3.16667rem;
+  line-height: 1.1228070175438596; }
+  @media screen and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1200 {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 960px) {
+    html.legacy-type-scale .f1200 {
+      font-size: 7.5rem;
+      line-height: 0.928395061728395; } }
+
+section#type-scale div.db {
+  margin-top: 3.0rem; }
+  section#type-scale div.db:first-of-type {
+    margin-top: 0; }
 
 @media screen and (min-width: 480px) {
   .f100-ns {
@@ -19931,7 +20003,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
   .f700-ns {
-    color: red;
     font-size: 1.77778rem;
     line-height: 1.25; }
   .f800-ns {
@@ -19970,7 +20041,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
   .f700-m {
-    color: red;
     font-size: 1.77778rem;
     line-height: 1.25; }
   .f800-m {
@@ -20009,7 +20079,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
   .f700-l {
-    color: red;
     font-size: 1.77778rem;
     line-height: 1.25; }
   .f800-l {
