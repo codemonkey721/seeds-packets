@@ -19910,11 +19910,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   font-size: 7.5rem;
   line-height: 0.928395061728395; }
 
-section#type-scale .db {
-  margin-top: 3.0rem; }
-  section#type-scale .db:first-of-type {
-    margin-top: 0; }
-
 .f100 {
   font-size: 0.61111rem;
   line-height: 1.696969696969697; }
