@@ -74,31 +74,6 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   @include f1200;
 }
 
-// Legacy Type Scale Includes
-html.legacy-type-scale {
-  .f600 {
-    @include f600--legacy;
-  }
-  .f700 {
-    @include f700--legacy;
-  }
-  .f800 {
-    @include f800--legacy;
-  }
-  .f900 {
-    @include f900--legacy;
-  }
-  .f1000 {
-    @include f1000--legacy;
-  }
-  .f1100 {
-    @include f1100--legacy;
-  }
-  .f1200 {
-    @include f1200--legacy;
-  }
-}
-
 @mixin type-scale($breakpoint-name: "") {
   // We can't interpolate the name of the mixin, so we have to write out each class :/
   .f100#{$breakpoint-name} {
@@ -117,27 +92,92 @@ html.legacy-type-scale {
     @include Typography-size--500;
   }
   .f600#{$breakpoint-name} {
-    @include Typography-size--600;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--600;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--500;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--600;
+      }
+    }
   }
   .f700#{$breakpoint-name} {
-    @include Typography-size--700;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--700;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--600;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--700;
+      }
+    }
   }
   .f800#{$breakpoint-name} {
-    @include Typography-size--800;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--800;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--700;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--800;
+      }
+    }
   }
   .f900#{$breakpoint-name} {
-    @include Typography-size--900;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--900;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--800;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--900;
+      }
+    }
   }
   .f1000#{$breakpoint-name} {
-    @include Typography-size--1000;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--1000;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--800;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--900;
+      }
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--1000;
+      }
+    }
   }
   .f1100#{$breakpoint-name} {
-    font-size: setUnits(101px);
-    line-height: #{(98/101)};
+    html:not(.legacy-type-scale) & {
+      font-size: setUnits(101px);
+      line-height: #{(98/101)};
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--900;
+      @media #{$breakpoint-medium} {
+        @include Typography-size--1000;
+      }
+      @media #{$breakpoint-large} {
+        @include Typography-size--1100;
+      }
+    }
   }
   .f1200#{$breakpoint-name} {
-    font-size: setUnits(135px);
-    line-height: #{(136/135)};
+    html:not(.legacy-type-scale) & {
+      font-size: setUnits(135px);
+      line-height: #{(136/135)};
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--900;
+      @media #{$breakpoint-medium} {
+        @include Typography-size--1000;
+      }
+      @media #{$breakpoint-large} {
+        @include Typography-size--1200;
+      }
+    }
   }
 }
 @each $breakpoint-name, $breakpoint in $breakpoints {
@@ -145,5 +185,7 @@ html.legacy-type-scale {
     @media #{$breakpoint} {
       @include type-scale($breakpoint-name);
     }
+  } @else {
+    @include type-scale;
   }
 }
