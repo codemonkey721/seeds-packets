@@ -77,19 +77,34 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
 @mixin type-scale($breakpoint-name: "") {
   // We can't interpolate the name of the mixin, so we have to write out each class :/
   .f100#{$breakpoint-name} {
-    @include Typography-size--100;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--100;
+    }
   }
   .f200#{$breakpoint-name} {
-    @include Typography-size--200;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--200;
+    }
   }
   .f300#{$breakpoint-name} {
-    @include Typography-size--300;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--300;
+    }
   }
   .f400#{$breakpoint-name} {
-    @include Typography-size--400;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--400;
+    }
   }
   .f500#{$breakpoint-name} {
-    @include Typography-size--500;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--500;
+    }
   }
   .f600#{$breakpoint-name} {
     html:not(.legacy-type-scale) & {

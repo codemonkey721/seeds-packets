@@ -19910,23 +19910,28 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   font-size: 7.5rem;
   line-height: 0.928395061728395; }
 
-.f100 {
+html:not(.legacy-type-scale) .f100,
+html.legacy-type-scale .f100 {
   font-size: 0.61111rem;
   line-height: 1.696969696969697; }
 
-.f200 {
+html:not(.legacy-type-scale) .f200,
+html.legacy-type-scale .f200 {
   font-size: 0.72222rem;
   line-height: 1.641025641025641; }
 
-.f300 {
+html:not(.legacy-type-scale) .f300,
+html.legacy-type-scale .f300 {
   font-size: 0.88889rem;
   line-height: 1.5; }
 
-.f400 {
+html:not(.legacy-type-scale) .f400,
+html.legacy-type-scale .f400 {
   font-size: 1rem;
   line-height: 1.4814814814814816; }
 
-.f500 {
+html:not(.legacy-type-scale) .f500,
+html.legacy-type-scale .f500 {
   font-size: 1.16667rem;
   line-height: 1.3968253968253967; }
 
@@ -20027,19 +20032,24 @@ html.legacy-type-scale .f1200 {
       line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 480px) {
-  .f100-ns {
+  html:not(.legacy-type-scale) .f100-ns,
+  html.legacy-type-scale .f100-ns {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-ns {
+  html:not(.legacy-type-scale) .f200-ns,
+  html.legacy-type-scale .f200-ns {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-ns {
+  html:not(.legacy-type-scale) .f300-ns,
+  html.legacy-type-scale .f300-ns {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-ns {
+  html:not(.legacy-type-scale) .f400-ns,
+  html.legacy-type-scale .f400-ns {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-ns {
+  html:not(.legacy-type-scale) .f500-ns,
+  html.legacy-type-scale .f500-ns {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
   html:not(.legacy-type-scale) .f600-ns {
@@ -20138,19 +20148,24 @@ html.legacy-type-scale .f1200 {
       line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
-  .f100-m {
+  html:not(.legacy-type-scale) .f100-m,
+  html.legacy-type-scale .f100-m {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-m {
+  html:not(.legacy-type-scale) .f200-m,
+  html.legacy-type-scale .f200-m {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-m {
+  html:not(.legacy-type-scale) .f300-m,
+  html.legacy-type-scale .f300-m {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-m {
+  html:not(.legacy-type-scale) .f400-m,
+  html.legacy-type-scale .f400-m {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-m {
+  html:not(.legacy-type-scale) .f500-m,
+  html.legacy-type-scale .f500-m {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
   html:not(.legacy-type-scale) .f600-m {
@@ -20249,19 +20264,24 @@ html.legacy-type-scale .f1200 {
       line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 960px) {
-  .f100-l {
+  html:not(.legacy-type-scale) .f100-l,
+  html.legacy-type-scale .f100-l {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-l {
+  html:not(.legacy-type-scale) .f200-l,
+  html.legacy-type-scale .f200-l {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-l {
+  html:not(.legacy-type-scale) .f300-l,
+  html.legacy-type-scale .f300-l {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-l {
+  html:not(.legacy-type-scale) .f400-l,
+  html.legacy-type-scale .f400-l {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-l {
+  html:not(.legacy-type-scale) .f500-l,
+  html.legacy-type-scale .f500-l {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
   html:not(.legacy-type-scale) .f600-l {
