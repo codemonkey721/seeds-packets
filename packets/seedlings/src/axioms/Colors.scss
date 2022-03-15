@@ -361,29 +361,29 @@ $theme-colors: (
         )
 ) !default;
 
-/// Merges a color palette with the default theme.
-///
-/// @param {map} $new-colors - The new color palette.
-/// @example scss - Usage in Theme.scss
-/// $theme-bambu: (
-///         main: (
-///                 default: get-color(bambuTeal, 400),
-///                 dark: get-color(bambuTeal, 700)
-///         ),
-///         primary: (
-///                 default: get-color(bambuYellow, 500),
-///                 dark: get-color(bambuYellow, 600)
-///         ),
-///         secondary: (
-///                 default: get-color(neutral, 500),
-///                 dark: get-color(neutral, 700)
-///         ),
-///         link: (
-///                 default: get-color(bambuTeal, 400),
-///                 dark: get-color(bambuTeal, 700)
-///         )
-/// );
-/// $theme-colors: set-theme($theme-bambu);
+// Merges a color palette with the default theme.
+//
+// @param {map} $new-colors - The new color palette.
+// @example scss - Usage in Theme.scss
+// $theme-bambu: (
+//         main: (
+//                 default: get-color(bambuTeal, 400),
+//                 dark: get-color(bambuTeal, 700)
+//         ),
+//         primary: (
+//                 default: get-color(bambuYellow, 500),
+//                 dark: get-color(bambuYellow, 600)
+//         ),
+//         secondary: (
+//                 default: get-color(neutral, 500),
+//                 dark: get-color(neutral, 700)
+//         ),
+//         link: (
+//                 default: get-color(bambuTeal, 400),
+//                 dark: get-color(bambuTeal, 700)
+//         )
+// );
+// $theme-colors: set-theme($theme-bambu);
 @function set-theme($new-colors) {
   @return set-palette($new-colors, $theme-colors);
 }
