@@ -1363,10 +1363,16 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   background-color: #FFFFFF; }
 
 .bg--link {
-  background-color: #0ca750; }
+  background-color: #1572BB; }
 
 .bg--link-dark {
-  background-color: #008b46; }
+  background-color: #0a3960; }
+
+.bg--link-subtle {
+  background-color: #515e5f; }
+
+.bg--link-white {
+  background-color: #FFFFFF; }
 
 .bg--link-inverse {
   background-color: #FFFFFF; }
@@ -1429,10 +1435,16 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   background-color: #FFFFFF; }
 
 .hover-bg--link:hover {
-  background-color: #0ca750; }
+  background-color: #1572BB; }
 
 .hover-bg--link-dark:hover {
-  background-color: #008b46; }
+  background-color: #0a3960; }
+
+.hover-bg--link-subtle:hover {
+  background-color: #515e5f; }
+
+.hover-bg--link-white:hover {
+  background-color: #FFFFFF; }
 
 .hover-bg--link-inverse:hover {
   background-color: #FFFFFF; }
@@ -2200,9 +2212,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--text-inverse-ns {
     background-color: #FFFFFF; }
   .bg--link-ns {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .bg--link-dark-ns {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .bg--link-subtle-ns {
+    background-color: #515e5f; }
+  .bg--link-white-ns {
+    background-color: #FFFFFF; }
   .bg--link-inverse-ns {
     background-color: #FFFFFF; }
   .bg--background-ns {
@@ -2244,9 +2260,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .hover-bg--text-inverse-ns:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-ns:hover {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .hover-bg--link-dark-ns:hover {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .hover-bg--link-subtle-ns:hover {
+    background-color: #515e5f; }
+  .hover-bg--link-white-ns:hover {
+    background-color: #FFFFFF; }
   .hover-bg--link-inverse-ns:hover {
     background-color: #FFFFFF; }
   .hover-bg--background-ns:hover {
@@ -2988,9 +3008,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--text-inverse-m {
     background-color: #FFFFFF; }
   .bg--link-m {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .bg--link-dark-m {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .bg--link-subtle-m {
+    background-color: #515e5f; }
+  .bg--link-white-m {
+    background-color: #FFFFFF; }
   .bg--link-inverse-m {
     background-color: #FFFFFF; }
   .bg--background-m {
@@ -3032,9 +3056,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .hover-bg--text-inverse-m:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-m:hover {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .hover-bg--link-dark-m:hover {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .hover-bg--link-subtle-m:hover {
+    background-color: #515e5f; }
+  .hover-bg--link-white-m:hover {
+    background-color: #FFFFFF; }
   .hover-bg--link-inverse-m:hover {
     background-color: #FFFFFF; }
   .hover-bg--background-m:hover {
@@ -3776,9 +3804,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .bg--text-inverse-l {
     background-color: #FFFFFF; }
   .bg--link-l {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .bg--link-dark-l {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .bg--link-subtle-l {
+    background-color: #515e5f; }
+  .bg--link-white-l {
+    background-color: #FFFFFF; }
   .bg--link-inverse-l {
     background-color: #FFFFFF; }
   .bg--background-l {
@@ -3820,9 +3852,13 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
   .hover-bg--text-inverse-l:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-l:hover {
-    background-color: #0ca750; }
+    background-color: #1572BB; }
   .hover-bg--link-dark-l:hover {
-    background-color: #008b46; }
+    background-color: #0a3960; }
+  .hover-bg--link-subtle-l:hover {
+    background-color: #515e5f; }
+  .hover-bg--link-white-l:hover {
+    background-color: #FFFFFF; }
   .hover-bg--link-inverse-l:hover {
     background-color: #FFFFFF; }
   .hover-bg--background-l:hover {
@@ -4917,10 +4953,16 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   border-color: #FFFFFF; }
 
 .b--link {
-  border-color: #0ca750; }
+  border-color: #1572BB; }
 
 .b--link-dark {
-  border-color: #008b46; }
+  border-color: #0a3960; }
+
+.b--link-subtle {
+  border-color: #515e5f; }
+
+.b--link-white {
+  border-color: #FFFFFF; }
 
 .b--link-inverse {
   border-color: #FFFFFF; }
@@ -4983,10 +5025,16 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   border-color: #FFFFFF; }
 
 .hover-b--link:hover {
-  border-color: #0ca750; }
+  border-color: #1572BB; }
 
 .hover-b--link-dark:hover {
-  border-color: #008b46; }
+  border-color: #0a3960; }
+
+.hover-b--link-subtle:hover {
+  border-color: #515e5f; }
+
+.hover-b--link-white:hover {
+  border-color: #FFFFFF; }
 
 .hover-b--link-inverse:hover {
   border-color: #FFFFFF; }
@@ -5646,9 +5694,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .b--text-inverse-ns {
     border-color: #FFFFFF; }
   .b--link-ns {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .b--link-dark-ns {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .b--link-subtle-ns {
+    border-color: #515e5f; }
+  .b--link-white-ns {
+    border-color: #FFFFFF; }
   .b--link-inverse-ns {
     border-color: #FFFFFF; }
   .b--background-ns {
@@ -5690,9 +5742,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .hover-b--text-inverse-ns:hover {
     border-color: #FFFFFF; }
   .hover-b--link-ns:hover {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .hover-b--link-dark-ns:hover {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .hover-b--link-subtle-ns:hover {
+    border-color: #515e5f; }
+  .hover-b--link-white-ns:hover {
+    border-color: #FFFFFF; }
   .hover-b--link-inverse-ns:hover {
     border-color: #FFFFFF; }
   .hover-b--background-ns:hover {
@@ -6338,9 +6394,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .b--text-inverse-m {
     border-color: #FFFFFF; }
   .b--link-m {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .b--link-dark-m {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .b--link-subtle-m {
+    border-color: #515e5f; }
+  .b--link-white-m {
+    border-color: #FFFFFF; }
   .b--link-inverse-m {
     border-color: #FFFFFF; }
   .b--background-m {
@@ -6382,9 +6442,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .hover-b--text-inverse-m:hover {
     border-color: #FFFFFF; }
   .hover-b--link-m:hover {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .hover-b--link-dark-m:hover {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .hover-b--link-subtle-m:hover {
+    border-color: #515e5f; }
+  .hover-b--link-white-m:hover {
+    border-color: #FFFFFF; }
   .hover-b--link-inverse-m:hover {
     border-color: #FFFFFF; }
   .hover-b--background-m:hover {
@@ -7030,9 +7094,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .b--text-inverse-l {
     border-color: #FFFFFF; }
   .b--link-l {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .b--link-dark-l {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .b--link-subtle-l {
+    border-color: #515e5f; }
+  .b--link-white-l {
+    border-color: #FFFFFF; }
   .b--link-inverse-l {
     border-color: #FFFFFF; }
   .b--background-l {
@@ -7074,9 +7142,13 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
   .hover-b--text-inverse-l:hover {
     border-color: #FFFFFF; }
   .hover-b--link-l:hover {
-    border-color: #0ca750; }
+    border-color: #1572BB; }
   .hover-b--link-dark-l:hover {
-    border-color: #008b46; }
+    border-color: #0a3960; }
+  .hover-b--link-subtle-l:hover {
+    border-color: #515e5f; }
+  .hover-b--link-white-l:hover {
+    border-color: #FFFFFF; }
   .hover-b--link-inverse-l:hover {
     border-color: #FFFFFF; }
   .hover-b--background-l:hover {
@@ -8392,10 +8464,16 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   color: #FFFFFF; }
 
 .c--link {
-  color: #0ca750; }
+  color: #1572BB; }
 
 .c--link-dark {
-  color: #008b46; }
+  color: #0a3960; }
+
+.c--link-subtle {
+  color: #515e5f; }
+
+.c--link-white {
+  color: #FFFFFF; }
 
 .c--link-inverse {
   color: #FFFFFF; }
@@ -8458,10 +8536,16 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   color: #FFFFFF; }
 
 .hover-c--link:hover {
-  color: #0ca750; }
+  color: #1572BB; }
 
 .hover-c--link-dark:hover {
-  color: #008b46; }
+  color: #0a3960; }
+
+.hover-c--link-subtle:hover {
+  color: #515e5f; }
+
+.hover-c--link-white:hover {
+  color: #FFFFFF; }
 
 .hover-c--link-inverse:hover {
   color: #FFFFFF; }
@@ -9194,9 +9278,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--text-inverse-ns {
     color: #FFFFFF; }
   .c--link-ns {
-    color: #0ca750; }
+    color: #1572BB; }
   .c--link-dark-ns {
-    color: #008b46; }
+    color: #0a3960; }
+  .c--link-subtle-ns {
+    color: #515e5f; }
+  .c--link-white-ns {
+    color: #FFFFFF; }
   .c--link-inverse-ns {
     color: #FFFFFF; }
   .c--background-ns {
@@ -9238,9 +9326,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .hover-c--text-inverse-ns:hover {
     color: #FFFFFF; }
   .hover-c--link-ns:hover {
-    color: #0ca750; }
+    color: #1572BB; }
   .hover-c--link-dark-ns:hover {
-    color: #008b46; }
+    color: #0a3960; }
+  .hover-c--link-subtle-ns:hover {
+    color: #515e5f; }
+  .hover-c--link-white-ns:hover {
+    color: #FFFFFF; }
   .hover-c--link-inverse-ns:hover {
     color: #FFFFFF; }
   .hover-c--background-ns:hover {
@@ -9977,9 +10069,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--text-inverse-m {
     color: #FFFFFF; }
   .c--link-m {
-    color: #0ca750; }
+    color: #1572BB; }
   .c--link-dark-m {
-    color: #008b46; }
+    color: #0a3960; }
+  .c--link-subtle-m {
+    color: #515e5f; }
+  .c--link-white-m {
+    color: #FFFFFF; }
   .c--link-inverse-m {
     color: #FFFFFF; }
   .c--background-m {
@@ -10021,9 +10117,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .hover-c--text-inverse-m:hover {
     color: #FFFFFF; }
   .hover-c--link-m:hover {
-    color: #0ca750; }
+    color: #1572BB; }
   .hover-c--link-dark-m:hover {
-    color: #008b46; }
+    color: #0a3960; }
+  .hover-c--link-subtle-m:hover {
+    color: #515e5f; }
+  .hover-c--link-white-m:hover {
+    color: #FFFFFF; }
   .hover-c--link-inverse-m:hover {
     color: #FFFFFF; }
   .hover-c--background-m:hover {
@@ -10760,9 +10860,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c--text-inverse-l {
     color: #FFFFFF; }
   .c--link-l {
-    color: #0ca750; }
+    color: #1572BB; }
   .c--link-dark-l {
-    color: #008b46; }
+    color: #0a3960; }
+  .c--link-subtle-l {
+    color: #515e5f; }
+  .c--link-white-l {
+    color: #FFFFFF; }
   .c--link-inverse-l {
     color: #FFFFFF; }
   .c--background-l {
@@ -10804,9 +10908,13 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .hover-c--text-inverse-l:hover {
     color: #FFFFFF; }
   .hover-c--link-l:hover {
-    color: #0ca750; }
+    color: #1572BB; }
   .hover-c--link-dark-l:hover {
-    color: #008b46; }
+    color: #0a3960; }
+  .hover-c--link-subtle-l:hover {
+    color: #515e5f; }
+  .hover-c--link-white-l:hover {
+    color: #FFFFFF; }
   .hover-c--link-inverse-l:hover {
     color: #FFFFFF; }
   .hover-c--background-l:hover {
