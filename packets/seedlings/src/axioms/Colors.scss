@@ -200,6 +200,11 @@ $grays: (
 ) !default;
 $grays-without-gray: $grays;
 
+// Blue.700 barely fails contrast requirements against our Light Page Backgrounds (Neutral.100) 
+// so new value allows this link to work on all our standard background colors in Marketing.
+// While Product is working on colors & color-contrast, we aren't adding this as a Seeds token at this time.
+$accessible-blue: #1572BB;
+
 /// Brand colors from social networks. Use the `get-network-color()` function to retrieve them.
 /// @type map
 $colors-networks: (
@@ -330,8 +335,10 @@ $theme-colors: (
                 inverse: get-color(neutral, 0)
         ),
         link: (
-                default: get-color(green, 700),
-                dark: get-color(green, 800),
+                default: $accessible-blue,
+                dark: get-color(blue, 1000),
+                subtle: get-color(neutral, 700),
+                white: get-color(neutral, 0),
                 inverse: get-color(neutral, 0)
         ),
         background: (
