@@ -200,7 +200,7 @@ $grays: (
 ) !default;
 $grays-without-gray: $grays;
 
-// Blue.700 just barely fails contrast requirements against our Light Page Backgrounds (Neutral.100) 
+// Blue.700 barely fails contrast requirements against our Light Page Backgrounds (Neutral.100) 
 // so new value allows this link to work on all our standard background colors in Marketing.
 // While Product is working on colors & color-contrast, we aren't adding this as a Seeds token at this time.
 $accessible-blue: #1572BB;
