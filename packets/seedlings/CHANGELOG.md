@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.15.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.14.1...@sproutsocial/seedlings@1.15.0) (2022-03-17)
+
+
+### Bug Fixes
+
+* comment syntax error for theme-bambu ([faa895e](https://github.com/sproutsocial/seeds-packets/commit/faa895e5b90bcab63274252396f1271056aa6f48))
+* undo last commit - documentation not comments ([1a6619d](https://github.com/sproutsocial/seeds-packets/commit/1a6619d61d6961d81656019f60b24b0c1933190e))
+
+
+### Features
+
+* add link color names, update primary + dark ([d033986](https://github.com/sproutsocial/seeds-packets/commit/d033986f9d2afa36f3cab419f26405e7a11af914))
+
+
+
+
+
 ## [1.14.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.14.0...@sproutsocial/seedlings@1.14.1) (2022-02-14)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
