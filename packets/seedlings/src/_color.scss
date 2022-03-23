@@ -38,6 +38,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
       .hover-c-inherit#{$breakpoint-name}:hover {
         color: inherit;
       }
+      .c--link-subtle#{$breakpoint-name} {
+        color: get-color(neutral, 700);
+      }
+      .hover-c--link-subtle#{$breakpoint-name}:hover {
+        color: get-color(neutral, 800);
+      }
       .c--teal-100-o-80p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 100), .8);
       }
@@ -76,6 +82,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     .c-inherit,
     .hover-c-inherit:hover {
       color: inherit;
+    }
+    .c--link-subtle {
+      color: get-color(neutral, 700);
+    }
+    .hover-c--link-subtle:hover {
+      color: get-color(neutral, 800);
     }
   }
 }
