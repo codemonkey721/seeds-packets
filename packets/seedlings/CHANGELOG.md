@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.0...@sproutsocial/seedlings@1.15.1) (2022-03-23)
+
+
+### Bug Fixes
+
+* set hover color for subtle links ([ad8265a](https://github.com/sproutsocial/seeds-packets/commit/ad8265a9592471db41f41993ad73576c6c822491))
+
+
+
+
+
 # [1.15.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.14.1...@sproutsocial/seedlings@1.15.0) (2022-03-17)
 
 
