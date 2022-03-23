@@ -337,7 +337,6 @@ $theme-colors: (
         link: (
                 default: $accessible-blue,
                 dark: get-color(blue, 1000),
-                subtle: get-color(neutral, 700),
                 white: get-color(neutral, 0),
                 inverse: get-color(neutral, 0)
         ),

@@ -1368,9 +1368,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 .bg--link-dark {
   background-color: #0a3960; }
 
-.bg--link-subtle {
-  background-color: #515e5f; }
-
 .bg--link-white {
   background-color: #FFFFFF; }
 
@@ -1439,9 +1436,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 
 .hover-bg--link-dark:hover {
   background-color: #0a3960; }
-
-.hover-bg--link-subtle:hover {
-  background-color: #515e5f; }
 
 .hover-bg--link-white:hover {
   background-color: #FFFFFF; }
@@ -2215,8 +2209,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .bg--link-dark-ns {
     background-color: #0a3960; }
-  .bg--link-subtle-ns {
-    background-color: #515e5f; }
   .bg--link-white-ns {
     background-color: #FFFFFF; }
   .bg--link-inverse-ns {
@@ -2263,8 +2255,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .hover-bg--link-dark-ns:hover {
     background-color: #0a3960; }
-  .hover-bg--link-subtle-ns:hover {
-    background-color: #515e5f; }
   .hover-bg--link-white-ns:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-inverse-ns:hover {
@@ -3011,8 +3001,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .bg--link-dark-m {
     background-color: #0a3960; }
-  .bg--link-subtle-m {
-    background-color: #515e5f; }
   .bg--link-white-m {
     background-color: #FFFFFF; }
   .bg--link-inverse-m {
@@ -3059,8 +3047,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .hover-bg--link-dark-m:hover {
     background-color: #0a3960; }
-  .hover-bg--link-subtle-m:hover {
-    background-color: #515e5f; }
   .hover-bg--link-white-m:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-inverse-m:hover {
@@ -3807,8 +3793,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .bg--link-dark-l {
     background-color: #0a3960; }
-  .bg--link-subtle-l {
-    background-color: #515e5f; }
   .bg--link-white-l {
     background-color: #FFFFFF; }
   .bg--link-inverse-l {
@@ -3855,8 +3839,6 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #1572BB; }
   .hover-bg--link-dark-l:hover {
     background-color: #0a3960; }
-  .hover-bg--link-subtle-l:hover {
-    background-color: #515e5f; }
   .hover-bg--link-white-l:hover {
     background-color: #FFFFFF; }
   .hover-bg--link-inverse-l:hover {
@@ -4958,9 +4940,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 .b--link-dark {
   border-color: #0a3960; }
 
-.b--link-subtle {
-  border-color: #515e5f; }
-
 .b--link-white {
   border-color: #FFFFFF; }
 
@@ -5029,9 +5008,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 
 .hover-b--link-dark:hover {
   border-color: #0a3960; }
-
-.hover-b--link-subtle:hover {
-  border-color: #515e5f; }
 
 .hover-b--link-white:hover {
   border-color: #FFFFFF; }
@@ -5697,8 +5673,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .b--link-dark-ns {
     border-color: #0a3960; }
-  .b--link-subtle-ns {
-    border-color: #515e5f; }
   .b--link-white-ns {
     border-color: #FFFFFF; }
   .b--link-inverse-ns {
@@ -5745,8 +5719,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .hover-b--link-dark-ns:hover {
     border-color: #0a3960; }
-  .hover-b--link-subtle-ns:hover {
-    border-color: #515e5f; }
   .hover-b--link-white-ns:hover {
     border-color: #FFFFFF; }
   .hover-b--link-inverse-ns:hover {
@@ -6397,8 +6369,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .b--link-dark-m {
     border-color: #0a3960; }
-  .b--link-subtle-m {
-    border-color: #515e5f; }
   .b--link-white-m {
     border-color: #FFFFFF; }
   .b--link-inverse-m {
@@ -6445,8 +6415,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .hover-b--link-dark-m:hover {
     border-color: #0a3960; }
-  .hover-b--link-subtle-m:hover {
-    border-color: #515e5f; }
   .hover-b--link-white-m:hover {
     border-color: #FFFFFF; }
   .hover-b--link-inverse-m:hover {
@@ -7097,8 +7065,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .b--link-dark-l {
     border-color: #0a3960; }
-  .b--link-subtle-l {
-    border-color: #515e5f; }
   .b--link-white-l {
     border-color: #FFFFFF; }
   .b--link-inverse-l {
@@ -7145,8 +7111,6 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #1572BB; }
   .hover-b--link-dark-l:hover {
     border-color: #0a3960; }
-  .hover-b--link-subtle-l:hover {
-    border-color: #515e5f; }
   .hover-b--link-white-l:hover {
     border-color: #FFFFFF; }
   .hover-b--link-inverse-l:hover {
@@ -8469,9 +8433,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .c--link-dark {
   color: #0a3960; }
 
-.c--link-subtle {
-  color: #515e5f; }
-
 .c--link-white {
   color: #FFFFFF; }
 
@@ -8541,9 +8502,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .hover-c--link-dark:hover {
   color: #0a3960; }
 
-.hover-c--link-subtle:hover {
-  color: #515e5f; }
-
 .hover-c--link-white:hover {
   color: #FFFFFF; }
 
@@ -8589,6 +8547,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .c-inherit,
 .hover-c-inherit:hover {
   color: inherit; }
+
+.c--link-subtle {
+  color: #515e5f; }
+
+.hover-c--link-subtle:hover {
+  color: #364141; }
 
 @media screen and (min-width: 480px) {
   .c--twitter-ns {
@@ -9281,8 +9245,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .c--link-dark-ns {
     color: #0a3960; }
-  .c--link-subtle-ns {
-    color: #515e5f; }
   .c--link-white-ns {
     color: #FFFFFF; }
   .c--link-inverse-ns {
@@ -9329,8 +9291,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .hover-c--link-dark-ns:hover {
     color: #0a3960; }
-  .hover-c--link-subtle-ns:hover {
-    color: #515e5f; }
   .hover-c--link-white-ns:hover {
     color: #FFFFFF; }
   .hover-c--link-inverse-ns:hover {
@@ -9362,6 +9322,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-ns,
   .hover-c-inherit-ns:hover {
     color: inherit; }
+  .c--link-subtle-ns {
+    color: #515e5f; }
+  .hover-c--link-subtle-ns:hover {
+    color: #364141; }
   .c--teal-100-o-80p-ns {
     background-color: rgba(205, 247, 239, 0.8); }
   .c--teal-600-o-40p-ns {
@@ -10072,8 +10036,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .c--link-dark-m {
     color: #0a3960; }
-  .c--link-subtle-m {
-    color: #515e5f; }
   .c--link-white-m {
     color: #FFFFFF; }
   .c--link-inverse-m {
@@ -10120,8 +10082,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .hover-c--link-dark-m:hover {
     color: #0a3960; }
-  .hover-c--link-subtle-m:hover {
-    color: #515e5f; }
   .hover-c--link-white-m:hover {
     color: #FFFFFF; }
   .hover-c--link-inverse-m:hover {
@@ -10153,6 +10113,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-m,
   .hover-c-inherit-m:hover {
     color: inherit; }
+  .c--link-subtle-m {
+    color: #515e5f; }
+  .hover-c--link-subtle-m:hover {
+    color: #364141; }
   .c--teal-100-o-80p-m {
     background-color: rgba(205, 247, 239, 0.8); }
   .c--teal-600-o-40p-m {
@@ -10863,8 +10827,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .c--link-dark-l {
     color: #0a3960; }
-  .c--link-subtle-l {
-    color: #515e5f; }
   .c--link-white-l {
     color: #FFFFFF; }
   .c--link-inverse-l {
@@ -10911,8 +10873,6 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #1572BB; }
   .hover-c--link-dark-l:hover {
     color: #0a3960; }
-  .hover-c--link-subtle-l:hover {
-    color: #515e5f; }
   .hover-c--link-white-l:hover {
     color: #FFFFFF; }
   .hover-c--link-inverse-l:hover {
@@ -10944,6 +10904,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
   .c-inherit-l,
   .hover-c-inherit-l:hover {
     color: inherit; }
+  .c--link-subtle-l {
+    color: #515e5f; }
+  .hover-c--link-subtle-l:hover {
+    color: #364141; }
   .c--teal-100-o-80p-l {
     background-color: rgba(205, 247, 239, 0.8); }
   .c--teal-600-o-40p-l {
