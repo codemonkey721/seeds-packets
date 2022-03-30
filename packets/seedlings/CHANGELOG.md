@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.15.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.1...@sproutsocial/seedlings@1.15.2) (2022-03-30)
+
+
+### Bug Fixes
+
+* adjusting for specificity conflicts that resulted from calder-views adjustments ([b494133](https://github.com/sproutsocial/seeds-packets/commit/b494133272c108acc4092b82d10aeb7e9617a77f))
+* properly scope legacy/non-legacy logic within type-scale mixin ([6a1946e](https://github.com/sproutsocial/seeds-packets/commit/6a1946ed2dfe9144b3354c3a72f191321457bf81))
+* type scale utilities ([6d5b165](https://github.com/sproutsocial/seeds-packets/commit/6d5b16549b7a0f167c8940feb319bad48a72ea39))
+* type scales consistent for non-`html.legacy-type-scale` pages ([00a0dae](https://github.com/sproutsocial/seeds-packets/commit/00a0dae5057889779d6e4f2689d611e40bc305b6))
+
+
+
+
+
 ## [1.15.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.0...@sproutsocial/seedlings@1.15.1) (2022-03-23)
 
 
