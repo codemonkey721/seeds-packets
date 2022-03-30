@@ -19955,186 +19955,501 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
   line-height: 1.3968253968253967; }
 
 .f600 {
+  font-size: 1.33333rem;
+  line-height: 1.3333333333333333; }
+
+.f700 {
+  font-size: 1.77778rem;
+  line-height: 1.25; }
+
+.f800 {
+  font-size: 2.38889rem;
+  line-height: 1.1782945736434107; }
+
+.f900 {
+  font-size: 3.16667rem;
+  line-height: 1.1228070175438596; }
+
+.f1000 {
+  font-size: 4.22222rem;
+  line-height: 1.0526315789473684; }
+
+.f1100 {
+  font-size: 5.61111rem;
+  line-height: 1.0033003300330032; }
+
+.f1200 {
+  font-size: 7.5rem;
+  line-height: 0.928395061728395; }
+
+html:not(.legacy-type-scale) .f100,
+html.legacy-type-scale .f100 {
+  font-size: 0.61111rem;
+  line-height: 1.696969696969697; }
+
+html:not(.legacy-type-scale) .f200,
+html.legacy-type-scale .f200 {
+  font-size: 0.72222rem;
+  line-height: 1.641025641025641; }
+
+html:not(.legacy-type-scale) .f300,
+html.legacy-type-scale .f300 {
+  font-size: 0.88889rem;
+  line-height: 1.5; }
+
+html:not(.legacy-type-scale) .f400,
+html.legacy-type-scale .f400 {
+  font-size: 1rem;
+  line-height: 1.4814814814814816; }
+
+html:not(.legacy-type-scale) .f500,
+html.legacy-type-scale .f500 {
+  font-size: 1.16667rem;
+  line-height: 1.3968253968253967; }
+
+html:not(.legacy-type-scale) .f600 {
+  font-size: 1.33333rem;
+  line-height: 1.3333333333333333; }
+
+html.legacy-type-scale .f600 {
   font-size: 1.16667rem;
   line-height: 1.3968253968253967; }
   @media screen and (min-width: 480px) {
-    .f600 {
+    html.legacy-type-scale .f600 {
       font-size: 1.33333rem;
       line-height: 1.3333333333333333; } }
 
-.f700 {
+html:not(.legacy-type-scale) .f700 {
+  font-size: 1.77778rem;
+  line-height: 1.25; }
+
+html.legacy-type-scale .f700 {
   font-size: 1.33333rem;
   line-height: 1.3333333333333333; }
   @media screen and (min-width: 480px) {
-    .f700 {
+    html.legacy-type-scale .f700 {
       font-size: 1.77778rem;
       line-height: 1.25; } }
 
-.f800 {
+html:not(.legacy-type-scale) .f800 {
+  font-size: 2.38889rem;
+  line-height: 1.1782945736434107; }
+
+html.legacy-type-scale .f800 {
   font-size: 1.77778rem;
   line-height: 1.25; }
   @media screen and (min-width: 480px) {
-    .f800 {
+    html.legacy-type-scale .f800 {
       font-size: 2.38889rem;
       line-height: 1.1782945736434107; } }
 
-.f900 {
+html:not(.legacy-type-scale) .f900 {
+  font-size: 3.16667rem;
+  line-height: 1.1228070175438596; }
+
+html.legacy-type-scale .f900 {
   font-size: 2.38889rem;
   line-height: 1.1782945736434107; }
   @media screen and (min-width: 480px) {
-    .f900 {
+    html.legacy-type-scale .f900 {
       font-size: 3.16667rem;
       line-height: 1.1228070175438596; } }
 
-.f1000 {
+html:not(.legacy-type-scale) .f1000 {
+  font-size: 4.22222rem;
+  line-height: 1.0526315789473684; }
+
+html.legacy-type-scale .f1000 {
   font-size: 2.38889rem;
   line-height: 1.1782945736434107; }
   @media screen and (min-width: 480px) {
-    .f1000 {
+    html.legacy-type-scale .f1000 {
       font-size: 3.16667rem;
       line-height: 1.1228070175438596; } }
   @media screen and (min-width: 480px) {
-    .f1000 {
+    html.legacy-type-scale .f1000 {
       font-size: 4.22222rem;
       line-height: 1.0526315789473684; } }
 
-.f1100 {
+html:not(.legacy-type-scale) .f1100 {
+  font-size: 5.61111rem;
+  line-height: 0.9703; }
+
+html.legacy-type-scale .f1100 {
   font-size: 3.16667rem;
   line-height: 1.1228070175438596; }
   @media screen and (min-width: 480px) and (max-width: 959px) {
-    .f1100 {
+    html.legacy-type-scale .f1100 {
       font-size: 4.22222rem;
       line-height: 1.0526315789473684; } }
   @media screen and (min-width: 960px) {
-    .f1100 {
+    html.legacy-type-scale .f1100 {
       font-size: 5.61111rem;
       line-height: 1.0033003300330032; } }
 
-.f1200 {
+html:not(.legacy-type-scale) .f1200 {
+  font-size: 7.5rem;
+  line-height: 1.00741; }
+
+html.legacy-type-scale .f1200 {
   font-size: 3.16667rem;
   line-height: 1.1228070175438596; }
   @media screen and (min-width: 480px) and (max-width: 959px) {
-    .f1200 {
+    html.legacy-type-scale .f1200 {
       font-size: 4.22222rem;
       line-height: 1.0526315789473684; } }
   @media screen and (min-width: 960px) {
-    .f1200 {
+    html.legacy-type-scale .f1200 {
       font-size: 7.5rem;
       line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 480px) {
-  .f100-ns {
+  html:not(.legacy-type-scale) .f100-ns,
+  html.legacy-type-scale .f100-ns {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-ns {
+  html:not(.legacy-type-scale) .f200-ns,
+  html.legacy-type-scale .f200-ns {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-ns {
+  html:not(.legacy-type-scale) .f300-ns,
+  html.legacy-type-scale .f300-ns {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-ns {
+  html:not(.legacy-type-scale) .f400-ns,
+  html.legacy-type-scale .f400-ns {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-ns {
+  html:not(.legacy-type-scale) .f500-ns,
+  html.legacy-type-scale .f500-ns {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
-  .f600-ns {
+  html:not(.legacy-type-scale) .f600-ns {
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
-  .f700-ns {
+  html.legacy-type-scale .f600-ns {
+    font-size: 1.16667rem;
+    line-height: 1.3968253968253967; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f600-ns {
+      font-size: 1.33333rem;
+      line-height: 1.3333333333333333; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f700-ns {
     font-size: 1.77778rem;
     line-height: 1.25; }
-  .f800-ns {
+  html.legacy-type-scale .f700-ns {
+    font-size: 1.33333rem;
+    line-height: 1.3333333333333333; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f700-ns {
+      font-size: 1.77778rem;
+      line-height: 1.25; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f800-ns {
     font-size: 2.38889rem;
     line-height: 1.1782945736434107; }
-  .f900-ns {
+  html.legacy-type-scale .f800-ns {
+    font-size: 1.77778rem;
+    line-height: 1.25; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f800-ns {
+      font-size: 2.38889rem;
+      line-height: 1.1782945736434107; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f900-ns {
     font-size: 3.16667rem;
     line-height: 1.1228070175438596; }
-  .f1000-ns {
+  html.legacy-type-scale .f900-ns {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f900-ns {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f1000-ns {
     font-size: 4.22222rem;
     line-height: 1.0526315789473684; }
-  .f1100-ns {
+  html.legacy-type-scale .f1000-ns {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-ns {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-ns {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f1100-ns {
     font-size: 5.61111rem;
     line-height: 0.9703; }
-  .f1200-ns {
+  html.legacy-type-scale .f1100-ns {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1100-ns {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 480px) and (min-width: 960px) {
+    html.legacy-type-scale .f1100-ns {
+      font-size: 5.61111rem;
+      line-height: 1.0033003300330032; } }
+
+@media screen and (min-width: 480px) {
+  html:not(.legacy-type-scale) .f1200-ns {
     font-size: 7.5rem;
-    line-height: 1.00741; } }
+    line-height: 1.00741; }
+  html.legacy-type-scale .f1200-ns {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1200-ns {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 480px) and (min-width: 960px) {
+    html.legacy-type-scale .f1200-ns {
+      font-size: 7.5rem;
+      line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 480px) and (max-width: 959px) {
-  .f100-m {
+  html:not(.legacy-type-scale) .f100-m,
+  html.legacy-type-scale .f100-m {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-m {
+  html:not(.legacy-type-scale) .f200-m,
+  html.legacy-type-scale .f200-m {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-m {
+  html:not(.legacy-type-scale) .f300-m,
+  html.legacy-type-scale .f300-m {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-m {
+  html:not(.legacy-type-scale) .f400-m,
+  html.legacy-type-scale .f400-m {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-m {
+  html:not(.legacy-type-scale) .f500-m,
+  html.legacy-type-scale .f500-m {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
-  .f600-m {
+  html:not(.legacy-type-scale) .f600-m {
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
-  .f700-m {
+  html.legacy-type-scale .f600-m {
+    font-size: 1.16667rem;
+    line-height: 1.3968253968253967; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f600-m {
+      font-size: 1.33333rem;
+      line-height: 1.3333333333333333; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f700-m {
     font-size: 1.77778rem;
     line-height: 1.25; }
-  .f800-m {
+  html.legacy-type-scale .f700-m {
+    font-size: 1.33333rem;
+    line-height: 1.3333333333333333; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f700-m {
+      font-size: 1.77778rem;
+      line-height: 1.25; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f800-m {
     font-size: 2.38889rem;
     line-height: 1.1782945736434107; }
-  .f900-m {
+  html.legacy-type-scale .f800-m {
+    font-size: 1.77778rem;
+    line-height: 1.25; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f800-m {
+      font-size: 2.38889rem;
+      line-height: 1.1782945736434107; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f900-m {
     font-size: 3.16667rem;
     line-height: 1.1228070175438596; }
-  .f1000-m {
+  html.legacy-type-scale .f900-m {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f900-m {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f1000-m {
     font-size: 4.22222rem;
     line-height: 1.0526315789473684; }
-  .f1100-m {
+  html.legacy-type-scale .f1000-m {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-m {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-m {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f1100-m {
     font-size: 5.61111rem;
     line-height: 0.9703; }
-  .f1200-m {
+  html.legacy-type-scale .f1100-m {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1100-m {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 960px) {
+    html.legacy-type-scale .f1100-m {
+      font-size: 5.61111rem;
+      line-height: 1.0033003300330032; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  html:not(.legacy-type-scale) .f1200-m {
     font-size: 7.5rem;
-    line-height: 1.00741; } }
+    line-height: 1.00741; }
+  html.legacy-type-scale .f1200-m {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1200-m {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 480px) and (max-width: 959px) and (min-width: 960px) {
+    html.legacy-type-scale .f1200-m {
+      font-size: 7.5rem;
+      line-height: 0.928395061728395; } }
 
 @media screen and (min-width: 960px) {
-  .f100-l {
+  html:not(.legacy-type-scale) .f100-l,
+  html.legacy-type-scale .f100-l {
     font-size: 0.61111rem;
     line-height: 1.696969696969697; }
-  .f200-l {
+  html:not(.legacy-type-scale) .f200-l,
+  html.legacy-type-scale .f200-l {
     font-size: 0.72222rem;
     line-height: 1.641025641025641; }
-  .f300-l {
+  html:not(.legacy-type-scale) .f300-l,
+  html.legacy-type-scale .f300-l {
     font-size: 0.88889rem;
     line-height: 1.5; }
-  .f400-l {
+  html:not(.legacy-type-scale) .f400-l,
+  html.legacy-type-scale .f400-l {
     font-size: 1rem;
     line-height: 1.4814814814814816; }
-  .f500-l {
+  html:not(.legacy-type-scale) .f500-l,
+  html.legacy-type-scale .f500-l {
     font-size: 1.16667rem;
     line-height: 1.3968253968253967; }
-  .f600-l {
+  html:not(.legacy-type-scale) .f600-l {
     font-size: 1.33333rem;
     line-height: 1.3333333333333333; }
-  .f700-l {
+  html.legacy-type-scale .f600-l {
+    font-size: 1.16667rem;
+    line-height: 1.3968253968253967; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f600-l {
+      font-size: 1.33333rem;
+      line-height: 1.3333333333333333; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f700-l {
     font-size: 1.77778rem;
     line-height: 1.25; }
-  .f800-l {
+  html.legacy-type-scale .f700-l {
+    font-size: 1.33333rem;
+    line-height: 1.3333333333333333; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f700-l {
+      font-size: 1.77778rem;
+      line-height: 1.25; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f800-l {
     font-size: 2.38889rem;
     line-height: 1.1782945736434107; }
-  .f900-l {
+  html.legacy-type-scale .f800-l {
+    font-size: 1.77778rem;
+    line-height: 1.25; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f800-l {
+      font-size: 2.38889rem;
+      line-height: 1.1782945736434107; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f900-l {
     font-size: 3.16667rem;
     line-height: 1.1228070175438596; }
-  .f1000-l {
+  html.legacy-type-scale .f900-l {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f900-l {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f1000-l {
     font-size: 4.22222rem;
     line-height: 1.0526315789473684; }
-  .f1100-l {
+  html.legacy-type-scale .f1000-l {
+    font-size: 2.38889rem;
+    line-height: 1.1782945736434107; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-l {
+      font-size: 3.16667rem;
+      line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) {
+    html.legacy-type-scale .f1000-l {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f1100-l {
     font-size: 5.61111rem;
     line-height: 0.9703; }
-  .f1200-l {
+  html.legacy-type-scale .f1100-l {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1100-l {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 960px) and (min-width: 960px) {
+    html.legacy-type-scale .f1100-l {
+      font-size: 5.61111rem;
+      line-height: 1.0033003300330032; } }
+
+@media screen and (min-width: 960px) {
+  html:not(.legacy-type-scale) .f1200-l {
     font-size: 7.5rem;
-    line-height: 1.00741; } }
+    line-height: 1.00741; }
+  html.legacy-type-scale .f1200-l {
+    font-size: 3.16667rem;
+    line-height: 1.1228070175438596; } }
+  @media screen and (min-width: 960px) and (min-width: 480px) and (max-width: 959px) {
+    html.legacy-type-scale .f1200-l {
+      font-size: 4.22222rem;
+      line-height: 1.0526315789473684; } }
+  @media screen and (min-width: 960px) and (min-width: 960px) {
+    html.legacy-type-scale .f1200-l {
+      font-size: 7.5rem;
+      line-height: 0.928395061728395; } }
 
 /*
 ---

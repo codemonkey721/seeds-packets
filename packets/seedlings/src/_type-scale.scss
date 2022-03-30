@@ -73,45 +73,126 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
 .f1200 {
   @include f1200;
 }
+
 @mixin type-scale($breakpoint-name: "") {
   // We can't interpolate the name of the mixin, so we have to write out each class :/
   .f100#{$breakpoint-name} {
-    @include Typography-size--100;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--100;
+    }
   }
   .f200#{$breakpoint-name} {
-    @include Typography-size--200;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--200;
+    }
   }
   .f300#{$breakpoint-name} {
-    @include Typography-size--300;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--300;
+    }
   }
   .f400#{$breakpoint-name} {
-    @include Typography-size--400;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--400;
+    }
   }
   .f500#{$breakpoint-name} {
-    @include Typography-size--500;
+    html:not(.legacy-type-scale) &,
+    html.legacy-type-scale & {
+      @include Typography-size--500;
+    }
   }
   .f600#{$breakpoint-name} {
-    @include Typography-size--600;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--600;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--500;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--600;
+      }
+    }
   }
   .f700#{$breakpoint-name} {
-    @include Typography-size--700;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--700;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--600;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--700;
+      }
+    }
   }
   .f800#{$breakpoint-name} {
-    @include Typography-size--800;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--800;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--700;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--800;
+      }
+    }
   }
   .f900#{$breakpoint-name} {
-    @include Typography-size--900;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--900;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--800;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--900;
+      }
+    }
   }
   .f1000#{$breakpoint-name} {
-    @include Typography-size--1000;
+    html:not(.legacy-type-scale) & {
+      @include Typography-size--1000;
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--800;
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--900;
+      }
+      @media #{$breakpoint-not-small} {
+        @include Typography-size--1000;
+      }
+    }
   }
   .f1100#{$breakpoint-name} {
-    font-size: setUnits(101px);
-    line-height: #{(98/101)};
+    html:not(.legacy-type-scale) & {
+      font-size: setUnits(101px);
+      line-height: #{(98/101)};
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--900;
+      @media #{$breakpoint-medium} {
+        @include Typography-size--1000;
+      }
+      @media #{$breakpoint-large} {
+        @include Typography-size--1100;
+      }
+    }
   }
   .f1200#{$breakpoint-name} {
-    font-size: setUnits(135px);
-    line-height: #{(136/135)};
+    html:not(.legacy-type-scale) & {
+      font-size: setUnits(135px);
+      line-height: #{(136/135)};
+    }
+    html.legacy-type-scale & {
+      @include Typography-size--900;
+      @media #{$breakpoint-medium} {
+        @include Typography-size--1000;
+      }
+      @media #{$breakpoint-large} {
+        @include Typography-size--1200;
+      }
+    }
   }
 }
 @each $breakpoint-name, $breakpoint in $breakpoints {
@@ -119,5 +200,7 @@ Example: <div class="db {{modifier}}">The quick brown fox jumps over the lazy do
     @media #{$breakpoint} {
       @include type-scale($breakpoint-name);
     }
+  } @else {
+    @include type-scale;
   }
 }
