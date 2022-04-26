@@ -325,8 +325,7 @@ $colors-networks: (
 $theme-colors: (
         main: (
                 default: get-color(green, 700),
-                dark: get-color(green, 800),
-                darkest: get-color(green, 900)
+                dark: get-color(green, 800)
         ),
         text: (
                 default: get-color(neutral, 1000),
@@ -345,9 +344,6 @@ $theme-colors: (
                 light: get-color(neutral, 100),
                 dark: get-color(aqua, 1100),
                 inverse: get-color(neutral, 900)
-        ),
-        background-card: (
-                default: get-color(neutral, 0)
         ),
         background-hero: (
                 default: get-color(neutral, 900),
