@@ -1359,6 +1359,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 .bg--text-inverse {
   background-color: #FFFFFF; }
 
+.bg--form-ui {
+  background-color: #1572BB; }
+
 .bg--link {
   background-color: #1572BB; }
 
@@ -1421,6 +1424,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 
 .hover-bg--text-inverse:hover {
   background-color: #FFFFFF; }
+
+.hover-bg--form-ui:hover {
+  background-color: #1572BB; }
 
 .hover-bg--link:hover {
   background-color: #1572BB; }
@@ -2191,6 +2197,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .bg--text-inverse-ns {
     background-color: #FFFFFF; }
+  .bg--form-ui-ns {
+    background-color: #1572BB; }
   .bg--link-ns {
     background-color: #1572BB; }
   .bg--link-dark-ns {
@@ -2233,6 +2241,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .hover-bg--text-inverse-ns:hover {
     background-color: #FFFFFF; }
+  .hover-bg--form-ui-ns:hover {
+    background-color: #1572BB; }
   .hover-bg--link-ns:hover {
     background-color: #1572BB; }
   .hover-bg--link-dark-ns:hover {
@@ -2975,6 +2985,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .bg--text-inverse-m {
     background-color: #FFFFFF; }
+  .bg--form-ui-m {
+    background-color: #1572BB; }
   .bg--link-m {
     background-color: #1572BB; }
   .bg--link-dark-m {
@@ -3017,6 +3029,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .hover-bg--text-inverse-m:hover {
     background-color: #FFFFFF; }
+  .hover-bg--form-ui-m:hover {
+    background-color: #1572BB; }
   .hover-bg--link-m:hover {
     background-color: #1572BB; }
   .hover-bg--link-dark-m:hover {
@@ -3759,6 +3773,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .bg--text-inverse-l {
     background-color: #FFFFFF; }
+  .bg--form-ui-l {
+    background-color: #1572BB; }
   .bg--link-l {
     background-color: #1572BB; }
   .bg--link-dark-l {
@@ -3801,6 +3817,8 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #162020; }
   .hover-bg--text-inverse-l:hover {
     background-color: #FFFFFF; }
+  .hover-bg--form-ui-l:hover {
+    background-color: #1572BB; }
   .hover-bg--link-l:hover {
     background-color: #1572BB; }
   .hover-bg--link-dark-l:hover {
@@ -4895,6 +4913,9 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 .b--text-inverse {
   border-color: #FFFFFF; }
 
+.b--form-ui {
+  border-color: #1572BB; }
+
 .b--link {
   border-color: #1572BB; }
 
@@ -4957,6 +4978,9 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
 
 .hover-b--text-inverse:hover {
   border-color: #FFFFFF; }
+
+.hover-b--form-ui:hover {
+  border-color: #1572BB; }
 
 .hover-b--link:hover {
   border-color: #1572BB; }
@@ -5619,6 +5643,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .b--text-inverse-ns {
     border-color: #FFFFFF; }
+  .b--form-ui-ns {
+    border-color: #1572BB; }
   .b--link-ns {
     border-color: #1572BB; }
   .b--link-dark-ns {
@@ -5661,6 +5687,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .hover-b--text-inverse-ns:hover {
     border-color: #FFFFFF; }
+  .hover-b--form-ui-ns:hover {
+    border-color: #1572BB; }
   .hover-b--link-ns:hover {
     border-color: #1572BB; }
   .hover-b--link-dark-ns:hover {
@@ -6307,6 +6335,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .b--text-inverse-m {
     border-color: #FFFFFF; }
+  .b--form-ui-m {
+    border-color: #1572BB; }
   .b--link-m {
     border-color: #1572BB; }
   .b--link-dark-m {
@@ -6349,6 +6379,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .hover-b--text-inverse-m:hover {
     border-color: #FFFFFF; }
+  .hover-b--form-ui-m:hover {
+    border-color: #1572BB; }
   .hover-b--link-m:hover {
     border-color: #1572BB; }
   .hover-b--link-dark-m:hover {
@@ -6995,6 +7027,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .b--text-inverse-l {
     border-color: #FFFFFF; }
+  .b--form-ui-l {
+    border-color: #1572BB; }
   .b--link-l {
     border-color: #1572BB; }
   .b--link-dark-l {
@@ -7037,6 +7071,8 @@ Example: <div class="db bt bw600 {{modifier}}"></div><p>{{label}}</p>
     border-color: #162020; }
   .hover-b--text-inverse-l:hover {
     border-color: #FFFFFF; }
+  .hover-b--form-ui-l:hover {
+    border-color: #1572BB; }
   .hover-b--link-l:hover {
     border-color: #1572BB; }
   .hover-b--link-dark-l:hover {
@@ -8352,6 +8388,9 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .c--text-inverse {
   color: #FFFFFF; }
 
+.c--form-ui {
+  color: #1572BB; }
+
 .c--link {
   color: #1572BB; }
 
@@ -8414,6 +8453,9 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 
 .hover-c--text-inverse:hover {
   color: #FFFFFF; }
+
+.hover-c--form-ui:hover {
+  color: #1572BB; }
 
 .hover-c--link:hover {
   color: #1572BB; }
@@ -9155,6 +9197,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .c--text-inverse-ns {
     color: #FFFFFF; }
+  .c--form-ui-ns {
+    color: #1572BB; }
   .c--link-ns {
     color: #1572BB; }
   .c--link-dark-ns {
@@ -9197,6 +9241,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .hover-c--text-inverse-ns:hover {
     color: #FFFFFF; }
+  .hover-c--form-ui-ns:hover {
+    color: #1572BB; }
   .hover-c--link-ns:hover {
     color: #1572BB; }
   .hover-c--link-dark-ns:hover {
@@ -9938,6 +9984,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .c--text-inverse-m {
     color: #FFFFFF; }
+  .c--form-ui-m {
+    color: #1572BB; }
   .c--link-m {
     color: #1572BB; }
   .c--link-dark-m {
@@ -9980,6 +10028,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .hover-c--text-inverse-m:hover {
     color: #FFFFFF; }
+  .hover-c--form-ui-m:hover {
+    color: #1572BB; }
   .hover-c--link-m:hover {
     color: #1572BB; }
   .hover-c--link-dark-m:hover {
@@ -10721,6 +10771,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .c--text-inverse-l {
     color: #FFFFFF; }
+  .c--form-ui-l {
+    color: #1572BB; }
   .c--link-l {
     color: #1572BB; }
   .c--link-dark-l {
@@ -10763,6 +10815,8 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #162020; }
   .hover-c--text-inverse-l:hover {
     color: #FFFFFF; }
+  .hover-c--form-ui-l:hover {
+    color: #1572BB; }
   .hover-c--link-l:hover {
     color: #1572BB; }
   .hover-c--link-dark-l:hover {

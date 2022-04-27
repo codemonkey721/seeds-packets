@@ -333,6 +333,9 @@ $theme-colors: (
                 dark: get-color(neutral, 1000),
                 inverse: get-color(neutral, 0)
         ),
+        form-ui: (
+                default: $accessible-blue
+        ),
         link: (
                 default: $accessible-blue,
                 dark: get-color(blue, 1000),
