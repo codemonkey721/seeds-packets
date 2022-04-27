@@ -393,7 +393,7 @@ $theme-colors: (
 /// @param {string} $variant [default] - The color variant to get.
 ///
 /// @example scss - Usage in an Axiom or Pattern
-/// $blast-background: theme-color(main);
+/// $blast-background: theme-color(primary);
 /// $blast-color: theme-color(text, inverse);
 @function theme-color($type, $variant: default) {
   @return map-get(map-get($theme-colors, $type), $variant);
