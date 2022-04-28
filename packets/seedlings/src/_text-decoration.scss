@@ -24,7 +24,7 @@ Example: <div class="db f500 {{modifier}}">The quick brown fox...</div><p>{{labe
     width: $length;
     height: Space(300);
     margin-bottom: Space(400);
-    background-color: theme-color(main, dark);
+    background-color: theme-color(primary, dark);
     content: "";
   }
 }

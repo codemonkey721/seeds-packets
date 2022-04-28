@@ -321,18 +321,20 @@ $colors-networks: (
 }
 
 /// The default theme color palette. These colors are used by themeable patterns to render a new look and feel.
+/// Them 'main' and 'secondary' themes are being deprecated → use 'primary' theme instead
 /// @type map
 $theme-colors: (
         main: (
-                default: get-color(green, 700),
-                dark: get-color(green, 800),
-                darkest: get-color(green, 900)
+                default: get-color(green, 700), /* DEPRECATED - use 'primary' theme-color */
+                dark: get-color(green, 800) /* DEPRECATED - use 'primary-dark' theme-color */
         ),
         text: (
                 default: get-color(neutral, 1000),
-                light: get-color(neutral, 500),
                 dark: get-color(neutral, 1000),
                 inverse: get-color(neutral, 0)
+        ),
+        form-ui: (
+                default: $accessible-blue
         ),
         link: (
                 default: $accessible-blue,
@@ -343,11 +345,8 @@ $theme-colors: (
         background: (
                 default: get-color(neutral, 0),
                 light: get-color(neutral, 100),
-                dark: get-color(aqua, 1100),
+                dark: get-color(blue, 1100),
                 inverse: get-color(neutral, 900)
-        ),
-        background-card: (
-                default: get-color(neutral, 0)
         ),
         background-hero: (
                 default: get-color(neutral, 900),
@@ -359,8 +358,8 @@ $theme-colors: (
                 dark: get-color(green, 800)
         ),
         secondary: (
-                default: get-color(green, 700),
-                dark: get-color(green, 800)
+                default: get-color(green, 700), /* DEPRECATED - use 'primary' theme-color */
+                dark: get-color(green, 800) /* DEPRECATED - use 'primary-dark' theme-color */
         )
 ) !default;
 
@@ -397,7 +396,7 @@ $theme-colors: (
 /// @param {string} $variant [default] - The color variant to get.
 ///
 /// @example scss - Usage in an Axiom or Pattern
-/// $blast-background: theme-color(main);
+/// $blast-background: theme-color(primary);
 /// $blast-color: theme-color(text, inverse);
 @function theme-color($type, $variant: default) {
   @return map-get(map-get($theme-colors, $type), $variant);
