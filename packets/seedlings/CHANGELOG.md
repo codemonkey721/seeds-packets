@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.3...@sproutsocial/seedlings@1.16.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* **seedlings:** point main theme colors to primary ([b011225](https://github.com/sproutsocial/seeds-packets/commit/b01122545227627ed4dad9bd994e2804bb6782dd))
+* **seedlings:** remove unused theme colors ([2193b9b](https://github.com/sproutsocial/seeds-packets/commit/2193b9be406620fa28dfe819dc24d905354344ea))
+
+
+### Features
+
+* **seedlings:** add form-ui color (matches links) ([59fa755](https://github.com/sproutsocial/seeds-packets/commit/59fa7555a22af77d50723e6ed0c2580555e88845))
+* **seedlings:** remove old unused theme color ([e27b024](https://github.com/sproutsocial/seeds-packets/commit/e27b0240317e9caa7874f145b39d59709b74b517))
+* **seedlings:** update dark background to blue ([ee2f8a3](https://github.com/sproutsocial/seeds-packets/commit/ee2f8a3e431b4b6ca1d17ea99730c90211df85ae))
+
+
+
+
+
 ## [1.15.3](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.2...@sproutsocial/seedlings@1.15.3) (2022-04-28)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
