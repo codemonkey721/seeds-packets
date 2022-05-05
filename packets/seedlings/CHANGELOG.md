@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.16.0...@sproutsocial/seedlings@1.16.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* remove $accessible-blue color, add link hover ([e1fee8a](https://github.com/sproutsocial/seeds-packets/commit/e1fee8afc869547d4d01ee44e62c58a900304b7f))
+* use Blue800 for links and forms, add hovers ([ae2875b](https://github.com/sproutsocial/seeds-packets/commit/ae2875bc8c42f9ffa0e56b2dcfda834c5f1eb83b))
+
+
+
+
+
 # [1.16.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.3...@sproutsocial/seedlings@1.16.0) (2022-04-28)
 
 
