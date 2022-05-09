@@ -3,6 +3,87 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.16.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.16.0...@sproutsocial/seedlings@1.16.1) (2022-05-05)
+
+
+### Bug Fixes
+
+* remove $accessible-blue color, add link hover ([e1fee8a](https://github.com/sproutsocial/seeds-packets/commit/e1fee8afc869547d4d01ee44e62c58a900304b7f))
+* use Blue800 for links and forms, add hovers ([ae2875b](https://github.com/sproutsocial/seeds-packets/commit/ae2875bc8c42f9ffa0e56b2dcfda834c5f1eb83b))
+
+
+
+
+
+# [1.16.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.3...@sproutsocial/seedlings@1.16.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* **seedlings:** point main theme colors to primary ([b011225](https://github.com/sproutsocial/seeds-packets/commit/b01122545227627ed4dad9bd994e2804bb6782dd))
+* **seedlings:** remove unused theme colors ([2193b9b](https://github.com/sproutsocial/seeds-packets/commit/2193b9be406620fa28dfe819dc24d905354344ea))
+
+
+### Features
+
+* **seedlings:** add form-ui color (matches links) ([59fa755](https://github.com/sproutsocial/seeds-packets/commit/59fa7555a22af77d50723e6ed0c2580555e88845))
+* **seedlings:** remove old unused theme color ([e27b024](https://github.com/sproutsocial/seeds-packets/commit/e27b0240317e9caa7874f145b39d59709b74b517))
+* **seedlings:** update dark background to blue ([ee2f8a3](https://github.com/sproutsocial/seeds-packets/commit/ee2f8a3e431b4b6ca1d17ea99730c90211df85ae))
+
+
+
+
+
+## [1.15.3](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.2...@sproutsocial/seedlings@1.15.3) (2022-04-28)
+
+**Note:** Version bump only for package @sproutsocial/seedlings
+
+
+
+
+
+## [1.15.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.1...@sproutsocial/seedlings@1.15.2) (2022-03-30)
+
+
+### Bug Fixes
+
+* adjusting for specificity conflicts that resulted from calder-views adjustments ([b494133](https://github.com/sproutsocial/seeds-packets/commit/b494133272c108acc4092b82d10aeb7e9617a77f))
+* properly scope legacy/non-legacy logic within type-scale mixin ([6a1946e](https://github.com/sproutsocial/seeds-packets/commit/6a1946ed2dfe9144b3354c3a72f191321457bf81))
+* type scale utilities ([6d5b165](https://github.com/sproutsocial/seeds-packets/commit/6d5b16549b7a0f167c8940feb319bad48a72ea39))
+* type scales consistent for non-`html.legacy-type-scale` pages ([00a0dae](https://github.com/sproutsocial/seeds-packets/commit/00a0dae5057889779d6e4f2689d611e40bc305b6))
+
+
+
+
+
+## [1.15.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.15.0...@sproutsocial/seedlings@1.15.1) (2022-03-23)
+
+
+### Bug Fixes
+
+* set hover color for subtle links ([ad8265a](https://github.com/sproutsocial/seeds-packets/commit/ad8265a9592471db41f41993ad73576c6c822491))
+
+
+
+
+
+# [1.15.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.14.1...@sproutsocial/seedlings@1.15.0) (2022-03-17)
+
+
+### Bug Fixes
+
+* comment syntax error for theme-bambu ([faa895e](https://github.com/sproutsocial/seeds-packets/commit/faa895e5b90bcab63274252396f1271056aa6f48))
+* undo last commit - documentation not comments ([1a6619d](https://github.com/sproutsocial/seeds-packets/commit/1a6619d61d6961d81656019f60b24b0c1933190e))
+
+
+### Features
+
+* add link color names, update primary + dark ([d033986](https://github.com/sproutsocial/seeds-packets/commit/d033986f9d2afa36f3cab419f26405e7a11af914))
+
+
+
+
+
 ## [1.14.1](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.14.0...@sproutsocial/seedlings@1.14.1) (2022-02-14)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
