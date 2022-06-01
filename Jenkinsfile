@@ -91,7 +91,7 @@ pipeline {
             }
         }
 
-        state('Configure .npmrc for nmpjs.org deployment') {
+        stage('Configure .npmrc for nmpjs.org deployment') {
             when {
                 allOf {
                     branch 'main'
