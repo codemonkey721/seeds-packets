@@ -12,7 +12,8 @@
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "build": "lerna run build",
     "postinstall": "lerna bootstrap",
-    "release": "lerna publish --conventional-commits --yes"
+    "release-artifactory": "lerna publish --registry=\"https://sproutsocial.jfrog.io/artifactory/api/npm/npm_local\" --conventional-commits --yes",
+    "release-npmjs": "lerna publish --conventional-commits --yes"
   },
   "lint-staged": {
     "**/*.js": [

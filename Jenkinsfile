@@ -12,8 +12,9 @@ pipeline {
         credentials_id = "9ed36245-2654-4261-b4df-c0a6e8611916"
         project_name = "seeds-packets"
         docker_container = "seeds-packets-build-image"
-        docker_command = "docker run -e NODE_ENV=ci -e NPM_TOKEN -e HOME=. -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT}"
+        docker_command = "docker run -e NODE_ENV=ci -e NPM_TOKEN -e ARTIFACTORY_KEY -e HOME=. -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT}"
         GH_TOKEN = credentials('aea69198-c3a0-41e1-9866-40937f0f0ced')
+        ARTIFACTORY_KEY = credentials('artifactory_token')
         NPM_TOKEN = credentials('npm_publish_token')
     }
 
@@ -65,15 +66,15 @@ pipeline {
                             sh "git checkout ${env.BRANCH_NAME};"
                             sh "git fetch --tags"
                         }
-
-                        sh "${docker_command} /bin/sh -c 'echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" >> .npmrc'"
+                        sh "${docker_command} /bin/sh -c 'curl -H X-JFrog-Art-Api:\$ARTIFACTORY_KEY https://sproutsocial.jfrog.io/artifactory/api/npm/auth > .npmrc'"
+                        sh "${docker_command} /bin/sh -c 'echo registry=https://sproutsocial.jfrog.io/artifactory/api/npm/npm_virtual >> .npmrc'"
                         sh "${docker_command} yarn"
                     }
                 }
             }
         }
 
-        stage('Deploy production') {
+        stage('Deploy production - Artifactory') {
             when {
                 allOf {
                     branch 'main'
@@ -85,7 +86,40 @@ pipeline {
             steps {
                 timeout(time: 10, unit: 'MINUTES') {
                     sh "${docker_command} yarn build"
-                    sh "docker run -e NODE_ENV=ci -e NPM_TOKEN -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT} yarn release"
+                    sh "docker run -e NODE_ENV=ci -e ARTIFACTORY_KEY -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT} yarn release-artifactory"
+                }
+            }
+        }
+
+        state('Configure .npmrc for nmpjs.org deployment') {
+            when {
+                allOf {
+                    branch 'main'
+                    expression {
+                        isNotJenkins()
+                    }
+                }
+            }
+            steps {
+                script {
+                    sh "${docker_command} /bin/sh -c 'echo \"//registry.npmjs.org/:_authToken=\$NPM_TOKEN\" >> .npmrc'"
+                }
+            }
+        }
+
+        stage('Deploy production - npmjs.org') {
+            when {
+                allOf {
+                    branch 'main'
+                    expression {
+                        isNotJenkins()
+                    }
+                }
+            }
+            steps {
+                timeout(time: 10, unit: 'MINUTES') {
+                    sh "${docker_command} yarn build"
+                    sh "docker run -e NODE_ENV=ci -e NPM_TOKEN -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT} yarn release-npmjs"
                 }
             }
         }
