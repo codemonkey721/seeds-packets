@@ -102,7 +102,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh "${docker_command} /bin/sh -c 'echo \"//registry.npmjs.org/:_authToken=\$NPM_TOKEN\" >> .npmrc'"
+                    sh "${docker_command} /bin/sh -c 'echo \"//registry.npmjs.org/:_authToken=\$NPM_TOKEN\" > .npmrc'"
                 }
             }
         }
