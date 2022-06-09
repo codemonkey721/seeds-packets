@@ -19,5 +19,6 @@
     "package.json"
   ],
   "npmClient": "yarn",
+  "useWorkspaces": true,
   "version": "independent"
 }
