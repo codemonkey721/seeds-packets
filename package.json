@@ -9,7 +9,9 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packets/*"],
+  "workspaces": [
+    "packets/*"
+  ],
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "build": "lerna run build",
@@ -29,7 +31,7 @@
     "ase-utils": "^0.1.1",
     "handlebars": "^4.1.2",
     "husky": "^2.3.0",
-    "lerna": "^4.0.0",
+    "lerna": "^5.1.1",
     "lint-staged": "^9.5.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1",
