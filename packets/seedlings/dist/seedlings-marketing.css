@@ -127,13 +127,13 @@ Modifiers:
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
   8% {
     transform: translate(0, -0.44444rem);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.7, 0.2); }
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1); }
   16% {
     transform: translate(0, 0);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
   32% {
     transform: translate(0, -0.44444rem);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.7, 0.2); }
+    animation-timing-function: cubic-bezier(0.4, 0, 1, 1); }
   42% {
     transform: translate(0, 0);
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1); }
@@ -15239,7 +15239,7 @@ Modifiers:
 */
 .dim {
   transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.7, 0.2); }
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }
 
 .dim:hover,
 .dim:focus {
@@ -15252,7 +15252,7 @@ Modifiers:
 .glow {
   opacity: .5;
   transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.7, 0.2); }
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }
 
 .glow:focus,
 .glow:hover {
@@ -15274,7 +15274,7 @@ Modifiers:
 .reveal {
   opacity: 0;
   transition-duration: 0.3s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.7, 0.2); }
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1); }
 
 .reveal:focus,
 .reveal:hover {
