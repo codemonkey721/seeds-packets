@@ -9,9 +9,7 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packets/*"
-  ],
+  "workspaces": ["packets/*"],
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "build": "lerna run build",
@@ -27,23 +25,12 @@
   "devDependencies": {
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-conventional": "^12.0.0",
-    "ase-util": "^1.0.1",
-    "ase-utils": "^0.1.1",
-    "handlebars": "^4.1.2",
     "husky": "^2.3.0",
-    "lerna": "^5.1.1",
-    "lint-staged": "^9.5.0",
-    "lodash.camelcase": "^4.3.0",
-    "lodash.kebabcase": "^4.1.1",
-    "lodash.snakecase": "^4.1.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^9.5.0",  
     "lodash.upperfirst": "^4.3.1",
-    "mround": "^1.0.0",
-    "pascal-case": "^2.0.1",
     "prettier-eslint": "^12.0.0",
-    "prettier-eslint-cli": "^5.0.0",
-    "rimraf": "^2.6.3",
-    "style-dictionary": "^2.7.0",
-    "tinycolor2": "^1.4.1"
+    "prettier-eslint-cli": "^5.0.0"
   },
   "resolutions": {
     "lodash": "^4.17.21"
