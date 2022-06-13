@@ -11,6 +11,6 @@
   "license": "MIT",
   "scripts": {},
   "dependencies": {
-    "@sproutsocial/seeds-color": "^1.5.4"
+    "@sproutsocial/seeds-color": "*"
   }
 }

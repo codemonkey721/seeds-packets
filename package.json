@@ -9,11 +9,17 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packets/*"],
+  "workspaces": {
+    "packages": [
+      "packets/*"
+    ],
+    "nohoist": [
+      "**/@sproutsocial/seeds-*"
+    ]
+  },
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "build": "lerna run build",
-    "postinstall": "lerna bootstrap",
     "release-artifactory": "lerna publish --registry=\"https://sproutsocial.jfrog.io/artifactory/api/npm/npm_local\" --conventional-commits --yes",
     "release-npmjs": "lerna publish --conventional-commits --yes"
   },
@@ -27,7 +33,7 @@
     "@commitlint/config-conventional": "^12.0.0",
     "husky": "^2.3.0",
     "lerna": "^4.0.0",
-    "lint-staged": "^9.5.0",  
+    "lint-staged": "^9.5.0",
     "lodash.upperfirst": "^4.3.1",
     "prettier-eslint": "^12.0.0",
     "prettier-eslint-cli": "^5.0.0"
