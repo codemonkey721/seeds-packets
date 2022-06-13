@@ -15,9 +15,9 @@
   "ignoreChanges": [
     "*.md",
     "build.js",
-    "config.json",
-    "package.json"
+    "config.json"
   ],
   "npmClient": "yarn",
+  "useWorkspaces": true,
   "version": "independent"
 }
