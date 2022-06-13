@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-utils",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Seeds utility functions for generating tokens",
   "seeds_ignore": true,
   "main": "style-dictionary/index.js",
@@ -11,15 +11,15 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "devDependencies": {
-    "style-dictionary": "^2.7.0",
-    "lodash.snakecase": "^4.1.1",
-    "lodash.kebabcase": "^4.1.1",
-    "pascal-case": "^2.0.1",
-    "lodash.camelcase": "^4.3.0",
-    "mround": "^1.0.0",
     "ase-utils": "^0.1.1",
-    "tinycolor2": "^1.4.1",
+    "handlebars": "^4.1.2",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.snakecase": "^4.1.1",
+    "mround": "^1.0.0",
+    "pascal-case": "^2.0.1",
     "rimraf": "^2.6.3",
-    "handlebars": "^4.1.2"
+    "style-dictionary": "^2.7.0",
+    "tinycolor2": "^1.4.1"
   }
 }
