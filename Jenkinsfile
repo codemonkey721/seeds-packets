@@ -90,8 +90,8 @@ pipeline {
                 timeout(time: 10, unit: 'MINUTES') {
                     sh "${docker_command} yarn build"
                     sh "docker run -e NODE_ENV=ci -e ARTIFACTORY_KEY -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT} yarn release-artifactory"
+                    published = true
                 }
-                published = true
             }
         }
 
