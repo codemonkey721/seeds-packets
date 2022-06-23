@@ -50,6 +50,9 @@ pipeline {
             when {
                 allOf {
                     branch 'main'
+                    expression {
+                        isNotJenkins()
+                    }
                 }
             }
             steps {
