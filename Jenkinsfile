@@ -3,6 +3,9 @@ def isNotJenkins() {
     def lastCommitter = sh(script: "git log -1 --pretty=format:'%an'", returnStdout: true)
     return lastCommitter != 'Sprout Jenkins'
 }
+
+def published = false
+
 pipeline {
     agent {
         node { label 'docker' }
@@ -47,9 +50,6 @@ pipeline {
             when {
                 allOf {
                     branch 'main'
-                    expression {
-                        isNotJenkins()
-                    }
                 }
             }
             steps {
@@ -88,6 +88,7 @@ pipeline {
                     sh "${docker_command} yarn build"
                     sh "docker run -e NODE_ENV=ci -e ARTIFACTORY_KEY -u 10037 --rm -v ${workspace}:/workspace -w /workspace ${docker_container}:${env.GIT_COMMIT} yarn release-artifactory"
                 }
+                published = true
             }
         }
 
@@ -96,7 +97,7 @@ pipeline {
                 allOf {
                     branch 'main'
                     expression {
-                        isNotJenkins()
+                        published
                     }
                 }
             }
@@ -112,7 +113,7 @@ pipeline {
                 allOf {
                     branch 'main'
                     expression {
-                        isNotJenkins()
+                        published
                     }
                 }
             }
