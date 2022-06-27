@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.10](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-dataviz@0.5.8...@sproutsocial/seeds-dataviz@0.5.10) (2022-06-22)
+
+**Note:** Version bump only for package @sproutsocial/seeds-dataviz
+
+
+
+
+
+
+## 0.5.9 (2022-06-22)
+
+This patch version adds no new features and is being published for testing purposes only. 
+
+
+## [0.5.8](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-dataviz@0.5.6...@sproutsocial/seeds-dataviz@0.5.8) (2022-06-22)
+
+**Note:** Version bump only for package @sproutsocial/seeds-dataviz
+
+
+## 0.5.7 (2022-06-22)
+
+This patch version adds no new features and is being published for testing purposes only. 
+
+
+
 ## [0.5.6](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-dataviz@0.5.5...@sproutsocial/seeds-dataviz@0.5.6) (2022-06-13)
 
 **Note:** Version bump only for package @sproutsocial/seeds-dataviz
