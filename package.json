@@ -20,7 +20,8 @@
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "build": "lerna run build",
-    "release": "lerna publish from-package --no-push --yes"
+    "version": "lerna version --conventional-commits --yes",
+    "publish": "lerna publish from-package --no-push --yes"
   },
   "lint-staged": {
     "**/*.js": [

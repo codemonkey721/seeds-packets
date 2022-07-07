@@ -22,3 +22,5 @@ jobs:
         run: yarn
       - name: Build
         run: yarn build
+      - name: Version
+        run: yarn version
