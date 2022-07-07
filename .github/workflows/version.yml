@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Version
-        run: npx lerna version --conventional-commits --yes --no-push
+        run: npx lerna version --conventional-commits --yes
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
