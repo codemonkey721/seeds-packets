@@ -4,13 +4,9 @@ on:
     types: [closed]
     branches:
       - main
-      - open_infrastructure
-  push:
-    branches:
-      - open_infrastructure
 jobs:
   release:
-#    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true
     name: Build and update seeds-packets versions
     runs-on: ubuntu-latest
     steps:

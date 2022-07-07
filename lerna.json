@@ -5,8 +5,7 @@
       "allowBranch": [
         "main",
         "staging",
-        "nectar",
-        "open_infrastructure"
+        "nectar"
       ]
     }
   },
