@@ -1,12 +1,11 @@
-name: Release
+name: Publish
 on:
   push:
     branches:
       - main
-      - open_infrastructure
 jobs:
   release:
-    name: Build and release seeds-packets
+    name: Build and publish seeds-packets
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -18,9 +17,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.14.2
+      - name: Setup .npmrc
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .npmrc
       - name: Install Dependencies
         run: yarn
       - name: Build
         run: yarn build
-      - name: Version
-        run: yarn version
+      - name: Publish
+        run: npx lerna publish from-package --no-push --yes
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
