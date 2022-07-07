@@ -5,6 +5,7 @@ on:
       - main
 jobs:
   release:
+    if: github.event.pull_request.merged != true
     name: Build and publish seeds-packets
     runs-on: ubuntu-latest
     steps:
