@@ -37,7 +37,10 @@
     "prettier-eslint-cli": "^5.0.0"
   },
   "resolutions": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "parse-url": "^7.0.2",
+    "@lerna/conventional-commits": "^4.0.0",
+    "globby": "^10.0.2"
   },
   "husky": {
     "hooks": {
