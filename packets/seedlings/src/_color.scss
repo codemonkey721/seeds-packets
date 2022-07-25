@@ -10,6 +10,7 @@ Modifiers:
     --color-name: name of a color variable
     --teal-100-o-80p: Teal 100 (80% opacity)
     --teal-600-o-40p: Teal 600 (40% opacity)
+    --teal-700-o-20p: Teal 700 (20% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
     --teal-1000-o-40p: Teal 1000 (40% opacity)
     --blue-700-o-20p: Blue 700 (20% opacity)
@@ -49,6 +50,9 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
       }
       .c--teal-600-o-40p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 600), .4);
+      }
+      .c--teal-700-o-20p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 700), .2);
       }
       .c--teal-700-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 700), .3);

@@ -13,6 +13,7 @@ Modifiers:
     --teal-100-o-80p: Teal 100 (80% opacity)
     --teal-600-o-40p: Teal 600 (40% opacity)
     --teal-700-o-30p: Teal 700 (30% opacity)
+    --teal-700-o-20p: Teal 700 (20% opacity)
     --teal-1000-o-40p: Teal 1000 (40% opacity)
     --blue-700-o-20p: Blue 700 (20% opacity)
     --neutral-0-o-10p: Neutral 0 (10% opacity)
@@ -56,6 +57,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
       }
       .bg--teal-600-o-40p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 600), .4);
+      }
+      .bg--teal-700-o-20p#{$breakpoint-name} {
+        background-color: rgba(get-color(teal, 700), .2);
       }
       .bg--teal-700-o-30p#{$breakpoint-name} {
         background-color: rgba(get-color(teal, 700), .3);
@@ -103,6 +107,9 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     }
     .bg--teal-600-o-40p {
       background-color: rgba(get-color(teal, 600), .4);
+    }
+    .bg--teal-700-o-20p {
+      background-color: rgba(get-color(teal, 700), .2);
     }
     .bg--teal-700-o-30p {
       background-color: rgba(get-color(teal, 700), .3);
