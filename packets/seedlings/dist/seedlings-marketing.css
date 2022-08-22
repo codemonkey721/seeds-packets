@@ -173,6 +173,55 @@ Modifiers:
 
 /*
 ---
+Name: Aspect Ratio
+Base:
+    aspect-ratio: Aspect Ratio
+Modifiers:
+    -auto: Auto
+    -square: Square
+    -video: Video (16 / 9)
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+Example: <img class="db fit-cover {{modifier}}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 460'%3E%3Cpath fill='%23DEE1E1' d='M0 0h720v460H0z'/%3E%3Cg fill='%23B1B6B7'%3E%3Cpath d='M185.1 92.4v275.1h349.7V92.4H185.1zm321.6 245.3H215V122.3h291.7v215.4z'/%3E%3Cpath d='M230.1 314.9l60.4-63.5 22.6 9.8 71.4-76 28.1 33.6 12.7-7.6 68.6 103.7'/%3E%3Ccircle cx='299.9' cy='176.8' r='26.4'/%3E%3C/g%3E%3C/svg%3E" loading="lazy" /><p>{{label}}</p>
+---
+*/
+.aspect-ratio-auto {
+  aspect-ratio: auto; }
+
+.aspect-ratio-square {
+  aspect-ratio: 1 / 1; }
+
+.aspect-ratio-video {
+  aspect-ratio: 16 / 9; }
+
+@media screen and (min-width: 480px) {
+  .aspect-ratio-auto-ns {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-ns {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-ns {
+    aspect-ratio: 16 / 9; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .aspect-ratio-auto-m {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-m {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-m {
+    aspect-ratio: 16 / 9; } }
+
+@media screen and (min-width: 960px) {
+  .aspect-ratio-auto-l {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-l {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-l {
+    aspect-ratio: 16 / 9; } }
+
+/*
+---
 Name: Background Position
 Base:
     bg: background
