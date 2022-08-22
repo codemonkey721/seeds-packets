@@ -1,0 +1,53 @@
+/*
+---
+Name: Rotate
+Base:
+    Rotate: Rotate
+Modifiers:
+    -none: None
+    45: 45deg
+    90: 90deg
+    180: 180deg
+    360: 360deg
+    -45: -45deg
+    -90: -90deg
+    -180: -180deg
+    -360: -360deg
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+---
+*/
+
+@mixin rotate($breakpoint-name: "") {
+    $degrees: (
+          45: 45deg,
+          90: 90deg,
+          180: 180deg,
+          360: 360deg,
+          -45: -45deg,
+          -90: -90deg,
+          -180: -180deg,
+          -360: -360deg,
+    );
+    @each $name, $degree in $degrees {
+        .rotate-#{$name}#{$breakpoint-name} {
+            transform: rotate($degree);
+        }
+    }
+    .rotate-none#{$breakpoint-name} {
+        transform: rotate(0);
+    }
+  }
+  
+  @each $breakpoint-name, $breakpoint in $breakpoints {
+    @if ($breakpoint != "") {
+      @media #{$breakpoint} {
+        @include rotate($breakpoint-name);
+      }
+    } @else {
+      @include rotate;
+    }
+  }
+  

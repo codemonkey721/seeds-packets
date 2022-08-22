@@ -16196,6 +16196,114 @@ Modifiers:
 
 /*
 ---
+Name: Rotate
+Base:
+    Rotate: Rotate
+Modifiers:
+    -none: None
+    45: 45deg
+    90: 90deg
+    180: 180deg
+    360: 360deg
+    -45: -45deg
+    -90: -90deg
+    -180: -180deg
+    -360: -360deg
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+---
+*/
+.rotate-45 {
+  transform: rotate(45deg); }
+
+.rotate-90 {
+  transform: rotate(90deg); }
+
+.rotate-180 {
+  transform: rotate(180deg); }
+
+.rotate-360 {
+  transform: rotate(360deg); }
+
+.rotate--45 {
+  transform: rotate(-45deg); }
+
+.rotate--90 {
+  transform: rotate(-90deg); }
+
+.rotate--180 {
+  transform: rotate(-180deg); }
+
+.rotate--360 {
+  transform: rotate(-360deg); }
+
+.rotate-none {
+  transform: rotate(0); }
+
+@media screen and (min-width: 480px) {
+  .rotate-45-ns {
+    transform: rotate(45deg); }
+  .rotate-90-ns {
+    transform: rotate(90deg); }
+  .rotate-180-ns {
+    transform: rotate(180deg); }
+  .rotate-360-ns {
+    transform: rotate(360deg); }
+  .rotate--45-ns {
+    transform: rotate(-45deg); }
+  .rotate--90-ns {
+    transform: rotate(-90deg); }
+  .rotate--180-ns {
+    transform: rotate(-180deg); }
+  .rotate--360-ns {
+    transform: rotate(-360deg); }
+  .rotate-none-ns {
+    transform: rotate(0); } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .rotate-45-m {
+    transform: rotate(45deg); }
+  .rotate-90-m {
+    transform: rotate(90deg); }
+  .rotate-180-m {
+    transform: rotate(180deg); }
+  .rotate-360-m {
+    transform: rotate(360deg); }
+  .rotate--45-m {
+    transform: rotate(-45deg); }
+  .rotate--90-m {
+    transform: rotate(-90deg); }
+  .rotate--180-m {
+    transform: rotate(-180deg); }
+  .rotate--360-m {
+    transform: rotate(-360deg); }
+  .rotate-none-m {
+    transform: rotate(0); } }
+
+@media screen and (min-width: 960px) {
+  .rotate-45-l {
+    transform: rotate(45deg); }
+  .rotate-90-l {
+    transform: rotate(90deg); }
+  .rotate-180-l {
+    transform: rotate(180deg); }
+  .rotate-360-l {
+    transform: rotate(360deg); }
+  .rotate--45-l {
+    transform: rotate(-45deg); }
+  .rotate--90-l {
+    transform: rotate(-90deg); }
+  .rotate--180-l {
+    transform: rotate(-180deg); }
+  .rotate--360-l {
+    transform: rotate(-360deg); }
+  .rotate-none-l {
+    transform: rotate(0); } }
+
+/*
+---
 Name: Scroll Snap
 Base:
     scroll-snap: Scroll Snap
