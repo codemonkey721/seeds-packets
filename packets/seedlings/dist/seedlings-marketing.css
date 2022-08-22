@@ -16198,21 +16198,22 @@ Modifiers:
 ---
 Name: Rotate
 Base:
-    Rotate: Rotate
+    rotate: Rotate
 Modifiers:
     -none: None
-    45: 45deg
-    90: 90deg
-    180: 180deg
-    360: 360deg
-    -45: -45deg
-    -90: -90deg
-    -180: -180deg
-    -360: -360deg
+    -45: 45deg
+    -90: 90deg
+    -180: 180deg
+    -360: 360deg
+    --45: -45deg
+    --90: -90deg
+    --180: -180deg
+    --360: -360deg
 Breakpoints:
     -ns: not-small
     -m: medium
     -l: large
+Example: <div class="db square700 overflow-hidden {{modifier}}"><img src="https://media.sproutsocial.com/uploads/LGO_Shopify-2.svg" loading="lazy" /></div><p>{{label}}</p>
 ---
 */
 .rotate-45 {
