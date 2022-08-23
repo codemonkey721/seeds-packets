@@ -23,6 +23,8 @@ jobs:
         run: yarn
       - name: Build
         run: yarn build
+      - name: Log in to git
+        run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
       - name: Version
         run: npx lerna version --conventional-commits --yes
         env:
