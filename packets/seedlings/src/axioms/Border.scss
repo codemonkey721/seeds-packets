@@ -10,6 +10,8 @@ $radiusSizes: (
         0: 0,
         500: $Border-radius--400,
         600: $Border-radius--600,
+        700: 12px,
+        800: 16px,
         1000: $Border-radius--1000,
         --round: 50%
 );
