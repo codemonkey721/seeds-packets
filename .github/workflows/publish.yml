@@ -18,16 +18,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.14.2
+          registry-url: 'https://registry.npmjs.org'
+      - name: Configure git user
+        run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
       - name: Setup .npmrc
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .npmrc
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
       - name: Install Dependencies
         run: yarn
       - name: Build
         run: yarn build
-      - name: Log into git
-        run: git config --global user.email “techops+sproutjenkins@sproutsocial.com” && git config --global user.name “Sprout Jenkins”
       - name: Publish
-        run: npx lerna publish from-package --no-push --yes --verify-access
+        run: npx lerna publish from-package --no-push --yes
         env:
-          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
