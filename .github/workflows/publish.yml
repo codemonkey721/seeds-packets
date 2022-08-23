@@ -25,7 +25,7 @@ jobs:
         run: |
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .npmrc
       - name: Check if able to publish changes
-        run: npm adduser && npm whoami
+        run: npm install -g npm@6 && npm whoami
       - name: Install Dependencies
         run: yarn
       - name: Build
