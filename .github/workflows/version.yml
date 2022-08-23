@@ -26,7 +26,7 @@ jobs:
       - name: Log in to git
         run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
       - name: Version
-        run: npx lerna version --conventional-commits --yes
+        run: npx lerna version --conventional-commits --yes --verify-access
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
