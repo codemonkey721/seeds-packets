@@ -26,7 +26,9 @@ jobs:
       - name: Build
         run: yarn build
       - name: Log into git
-        run: git config --global user.email “techops+sproutjenkins@sproutsocial.com” && git config --global user.name “Sprout Jenkins”
+        run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
+      - name: WHOMAMI
+        run: npm whoami
       - name: Publish
         run: npx lerna publish from-package --no-push --yes --verify-access
         env:
