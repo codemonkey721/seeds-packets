@@ -27,9 +27,7 @@ jobs:
         run: yarn build
       - name: Log into git
         run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
-      - name: Add user
-        run: npm adduser
       - name: Publish
-        run: npx lerna publish from-package --no-push --yes --verify-access
+        run: npx lerna publish from-package --no-push --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
