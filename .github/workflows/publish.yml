@@ -23,12 +23,12 @@ jobs:
         run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
       - name: Setup .npmrc
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > .npmrc
-      - name: Check if able to publish changes
-        run: npm install -g npm@6 && npm whoami
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
       - name: Install Dependencies
         run: yarn
       - name: Build
         run: yarn build
       - name: Publish
-        run: npx lerna publish from-package --no-push --yes --no-verify-access
+        run: npx lerna publish from-package --no-push --yes
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
