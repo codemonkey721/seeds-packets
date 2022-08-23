@@ -28,6 +28,6 @@ jobs:
       - name: Log into git
         run: git config --global user.email "techops+sproutjenkins@sproutsocial.com" && git config --global user.name "Sprout Jenkins"
       - name: Publish
-        run: npx lerna publish from-package --no-push --yes
+        run: npx lerna publish from-package --no-push --yes --no-verify-access
         env:
           NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
