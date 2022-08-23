@@ -173,6 +173,55 @@ Modifiers:
 
 /*
 ---
+Name: Aspect Ratio
+Base:
+    aspect-ratio: Aspect Ratio
+Modifiers:
+    -auto: Auto
+    -square: Square
+    -video: Video (16 / 9)
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+Example: <img class="db fit-cover {{modifier}}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 720 460'%3E%3Cpath fill='%23DEE1E1' d='M0 0h720v460H0z'/%3E%3Cg fill='%23B1B6B7'%3E%3Cpath d='M185.1 92.4v275.1h349.7V92.4H185.1zm321.6 245.3H215V122.3h291.7v215.4z'/%3E%3Cpath d='M230.1 314.9l60.4-63.5 22.6 9.8 71.4-76 28.1 33.6 12.7-7.6 68.6 103.7'/%3E%3Ccircle cx='299.9' cy='176.8' r='26.4'/%3E%3C/g%3E%3C/svg%3E" loading="lazy" /><p>{{label}}</p>
+---
+*/
+.aspect-ratio-auto {
+  aspect-ratio: auto; }
+
+.aspect-ratio-square {
+  aspect-ratio: 1 / 1; }
+
+.aspect-ratio-video {
+  aspect-ratio: 16 / 9; }
+
+@media screen and (min-width: 480px) {
+  .aspect-ratio-auto-ns {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-ns {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-ns {
+    aspect-ratio: 16 / 9; } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .aspect-ratio-auto-m {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-m {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-m {
+    aspect-ratio: 16 / 9; } }
+
+@media screen and (min-width: 960px) {
+  .aspect-ratio-auto-l {
+    aspect-ratio: auto; }
+  .aspect-ratio-square-l {
+    aspect-ratio: 1 / 1; }
+  .aspect-ratio-video-l {
+    aspect-ratio: 16 / 9; } }
+
+/*
+---
 Name: Background Position
 Base:
     bg: background
@@ -7161,6 +7210,8 @@ Modifiers:
     0: 0
     500: 500
     600: 600
+    700: 700 (12px)
+    800: 800 (16px)
     1000: 1000
     --round: 50%
     --top: top only
@@ -7186,6 +7237,12 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
 .br600 {
   border-radius: 8px; }
 
+.br700 {
+  border-radius: 12px; }
+
+.br800 {
+  border-radius: 16px; }
+
 .br1000 {
   border-radius: 999999px; }
 
@@ -7199,6 +7256,10 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
     border-radius: 4px; }
   .br600-ns {
     border-radius: 8px; }
+  .br700-ns {
+    border-radius: 12px; }
+  .br800-ns {
+    border-radius: 16px; }
   .br1000-ns {
     border-radius: 999999px; }
   .br--round-ns {
@@ -7211,6 +7272,10 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
     border-radius: 4px; }
   .br600-m {
     border-radius: 8px; }
+  .br700-m {
+    border-radius: 12px; }
+  .br800-m {
+    border-radius: 16px; }
   .br1000-m {
     border-radius: 999999px; }
   .br--round-m {
@@ -7223,6 +7288,10 @@ Example: <div class="db square750 bg--neutral-200 overflow-hidden {{modifier}}">
     border-radius: 4px; }
   .br600-l {
     border-radius: 8px; }
+  .br700-l {
+    border-radius: 12px; }
+  .br800-l {
+    border-radius: 16px; }
   .br1000-l {
     border-radius: 999999px; }
   .br--round-l {
@@ -16193,6 +16262,115 @@ Modifiers:
 @media print {
   .break {
     page-break-before: always; } }
+
+/*
+---
+Name: Rotate
+Base:
+    rotate: Rotate
+Modifiers:
+    -none: None
+    -45: 45deg
+    -90: 90deg
+    -180: 180deg
+    -360: 360deg
+    --45: -45deg
+    --90: -90deg
+    --180: -180deg
+    --360: -360deg
+Breakpoints:
+    -ns: not-small
+    -m: medium
+    -l: large
+Example: <div class="db square700 overflow-hidden {{modifier}}"><img src="https://media.sproutsocial.com/uploads/LGO_Shopify-2.svg" loading="lazy" /></div><p>{{label}}</p>
+---
+*/
+.rotate-45 {
+  transform: rotate(45deg); }
+
+.rotate-90 {
+  transform: rotate(90deg); }
+
+.rotate-180 {
+  transform: rotate(180deg); }
+
+.rotate-360 {
+  transform: rotate(360deg); }
+
+.rotate--45 {
+  transform: rotate(-45deg); }
+
+.rotate--90 {
+  transform: rotate(-90deg); }
+
+.rotate--180 {
+  transform: rotate(-180deg); }
+
+.rotate--360 {
+  transform: rotate(-360deg); }
+
+.rotate-none {
+  transform: rotate(0); }
+
+@media screen and (min-width: 480px) {
+  .rotate-45-ns {
+    transform: rotate(45deg); }
+  .rotate-90-ns {
+    transform: rotate(90deg); }
+  .rotate-180-ns {
+    transform: rotate(180deg); }
+  .rotate-360-ns {
+    transform: rotate(360deg); }
+  .rotate--45-ns {
+    transform: rotate(-45deg); }
+  .rotate--90-ns {
+    transform: rotate(-90deg); }
+  .rotate--180-ns {
+    transform: rotate(-180deg); }
+  .rotate--360-ns {
+    transform: rotate(-360deg); }
+  .rotate-none-ns {
+    transform: rotate(0); } }
+
+@media screen and (min-width: 480px) and (max-width: 959px) {
+  .rotate-45-m {
+    transform: rotate(45deg); }
+  .rotate-90-m {
+    transform: rotate(90deg); }
+  .rotate-180-m {
+    transform: rotate(180deg); }
+  .rotate-360-m {
+    transform: rotate(360deg); }
+  .rotate--45-m {
+    transform: rotate(-45deg); }
+  .rotate--90-m {
+    transform: rotate(-90deg); }
+  .rotate--180-m {
+    transform: rotate(-180deg); }
+  .rotate--360-m {
+    transform: rotate(-360deg); }
+  .rotate-none-m {
+    transform: rotate(0); } }
+
+@media screen and (min-width: 960px) {
+  .rotate-45-l {
+    transform: rotate(45deg); }
+  .rotate-90-l {
+    transform: rotate(90deg); }
+  .rotate-180-l {
+    transform: rotate(180deg); }
+  .rotate-360-l {
+    transform: rotate(360deg); }
+  .rotate--45-l {
+    transform: rotate(-45deg); }
+  .rotate--90-l {
+    transform: rotate(-90deg); }
+  .rotate--180-l {
+    transform: rotate(-180deg); }
+  .rotate--360-l {
+    transform: rotate(-360deg); }
+  .rotate-none-l {
+    transform: rotate(0); } }
 
 /*
 ---

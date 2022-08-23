@@ -32,6 +32,7 @@ $grid-width: setUnits(1248px) !default;
 @import 'src/forms'; // This needs to go first so the reset styles can be overridden later
 @import 'src/accessibility';
 @import 'src/animation';
+@import 'src/aspect-ratio';
 @import 'src/background-position';
 @import 'src/background-size';
 @import 'src/background'; // This needs to fall after the other background utilities in the cascade
@@ -61,6 +62,7 @@ $grid-width: setUnits(1248px) !default;
 @import 'src/pointer-events';
 @import 'src/position';
 @import 'src/print';
+@import 'src/rotate';
 @import 'src/scroll-snap';
 @import 'src/separated';
 @import 'src/shadow';
