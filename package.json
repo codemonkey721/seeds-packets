@@ -19,7 +19,9 @@
   },
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "clean": "rm -rf node_modules && lerna clean --yes",
+    "clean:dist": "lerna exec -- rm -rf dist"
   },
   "lint-staged": {
     "**/*.js": [
