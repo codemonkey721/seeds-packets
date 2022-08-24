@@ -21,5 +21,8 @@
     "rimraf": "^2.6.3",
     "style-dictionary": "^2.7.0",
     "tinycolor2": "^1.4.1"
+  },
+  "engines": {
+    "node": ">= 10.18.0"
   }
 }

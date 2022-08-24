@@ -12,5 +12,8 @@
   "scripts": {},
   "dependencies": {
     "@sproutsocial/seeds-color": "^1.5.5"
+  },
+  "engines": {
+    "node": ">= 10.18.0"
   }
 }
