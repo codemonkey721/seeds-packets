@@ -10,7 +10,7 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf node_modules"
+    "clean": "rm -rf node_modules"
   },
   "dependencies": {
     "@sproutsocial/seeds-color": "^1.5.5"
