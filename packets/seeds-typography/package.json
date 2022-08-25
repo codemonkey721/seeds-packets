@@ -10,7 +10,8 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "clean": "rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
     "@sproutsocial/seeds-utils": "^1.2.2"
