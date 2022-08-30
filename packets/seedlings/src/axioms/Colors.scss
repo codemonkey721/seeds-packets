@@ -256,6 +256,10 @@ $colors-networks: (
         ),
         yelp: (
                 default: $NetworkColor-yelp
+        ),
+        tiktok: (
+                default: $NetworkColor-tiktok,
+                red: rgb(254, 44, 85) // Taken from https://tiktokbrandbook.com/d/HhXfjVK1Poj9/design#/basics/color
         )
 ) !default;
 
