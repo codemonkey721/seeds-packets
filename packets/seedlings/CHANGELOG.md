@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.16.3...@sproutsocial/seedlings@1.17.0) (2022-08-30)
+
+
+### Bug Fixes
+
+* add aspect ratio utilities ([8db9ace](https://github.com/sproutsocial/seeds-packets/commit/8db9ace114da48dd127f4830bf506525dcf3cb2f))
+* add tiktok red to colors ([f390d4b](https://github.com/sproutsocial/seeds-packets/commit/f390d4b25a8b22a2dfccee3c354ac99110955a05))
+* adds a rotate utility ([cbc7c47](https://github.com/sproutsocial/seeds-packets/commit/cbc7c47eb3059b637a3dc275bbd4d9fe568070a3))
+* adds additional border-radius values ([4568986](https://github.com/sproutsocial/seeds-packets/commit/4568986f86f4f819c5c8e86525c45c4f8ba27425))
+* noop commit to include opacity colors to seedlings ([5012108](https://github.com/sproutsocial/seeds-packets/commit/5012108b07eb25d737a6c79cc898c79c657c4afa))
+
+
+### Features
+
+* chore noop to version bump seedlings ([889afb7](https://github.com/sproutsocial/seeds-packets/commit/889afb7a5e5e2b3e5aa88c73431b3c3a7c048fae))
+
+
+
+
+
 ## [1.16.3](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seedlings@1.16.2...@sproutsocial/seedlings@1.16.3) (2022-08-18)
 
 **Note:** Version bump only for package @sproutsocial/seedlings
