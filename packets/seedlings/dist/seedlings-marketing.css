@@ -8682,6 +8682,36 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .hover-c--link-subtle:hover {
   color: #364141; }
 
+.c--teal-100-o-80p {
+  background-color: rgba(205, 247, 239, 0.8); }
+
+.c--teal-600-o-40p {
+  background-color: rgba(0, 169, 156, 0.4); }
+
+.c--teal-700-o-20p {
+  background-color: rgba(11, 150, 143, 0.2); }
+
+.c--teal-700-o-30p {
+  background-color: rgba(11, 150, 143, 0.3); }
+
+.c--teal-1000-o-40p {
+  background-color: rgba(8, 63, 63, 0.4); }
+
+.c--blue-700-o-20p {
+  background-color: rgba(32, 121, 195, 0.2); }
+
+.c--neutral-0-o-10p {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.c--neutral-0-o-30p {
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.c--neutral-0-o-40p {
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.c--neutral-0-o-80p {
+  background-color: rgba(255, 255, 255, 0.8); }
+
 @media screen and (min-width: 480px) {
   .c--twitter-ns {
     color: #1da1f2; }
