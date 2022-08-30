@@ -437,6 +437,12 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 .bg--yelp {
   background-color: #FF1A1A; }
 
+.bg--tiktok {
+  background-color: #000000; }
+
+.bg--tiktok-red {
+  background-color: #fe2c55; }
+
 .hover-bg--twitter:hover {
   background-color: #1da1f2; }
 
@@ -490,6 +496,12 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
 
 .hover-bg--yelp:hover {
   background-color: #FF1A1A; }
+
+.hover-bg--tiktok:hover {
+  background-color: #000000; }
+
+.hover-bg--tiktok-red:hover {
+  background-color: #fe2c55; }
 
 .bg--green-0 {
   background-color: #ebf9eb; }
@@ -1608,6 +1620,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .bg--yelp-ns {
     background-color: #FF1A1A; }
+  .bg--tiktok-ns {
+    background-color: #000000; }
+  .bg--tiktok-red-ns {
+    background-color: #fe2c55; }
   .hover-bg--twitter-ns:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-ns:hover {
@@ -1644,6 +1660,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .hover-bg--yelp-ns:hover {
     background-color: #FF1A1A; }
+  .hover-bg--tiktok-ns:hover {
+    background-color: #000000; }
+  .hover-bg--tiktok-red-ns:hover {
+    background-color: #fe2c55; }
   .bg--green-0-ns {
     background-color: #ebf9eb; }
   .bg--green-100-ns {
@@ -2402,6 +2422,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .bg--yelp-m {
     background-color: #FF1A1A; }
+  .bg--tiktok-m {
+    background-color: #000000; }
+  .bg--tiktok-red-m {
+    background-color: #fe2c55; }
   .hover-bg--twitter-m:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-m:hover {
@@ -2438,6 +2462,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .hover-bg--yelp-m:hover {
     background-color: #FF1A1A; }
+  .hover-bg--tiktok-m:hover {
+    background-color: #000000; }
+  .hover-bg--tiktok-red-m:hover {
+    background-color: #fe2c55; }
   .bg--green-0-m {
     background-color: #ebf9eb; }
   .bg--green-100-m {
@@ -3196,6 +3224,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .bg--yelp-l {
     background-color: #FF1A1A; }
+  .bg--tiktok-l {
+    background-color: #000000; }
+  .bg--tiktok-red-l {
+    background-color: #fe2c55; }
   .hover-bg--twitter-l:hover {
     background-color: #1da1f2; }
   .hover-bg--facebook-l:hover {
@@ -3232,6 +3264,10 @@ Example: <div class="db pa300 {{modifier}}">{{label}}</div>
     background-color: #25D366; }
   .hover-bg--yelp-l:hover {
     background-color: #FF1A1A; }
+  .hover-bg--tiktok-l:hover {
+    background-color: #000000; }
+  .hover-bg--tiktok-red-l:hover {
+    background-color: #fe2c55; }
   .bg--green-0-l {
     background-color: #ebf9eb; }
   .bg--green-100-l {
@@ -7532,6 +7568,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 .c--yelp {
   color: #FF1A1A; }
 
+.c--tiktok {
+  color: #000000; }
+
+.c--tiktok-red {
+  color: #fe2c55; }
+
 .hover-c--twitter:hover {
   color: #1da1f2; }
 
@@ -7585,6 +7627,12 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
 
 .hover-c--yelp:hover {
   color: #FF1A1A; }
+
+.hover-c--tiktok:hover {
+  color: #000000; }
+
+.hover-c--tiktok-red:hover {
+  color: #fe2c55; }
 
 .c--green-0 {
   color: #ebf9eb; }
@@ -8671,6 +8719,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .c--yelp-ns {
     color: #FF1A1A; }
+  .c--tiktok-ns {
+    color: #000000; }
+  .c--tiktok-red-ns {
+    color: #fe2c55; }
   .hover-c--twitter-ns:hover {
     color: #1da1f2; }
   .hover-c--facebook-ns:hover {
@@ -8707,6 +8759,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .hover-c--yelp-ns:hover {
     color: #FF1A1A; }
+  .hover-c--tiktok-ns:hover {
+    color: #000000; }
+  .hover-c--tiktok-red-ns:hover {
+    color: #fe2c55; }
   .c--green-0-ns {
     color: #ebf9eb; }
   .c--green-100-ns {
@@ -9464,6 +9520,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .c--yelp-m {
     color: #FF1A1A; }
+  .c--tiktok-m {
+    color: #000000; }
+  .c--tiktok-red-m {
+    color: #fe2c55; }
   .hover-c--twitter-m:hover {
     color: #1da1f2; }
   .hover-c--facebook-m:hover {
@@ -9500,6 +9560,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .hover-c--yelp-m:hover {
     color: #FF1A1A; }
+  .hover-c--tiktok-m:hover {
+    color: #000000; }
+  .hover-c--tiktok-red-m:hover {
+    color: #fe2c55; }
   .c--green-0-m {
     color: #ebf9eb; }
   .c--green-100-m {
@@ -10257,6 +10321,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .c--yelp-l {
     color: #FF1A1A; }
+  .c--tiktok-l {
+    color: #000000; }
+  .c--tiktok-red-l {
+    color: #fe2c55; }
   .hover-c--twitter-l:hover {
     color: #1da1f2; }
   .hover-c--facebook-l:hover {
@@ -10293,6 +10361,10 @@ Example: <div class="f500 {{modifier}}"><p>The quick brown fox jumped over the l
     color: #25D366; }
   .hover-c--yelp-l:hover {
     color: #FF1A1A; }
+  .hover-c--tiktok-l:hover {
+    color: #000000; }
+  .hover-c--tiktok-red-l:hover {
+    color: #fe2c55; }
   .c--green-0-l {
     color: #ebf9eb; }
   .c--green-100-l {
