@@ -9,8 +9,13 @@
   },
   "author": "Sprout Social, Inc.",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "clean": "rm -rf node_modules"
+  },
   "dependencies": {
     "@sproutsocial/seeds-color": "^1.5.5"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
   }
 }
