@@ -1,5 +1,6 @@
 {
   "name": "@sproutsocial/seeds-packets",
+  "private": true,
   "version": "0.4.0",
   "description": "Design tokens for Sprout Social's design system, Seeds.",
   "repository": {
@@ -8,7 +9,6 @@
   },
   "author": "Sprout Social, Inc.",
   "license": "MIT",
-  "private": true,
   "workspaces": {
     "packages": [
       "packets/*"
@@ -19,8 +19,13 @@
   },
   "scripts": {
     "format:prettier": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
-    "build": "lerna run build",
-    "clean": "lerna run clean"
+    "build": "turbo run build",
+    "clean": "turbo run clean"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "**/*.js": [
@@ -28,25 +33,20 @@
     ]
   },
   "devDependencies": {
+    "@changesets/cli": "^2.24.4",
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-conventional": "^12.0.0",
     "husky": "^2.3.0",
     "lerna": "5.4.3",
     "lint-staged": "^9.5.0",
-    "lodash.upperfirst": "^4.3.1",
     "prettier-eslint": "^12.0.0",
-    "prettier-eslint-cli": "^5.0.0"
+    "prettier-eslint-cli": "^5.0.0",
+    "turbo": "^1.4.6"
   },
   "resolutions": {
     "lodash": "^4.17.21",
     "parse-url": "^8.1.0",
     "@lerna/conventional-commits": "^4.0.0",
     "globby": "^10.0.2"
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS || (echo \"\nRead about commit message formatting here: https://github.com/sproutsocial/seeds-packets#committing-changes\" && exit 1)",
-      "pre-commit": "lint-staged"
-    }
   }
 }
