@@ -33,6 +33,18 @@
         }
       ]
     },
+    "web/ts": {
+      "transformGroup": "ts",
+      "transforms": ["name/cti/constant"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "seeds-networkcolor.d.ts",
+          "format": "template/ts-exports",
+          "options": { "showFileHeader": false }
+        }
+      ]
+    },
     "sketch": {
       "transforms": ["attribute/rgb", "attribute/cti", "attribute/color", "attribute/tokens"],
       "buildPath": "dist/",

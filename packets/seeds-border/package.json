@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "Seeds Border Tokens",
   "main": "dist/seeds-border.js",
+  "types": "dist/seeds-border.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"

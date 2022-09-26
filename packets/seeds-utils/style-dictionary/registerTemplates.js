@@ -4,17 +4,17 @@ const path = require('path');
 
 // This helper allows us to check for equality in Handlebars
 // ex: {{#ifEquals arg1 arg2}}
-Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
   return arg1 == arg2 ? options.fn(this) : options.inverse(this);
 });
 
 // Used to format JSON output and get proper string escaping
-Handlebars.registerHelper('json', function(context) {
+Handlebars.registerHelper('json', function (context) {
   return JSON.stringify(context);
 });
 
 // Used to format RGB values from 0-255 to 0-1
-Handlebars.registerHelper('rgb', function(value) {
+Handlebars.registerHelper('rgb', function (value) {
   return value / 255;
 });
 
@@ -29,6 +29,8 @@ const templates = {
   'js-exports-number': 'js-exports-number.hbs',
   'js-exports-typography': 'js-exports-typography.hbs',
   'js-exports-typography-unitless': 'js-exports-typography-unitless.hbs',
+  'ts-exports': 'ts-exports.hbs',
+  'ts-exports-typography': 'ts-exports-typography.hbs',
   json: 'json.hbs',
   'color-json': 'color-json.hbs',
   'typography-json': 'typography-json.hbs',
@@ -36,23 +38,23 @@ const templates = {
   'typography-css': 'typography-css.hbs',
   'space-css': 'space-css.hbs',
   'space-json': 'space-json.hbs',
-  sketch: 'sketch.hbs'
+  sketch: 'sketch.hbs',
 };
 
 // Loop over every template file, get the Handlebars template, and register it
 // as a format with the given StyleDictionary object.
 function registerTemplates(styleDictionary) {
-  Object.keys(templates).map(template => {
+  Object.keys(templates).map((template) => {
     const handlebarsTemplate = getTemplateForFile(`templates/${templates[template]}`);
 
     styleDictionary.registerFormat({
       name: `template/${template}`,
-      formatter: function(dictionary, platform) {
+      formatter: function (dictionary, platform) {
         return handlebarsTemplate({
           properties: dictionary.properties,
-          options: platform
+          options: platform,
         });
-      }
+      },
     });
   });
 }
