@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-border@1.1.2...@sproutsocial/seeds-border@1.2.0) (2022-09-27)
+
+
+### Features
+
+* add typescript support ([24e718a](https://github.com/sproutsocial/seeds-packets/commit/24e718a26955f40b5645ba86600ff8aa8ba941fa))
+
+
+
+
+
 ## [1.1.2](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-border@1.1.1...@sproutsocial/seeds-border@1.1.2) (2022-06-13)
 
 **Note:** Version bump only for package @sproutsocial/seeds-border

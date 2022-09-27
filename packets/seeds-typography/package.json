@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-typography",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "description": "Seeds Typography Tokens",
   "main": "dist/seeds-typography.js",
   "types": "dist/seeds-typography.d.ts",
@@ -15,7 +15,7 @@
     "clean": "rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
-    "@sproutsocial/seeds-utils": "^1.2.2"
+    "@sproutsocial/seeds-utils": "^1.3.0"
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
