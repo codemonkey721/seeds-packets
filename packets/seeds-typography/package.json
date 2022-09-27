@@ -3,6 +3,7 @@
   "version": "3.1.1",
   "description": "Seeds Typography Tokens",
   "main": "dist/seeds-typography.js",
+  "types": "dist/seeds-typography.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"

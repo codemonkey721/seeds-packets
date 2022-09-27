@@ -1,0 +1,7 @@
+{{#each properties as |property|}}
+{{#each property as |category|}}
+{{#each category as |item|}}
+export const {{ item.name }}: string;
+{{/each}}
+{{/each}}
+{{/each}}

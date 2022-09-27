@@ -45,6 +45,18 @@
         }
       ]
     },
+    "web/ts": {
+      "transformGroup": "ts",
+      "transforms": ["name/cti/constant"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "seeds-space.d.ts",
+          "format": "template/ts-exports",
+          "options": { "showFileHeader": false }
+        }
+      ]
+    },
     "json": {
       "transforms": ["attribute/cti", "attribute/tokens", "size/px", "attribute/space"],
       "buildPath": "dist/",
