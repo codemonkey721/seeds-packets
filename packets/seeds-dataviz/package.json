@@ -3,6 +3,9 @@
   "version": "0.6.1",
   "description": "Seeds Data Visualization Tokens",
   "main": "dist/seeds-dataviz.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"
