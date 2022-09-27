@@ -45,6 +45,18 @@
         }
       ]
     },
+    "web/ts": {
+      "transformGroup": "ts",
+      "transforms": ["name/cti/constant", "attribute/cti", "attribute/tokens", "attribute/typography"],
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "seeds-typography.d.ts",
+          "format": "template/ts-exports-typography",
+          "options": { "showFileHeader": false }
+        }
+      ]
+    },
     "json": {
       "transforms": ["attribute/cti", "attribute/tokens", "attribute/typography"],
       "buildPath": "dist/",

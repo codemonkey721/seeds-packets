@@ -1,0 +1,16 @@
+{{#each properties as |category|}}
+{{#each category as |item|}}
+{{#ifEquals @key "size"}}
+{{#each item as |size|}}
+export const {{ size.name }}: {
+	fontSize: string;
+	lineHeight: string;
+};
+{{/each}}
+{{else}}
+{{#each item as |other|}}
+export const {{ other.name }}: string;
+{{/each}}
+{{/ifEquals}}
+{{/each}}
+{{/each}}
