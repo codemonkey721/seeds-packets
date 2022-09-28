@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-dataviz@0.5.10...@sproutsocial/seeds-dataviz@0.6.0) (2022-09-27)
+
+
+### Features
+
+* add typescript support ([24e718a](https://github.com/sproutsocial/seeds-packets/commit/24e718a26955f40b5645ba86600ff8aa8ba941fa))
+
+
+
+
+
 ## [0.5.10](https://github.com/sproutsocial/seeds-packets/compare/@sproutsocial/seeds-dataviz@0.5.8...@sproutsocial/seeds-dataviz@0.5.10) (2022-06-22)
 
 **Note:** Version bump only for package @sproutsocial/seeds-dataviz

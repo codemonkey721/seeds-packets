@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   release:
-    if: github.event.pull_request.merged != true
+    if: github.event_name == "push" # on.push can be triggered by pull_request.merged, apparently.
     name: Build and publish seeds-packets
     runs-on: ubuntu-latest
     steps:
