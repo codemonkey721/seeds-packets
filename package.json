@@ -12,6 +12,9 @@
   "workspaces": {
     "packages": [
       "packets/*"
+    ],
+    "nohoist": [
+      "**/@sproutsocial/seeds-*"
     ]
   },
   "scripts": {
