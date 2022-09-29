@@ -13,7 +13,8 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "clean": "rm -rf node_modules"
+    "build": "node build.js",
+    "clean": "rm -rf dist && rm -rf node_modules"
   },
   "dependencies": {
     "@sproutsocial/seeds-color": "*"
