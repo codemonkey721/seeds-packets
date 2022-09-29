@@ -1,9 +1,9 @@
 {
-  "name": "@sproutsocial/seeds-color",
-  "version": "1.6.1",
-  "description": "Seeds Color Tokens",
-  "main": "dist/seeds-color.js",
-  "types": "dist/seeds-color.d.ts",
+  "name": "@sproutsocial/seeds-space",
+  "version": "0.5.1",
+  "description": "Seeds Space Tokens",
+  "main": "dist/seeds-space.js",
+  "types": "dist/seeds-space.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"
@@ -15,7 +15,7 @@
     "clean": "rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
-    "@sproutsocial/seeds-utils": "^1.3.3"
+    "@sproutsocial/seeds-utils": "*"
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"

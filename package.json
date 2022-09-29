@@ -11,7 +11,7 @@
   "license": "MIT",
   "workspaces": {
     "packages": [
-      "packets/*"
+      "packages/*"
     ],
     "nohoist": [
       "**/@sproutsocial/seeds-*"

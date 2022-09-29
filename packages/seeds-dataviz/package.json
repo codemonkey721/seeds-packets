@@ -16,7 +16,7 @@
     "clean": "rm -rf node_modules"
   },
   "dependencies": {
-    "@sproutsocial/seeds-color": "^1.6.1"
+    "@sproutsocial/seeds-color": "*"
   },
   "engines": {
     "node": "^14.15.0 || >=16.0.0"
