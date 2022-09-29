@@ -2,7 +2,7 @@ const StyleDictionary = require('style-dictionary');
 const pascalCase = require('pascal-case');
 const snakeCase = require('lodash.snakecase');
 const kebabCase = require('lodash.kebabcase');
-const constantCase = str => snakeCase(str).toUpperCase();
+const constantCase = (str) => snakeCase(str).toUpperCase();
 const getLineHeight = require('../getlineheight');
 const registerTemplates = require('./registerTemplates');
 const registerActions = require('./registerActions');
@@ -33,72 +33,72 @@ const getComponents = (path, separator1, separator2) => {
 StyleDictionary.registerTransform({
   name: 'scss/suit',
   type: 'name',
-  transformer: function(props) {
+  transformer: function (props) {
     return getComponents([pascalCase(props.path[0]), props.path[1], kebabCase(props.path[2])], '-', '--');
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'css/suit',
   type: 'name',
-  transformer: function(props) {
+  transformer: function (props) {
     return getComponents([kebabCase(props.path[0]), props.path[1], kebabCase(props.path[2])], '-', '-');
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'name/cti/constant',
   type: 'name',
-  transformer: function(props) {
+  transformer: function (props) {
     return getComponents(
       [constantCase(props.path[0]), constantCase(props.path[1]), constantCase(props.path[2])],
       '_',
       '_'
     );
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'name/ci/constant',
   type: 'name',
-  transformer: function(props) {
+  transformer: function (props) {
     const category = constantCase(props.path[0]);
     const item = constantCase(props.path[2]);
     return `${category}_${item}`;
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'name/ti/snake',
   type: 'name',
-  transformer: function(props) {
+  transformer: function (props) {
     return getComponents([null, snakeCase(props.path[1]), snakeCase(props.path[2])], '_', '_');
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'sketch/color',
   type: 'attribute',
-  transformer: function(props) {
+  transformer: function (props) {
     return {
       category: 'color',
-      type: 'base'
+      type: 'base',
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'size/px',
   type: 'value',
-  transformer: function(props) {
+  transformer: function (props) {
     return props.value + 'px';
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/tokens',
   type: 'attribute',
-  transformer: function(props) {
+  transformer: function (props) {
     const category = props.path[0];
     const type = props.path[1];
     const item = props.path[2];
@@ -110,18 +110,18 @@ StyleDictionary.registerTransform({
       css: `--${getComponents([category.replace(' ', ''), type, kebabCase(item)], '-', '--')}`,
       app: `${pascalCase(type)}${includeItem ? ` ${item}` : ''}`,
       javascript: `${getComponents([constantCase(category), constantCase(type), constantCase(item)], '_', '_')}`,
-      android: `${getComponents([null, snakeCase(props.path[1]), snakeCase(props.path[2])], '_', '_')}`
+      android: `${getComponents([null, snakeCase(props.path[1]), snakeCase(props.path[2])], '_', '_')}`,
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/typography',
   type: 'attribute',
-  matcher: function(props) {
+  matcher: function (props) {
     return props.attributes.type === 'size';
   },
-  transformer: function(props) {
+  transformer: function (props) {
     const lineHeightProportional = getLineHeight(props.attributes.item, props.value) / props.value;
     const lineHeightPx = getLineHeight(props.attributes.item, props.value);
     const remValue = props.value / BASE_FONT_SIZE;
@@ -129,92 +129,92 @@ StyleDictionary.registerTransform({
     return {
       lineHeightProportional: lineHeightProportional,
       lineHeightPx: lineHeightPx,
-      remValue: remValue + 'rem'
+      remValue: remValue + 'rem',
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/space',
   type: 'attribute',
-  matcher: function(props) {
+  matcher: function (props) {
     return props.attributes.type === 'size';
   },
-  transformer: function(props) {
+  transformer: function (props) {
     return {
-      remValue: props.original.value / BASE_FONT_SIZE
+      remValue: props.original.value / BASE_FONT_SIZE,
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/rgb',
   type: 'attribute',
-  transformer: function(props) {
+  transformer: function (props) {
     return {
-      rgb: Color(props.value).toRgb()
+      rgb: Color(props.value).toRgb(),
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/networkcolor',
   type: 'attribute',
-  transformer: function(props) {
+  transformer: function (props) {
     return {
-      category: 'color'
+      category: 'color',
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'attribute/bambu',
   type: 'attribute',
-  matcher: function(props) {
+  matcher: function (props) {
     return props.attributes.type.includes('bambu');
   },
-  transformer: function(props) {
+  transformer: function (props) {
     return {
-      category: 'bambu'
+      category: 'bambu',
     };
-  }
+  },
 });
 
 StyleDictionary.registerTransform({
   name: 'value/motion',
   type: 'value',
-  matcher: function(props) {
+  matcher: function (props) {
     return props.attributes.category.includes('motion');
   },
-  transformer: function(props) {
+  transformer: function (props) {
     if (props.attributes.type === 'duration') {
       return parseFloat(props.value.replace(/s/g, ''));
     } else {
       return "'" + props.value + "'";
     }
-  }
+  },
 });
 
 StyleDictionary.registerFormat({
   name: 'ase',
-  formatter: function(dictionary, config) {
-    const colors = dictionary.allProperties.map(property => {
+  formatter: function (dictionary, config) {
+    const colors = dictionary.allProperties.map((property) => {
       return {
         name: property.name,
         model: 'RGB',
         color: [property.attributes.rgb.r, property.attributes.rgb.g, property.attributes.rgb.b],
-        type: 'global'
+        type: 'global',
       };
     });
 
     const aseJSON = {
       version: '1.0',
       groups: [],
-      colors: colors
+      colors: colors,
     };
 
     return ase.encode(aseJSON);
-  }
+  },
 });
 
 registerTemplates(StyleDictionary);

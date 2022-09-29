@@ -3,7 +3,7 @@ const kebabCase = require('lodash.kebabcase');
 const pascalCase = require('pascal-case');
 const camelCase = require('lodash.camelcase');
 
-const constantCase = str => snakeCase(str).toUpperCase();
+const constantCase = (str) => snakeCase(str).toUpperCase();
 
 const javascriptConst = (type, name) => constantCase(`${type} ${name}`);
 
@@ -26,5 +26,5 @@ module.exports = {
   javascriptConst,
   cssPropertyName,
   sassVar,
-  suitCssName
+  suitCssName,
 };

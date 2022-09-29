@@ -13,7 +13,7 @@ const groupArrayBy = (array, key) =>
 function registerActions(styleDictionary) {
   styleDictionary.registerAction({
     name: 'ios-assets',
-    do: function(dictionary, config) {
+    do: function (dictionary, config) {
       const rootPath = config.buildPath + `ios/`;
       rimraf.sync(rootPath);
       fs.mkdirSync(rootPath);
@@ -23,8 +23,8 @@ function registerActions(styleDictionary) {
           {
             info: {
               version: 1,
-              author: 'xcode'
-            }
+              author: 'xcode',
+            },
           },
           null,
           2
@@ -34,7 +34,7 @@ function registerActions(styleDictionary) {
       const isNetwork = config.network === true ? true : false;
       const types = groupArrayBy(dictionary.allProperties, 'attributes.type');
 
-      Object.keys(types).forEach(type => {
+      Object.keys(types).forEach((type) => {
         const directory = pascalCase(type);
         fs.mkdirSync(rootPath + directory);
         fs.writeFileSync(
@@ -43,15 +43,15 @@ function registerActions(styleDictionary) {
             {
               info: {
                 version: 1,
-                author: 'xcode'
-              }
+                author: 'xcode',
+              },
             },
             null,
             2
           )
         );
 
-        types[type].forEach(item => {
+        types[type].forEach((item) => {
           const subdirectory = `${isNetwork ? '' : `${directory} `}${pascalCase(item.name)}.colorset`;
           fs.mkdirSync(rootPath + `${directory}/` + subdirectory);
 
@@ -65,7 +65,7 @@ function registerActions(styleDictionary) {
               {
                 info: {
                   version: 1,
-                  author: 'xcode'
+                  author: 'xcode',
                 },
                 colors: [
                   {
@@ -76,11 +76,11 @@ function registerActions(styleDictionary) {
                         red: `${red.toFixed(3)}`,
                         alpha: '1.000',
                         blue: `${blue.toFixed(3)}`,
-                        green: `${green.toFixed(3)}`
-                      }
-                    }
-                  }
-                ]
+                        green: `${green.toFixed(3)}`,
+                      },
+                    },
+                  },
+                ],
               },
               null,
               2
@@ -89,9 +89,9 @@ function registerActions(styleDictionary) {
         });
       });
     },
-    undo: function(dictionary, config) {
+    undo: function (dictionary, config) {
       rimraf.sync(config.buildPath + `ios`);
-    }
+    },
   });
 }
 
