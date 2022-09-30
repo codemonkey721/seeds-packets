@@ -8,14 +8,14 @@ You can view [the documentation for our design tokens](https://sproutsocial.com/
 
 We use [Lerna](https://lernajs.io) to manage inter-package dependencies in this monorepo.
 
-### Building Packages
+### Building packages
 
 To build Seeds packages, simply install dependencies by running `yarn` and build packets with `yarn build`.
 
 - `yarn build` - Build packages
 
 
-### Committing Changes
+### Committing changes
 
 We use [standard-version](https://github.com/conventional-changelog/standard-version) to automatically update the changelog and decide new version numbers. As such, we need commit messages to follow a consistent format (drawn from [conventional commits](https://conventionalcommits.org/)).
 
@@ -67,7 +67,7 @@ Feel free to suggest additional scope options.
 
 `footer` contains meta-information about pull requests, e.g. "fixes DS-999", referring to a Jira ticket.
 
-### Publishing Package Updates to npm
+### Publishing package updates to npm
 
 - Create a pull request against the `develop` branch
 - Get approval
