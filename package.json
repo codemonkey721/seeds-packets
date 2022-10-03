@@ -19,11 +19,12 @@
   },
   "scripts": {
     "build": "turbo run build",
-    "clean": "turbo run clean",
+    "clean": "turbo run clean && rm -rf node_modules",
     "format": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build && changeset publish"
+    "release": "turbo build && changeset publish",
+    "build:dataviz": "turbo build --filter=@sproutsocial/seeds-dataviz"
   },
   "husky": {
     "hooks": {

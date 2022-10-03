@@ -3,8 +3,10 @@
   "version": "0.6.1",
   "description": "Seeds Data Visualization Tokens",
   "main": "dist/seeds-dataviz.js",
+  "types": "dist/seeds-dataviz.d.ts",
   "files": [
-    "dist"
+    "seeds-dataviz.js",
+    "seeds-dataviz.scss"
   ],
   "repository": {
     "type": "git",
@@ -13,8 +15,7 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "build": "node build.js",
-    "clean": "rm -rf dist && rm -rf node_modules"
+    "clean": "rm -rf node_modules"
   },
   "dependencies": {
     "@sproutsocial/seeds-color": "*"
