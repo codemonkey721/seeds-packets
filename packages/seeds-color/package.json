@@ -4,6 +4,9 @@
   "description": "Seeds Color Tokens",
   "main": "dist/seeds-color.js",
   "types": "dist/seeds-color.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"

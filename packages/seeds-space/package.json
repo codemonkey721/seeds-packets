@@ -4,6 +4,9 @@
   "description": "Seeds Space Tokens",
   "main": "dist/seeds-space.js",
   "types": "dist/seeds-space.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"

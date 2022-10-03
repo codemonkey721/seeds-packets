@@ -4,6 +4,9 @@
   "description": "Seeds Motion and Animation Tokens",
   "main": "dist/seeds-motion.js",
   "types": "dist/seeds-motion.d.ts",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"

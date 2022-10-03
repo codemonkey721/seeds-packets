@@ -23,8 +23,7 @@
     "format": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo build && changeset publish",
-    "build:dataviz": "turbo build --filter=@sproutsocial/seeds-dataviz"
+    "release": "turbo build && changeset publish"
   },
   "husky": {
     "hooks": {
