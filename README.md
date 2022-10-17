@@ -6,7 +6,7 @@ You can view [the documentation for our design tokens](https://sproutsocial.com/
 
 ## Development
 
-We use [Yarn Workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/) to manage inter-package dependencies and [Turborepo] to manage the build process.
+We use [Yarn Workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/) to manage inter-package dependencies and [Turborepo](https://turborepo.org/) to manage the build process.
 
 ### Building packages
 
