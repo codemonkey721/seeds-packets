@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-dataviz",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Seeds Data Visualization Tokens",
   "main": "dist/seeds-dataviz.js",
   "types": "dist/seeds-dataviz.d.ts",
