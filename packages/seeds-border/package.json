@@ -1,0 +1,26 @@
+{
+  "name": "@sproutsocial/seeds-border",
+  "version": "1.2.2",
+  "description": "Seeds Border Tokens",
+  "main": "dist/seeds-border.js",
+  "types": "dist/seeds-border.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"
+  },
+  "author": "Sprout Social, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@sproutsocial/seeds-utils": "*"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  }
+}
