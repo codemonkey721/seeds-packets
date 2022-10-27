@@ -1,0 +1,26 @@
+{
+  "name": "@sproutsocial/seeds-color",
+  "version": "1.6.1",
+  "description": "Seeds Color Tokens",
+  "main": "dist/seeds-color.js",
+  "types": "dist/seeds-color.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"
+  },
+  "author": "Sprout Social, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@sproutsocial/seeds-utils": "*"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  }
+}

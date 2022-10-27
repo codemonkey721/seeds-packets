@@ -6,7 +6,7 @@ You can view [the documentation for our design tokens](https://sproutsocial.com/
 
 ## Development
 
-We use [Lerna](https://lernajs.io) to manage inter-package dependencies in this monorepo.
+We use [Yarn Workspaces](https://classic.yarnpkg.com/lang/en/docs/workspaces/) to manage inter-package dependencies and [Turborepo](https://turborepo.org/) to manage the build process.
 
 ### Building packages
 
@@ -14,96 +14,33 @@ To build Seeds packages, simply install dependencies by running `yarn` and build
 
 - `yarn build` - Build packages
 
+### Top Level Scripts
 
-### Committing changes
+- `yarn build` - Build all packages
+- `yarn clean` - Remove all build artifacts (node_modules, dist, etc.)
+- `yarn format` - Format all code with Prettier
+- `yarn changeset` - Generate a changeset(s) for a new release
+- `yarn version-packages` - Bump package versions and generate a changelog
+- `yarn ci:release` - Run build and then publish packages to npm
 
-We use [standard-version](https://github.com/conventional-changelog/standard-version) to automatically update the changelog and decide new version numbers. As such, we need commit messages to follow a consistent format (drawn from [conventional commits](https://conventionalcommits.org/)).
+*note: `yarn version-packages & yarn ci:release` is only run by our CI system and should not be run manually*
 
-Example commit messages (simply match this pattern and your commit message will be accepted):
-
-- `git commit -m "feat: add seeds-example packet"`
-- `git commit -m "fix(seeds-color): fix table layout for green colors" -m "fixes RD-999"`
-- `git commit -m "feat(seeds-border): add new 8px border radius token"`
-- `git commit -m "docs: update asset file paths"`
-- `git commit -m "feat(dependencies): upgrade classnames to 2.2.5"`
-- `git commit -m "chore(dependencies): upgrade babel dependencies to latest version"` (chore because they are devDependencies)
-- `git commit -m "feat(build): add linting to commit messages"`
-
-Commit message format:
-
-```
-type(scope?): subject
-
-body?
-
-footer?
-```
-
-`type` is one of the following:
-
-- **fix**: Solves a bug
-- **feat**: Adds a new feature
-- **build**: Affects the build system or external dependencies
-- **docs**: Adds or alters documentation
-- **perf**: Improves performance
-- **test**: Adds or modifies tests
-- **chore**: Other changes that don't modify `src` or `test` files
-
-`scope` is optional but, with few exceptions, should be used for all `feat` and `fix` commits. Common scopes include:
-
-- **[seeds-{Packet Name}]**: Changes to a Seeds packet
-- **dependencies**: Changes to `dependencies` should be `feat`, and `devDependencies` should be `chore`
-- **build**: Changes to the build that make significant changes to the published package, should be a `feat` or `fix`
-
-Feel free to suggest additional scope options.
-
-`subject` requirements:
-
-- starts with lower case
-- uses the imperative, present tense: "change" not "changed" nor "changes"
-- includes motivation for the change and contrasts with previous behavior
-
-`body` is optional and allows for more details to be added
-
-`footer` contains meta-information about pull requests, e.g. "fixes DS-999", referring to a Jira ticket.
-
-### Publishing package updates to npm
+### Contributing
 
 - Create a pull request against the `develop` branch
-- Get approval
-- Merge PR then create a new PR to the `main` branch and merge it. Jenkins will notify a successful build notifying that the seeds-packets were published to NPM, once that is complete create a final pull request from `main` to `develop`
+- Get approval and merge the pull request
+- A version PR labled `Version Packages` will be created automatically by the github-actions bot. This PR will bump the version of all packages that have changed since the last release and generate a changelog.
+- Get approval and merge the version PR
 
-
-### Testing packet changes locally
-
-Test any local packet in another project by utilizing [yarn link](https://yarnpkg.com/lang/en/docs/cli/link/). Below is an example workflow to link `seeds-packets` to `seeds`.
-
-* Navigate to your local copy of any Seeds packet in a terminal window
-
-  ```shell
-  $ cd ~/YourCodeFolder/seeds-packets/seeds-{packet name}
-  $ yarn link # only needs to be run once
-  $ yarn build
-  ```
-
-* Navigate to the folder where you wish to use the packets in your terminal (such as `seeds`) and complete the link
-
-  ```shell
-  $ cd ~/YourCodeFolder/seeds
-  $ yarn link "@sproutsocial/seeds-{packet name}"
-  $ yarn start
-  ```
-
-* You can now use any packet from your local instance of Seeds in your project.
-
-* **When you are done, be sure to unlink Seeds so you are using the published version of the packets**
-
-  ```
-  $ yarn unlink "@sproutsocial/seeds-{packet name}"
-  ```
-
-## Contributing
+All done! The new version of the package(s) will be published to npm automatically.
 
 ### Adding a new color and/or network color
 
 In order to add a new color to our color palette or network-branded color palette, you will need to make an edit to the tokens.json file within [seeds-color](https://github.com/sproutsocial/seeds-packets/blob/develop/packets/seeds-color/tokens.json) or [seeds-networkcolor](https://github.com/sproutsocial/seeds-packets/blob/develop/packets/seeds-networkcolor/tokens.json). After doing this, you can run `yarn build` and the build system will generate appropriate tokens for CSS, SCSS, JS, and several other platforms. If you've just cloned the repo, you may need to run `yarn install && yarn build` in order to make sure the appropriate dependencies have been pulled in.
+
+### Turborepo
+
+Turborepo is a smart build system for JavaScript/TypeScript monorepos: codebases containing multiple projects, often using multiple frameworks, in a single, unified code repository. Turborepo is a tool that helps you manage your monorepo, and it's built on top of Yarn Workspaces.
+
+Turbo's configuration file is located at [turborepo.json](turbo.json) and is required in order to use turbo for root level scripts.
+Think of Turborepo as a task runner that can run tasks in parallel across all packages in your monorepo. It's a great way to run tests, build, lint, etc. across all packages in your monorepo. Learn how to configure your pipelines at <https://turborepo.org/docs/core-concepts/running-tasks>

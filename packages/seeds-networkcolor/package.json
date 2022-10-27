@@ -1,0 +1,26 @@
+{
+  "name": "@sproutsocial/seeds-networkcolor",
+  "version": "2.10.1",
+  "description": "Seeds Network Color Tokens",
+  "main": "dist/seeds-networkcolor.js",
+  "types": "dist/seeds-networkcolor.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sproutsocial/seeds-packets.git"
+  },
+  "author": "Sprout Social, Inc.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@sproutsocial/seeds-utils": "*"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  }
+}
