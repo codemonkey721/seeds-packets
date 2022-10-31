@@ -42,7 +42,6 @@
   },
   "resolutions": {
     "lodash": "^4.17.21",
-    "parse-url": "^7.0.2",
     "globby": "^10.0.2"
   }
 }

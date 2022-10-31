@@ -1982,13 +1982,6 @@ is-shared-array-buffer@^1.0.2:
   dependencies:
     call-bind "^1.0.2"
 
-is-ssh@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/is-ssh/-/is-ssh-1.4.0.tgz#4f8220601d2839d8fa624b3106f8e8884f01b8b2"
-  integrity sha512-x7+VxdxOdlV3CYpjvRLBv5Lo9OJerlYanjwFrPR9fuGPjCiNiCzFgAWpiLAohSbsnH4ZAys3SBh+hq5rJosxUQ==
-  dependencies:
-    protocols "^2.0.1"
-
 is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
@@ -2496,11 +2489,6 @@ normalize-path@^3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
-normalize-url@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
-  integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
-
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -2694,23 +2682,6 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-path@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/parse-path/-/parse-path-5.0.0.tgz#f933152f3c6d34f4cf36cfc3d07b138ac113649d"
-  integrity sha512-qOpH55/+ZJ4jUu/oLO+ifUKjFPNZGfnPJtzvGzKN/4oLMil5m9OH4VpOj6++9/ytJcfks4kzH2hhi87GL/OU9A==
-  dependencies:
-    protocols "^2.0.0"
-
-parse-url@^7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/parse-url/-/parse-url-7.0.2.tgz#d21232417199b8d371c6aec0cedf1406fd6393f0"
-  integrity sha512-PqO4Z0eCiQ08Wj6QQmrmp5YTTxpYfONdOEamrtvK63AmzXpcavIVQubGHxOEwiIoDZFb8uDOoQFS0NCcjqIYQg==
-  dependencies:
-    is-ssh "^1.4.0"
-    normalize-url "^6.1.0"
-    parse-path "^5.0.0"
-    protocols "^2.0.1"
-
 pascal-case@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
@@ -2885,11 +2856,6 @@ progress@^2.0.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
-
-protocols@^2.0.0, protocols@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/protocols/-/protocols-2.0.1.tgz#8f155da3fc0f32644e83c5782c8e8212ccf70a86"
-  integrity sha512-/XJ368cyBJ7fzLMwLKv1e4vLxOju2MNAIokcr7meSaNcVbWz/CPcW22cP04mwxOErdA5mwjA8Q6w/cdAQxVn7Q==
 
 pseudomap@^1.0.2:
   version "1.0.2"
