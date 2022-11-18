@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-icons",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Seeds Icons",
   "main": "dist/seeds-icons.js",
   "types": "dist/seeds-icons.d.ts",
@@ -18,8 +18,8 @@
     "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
-    "@sproutsocial/seeds-color": "^1.6.1",
-    "@sproutsocial/seeds-dataviz": "^0.6.2",
+    "@sproutsocial/seeds-color": "^1.6.3",
+    "@sproutsocial/seeds-dataviz": "^0.6.3",
     "@sproutsocial/seeds-tsconfig": "*",
     "@types/node": "^14.18.33",
     "@types/cheerio": "^0.22.31",

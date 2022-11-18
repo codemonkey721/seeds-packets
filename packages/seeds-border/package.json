@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-border",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Seeds Border Tokens",
   "main": "dist/seeds-border.js",
   "types": "dist/seeds-border.d.ts",

@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.10.3
+
+### Patch Changes
+
+- cf0aab0: Added default export to typescript types
+
 ## 2.10.2
 
 ### Patch Changes

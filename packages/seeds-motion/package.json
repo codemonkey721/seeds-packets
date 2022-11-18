@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-motion",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Seeds Motion and Animation Tokens",
   "main": "dist/seeds-motion.js",
   "types": "dist/seeds-motion.d.ts",
