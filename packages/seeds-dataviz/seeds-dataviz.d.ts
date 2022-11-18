@@ -43,5 +43,8 @@ declare module '@sproutsocial/seeds-dataviz' {
     18: string,
     19: string,
     20: string
-  }
-};
+  };
+
+  const defaultExport: {'DATAVIZ_COLORS_LIST': typeof DATAVIZ_COLORS_LIST, 'DATAVIZ_COLORS_MAP': typeof DATAVIZ_COLORS_MAP};
+  export default defaultExport;
+}

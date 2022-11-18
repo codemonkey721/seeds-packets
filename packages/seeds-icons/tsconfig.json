@@ -1,0 +1,6 @@
+{
+  "extends": "@sproutsocial/seeds-tsconfig/base.json",
+  "ts-node": {
+    "transpileOnly": true
+  }
+}

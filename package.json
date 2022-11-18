@@ -15,7 +15,7 @@
     ]
   },
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --output-logs=new-only",
     "clean": "turbo run clean && rm -rf node_modules",
     "format": "prettier-eslint --write --eslint-ignore --print-width=120 --single-quote --no-bracket-spacing",
     "changeset": "changeset",

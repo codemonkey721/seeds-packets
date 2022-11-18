@@ -14,3 +14,5 @@ export const {{ other.name }}: string;
 {{/ifEquals}}
 {{/each}}
 {{/each}}
+declare const defaultExport: {[index:string]: string | {fontSize: string, lineHeight: string}};
+export default defaultExport;
