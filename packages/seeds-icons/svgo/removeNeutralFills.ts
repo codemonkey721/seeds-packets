@@ -1,5 +1,5 @@
 import type {CustomPlugin} from "svgo";
-import colors from "@sproutsocial/seeds-color";
+import * as colors from "@sproutsocial/seeds-color";
 
 type CustomPluginWithDescription = CustomPlugin & { description: string }
 

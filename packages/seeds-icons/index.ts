@@ -1,21 +1,21 @@
-import fs from "fs";
-import globby from "globby";
+import {rmSync, mkdirSync, readFileSync, writeFileSync, existsSync} from "fs";
+import {sync} from "globby";
 import {optimize} from "svgo";
-import path from "path";
+import {basename, extname} from "path";
 import svgstore from "svgstore";
 import {config} from "./svgo/svgo.config";
 
-if (fs.existsSync('dist')) {
-    fs.rmSync('dist', { recursive: true})
-    fs.mkdirSync('dist')
+if (existsSync('dist')) {
+    rmSync('dist', { recursive: true})
+    mkdirSync('dist')
 } else {
-    fs.mkdirSync('dist');
+    mkdirSync('dist');
 }
 
-const generalOutlinePaths = globby.sync('./src/svgs/general/outline/*.svg');
-const generalSolidPaths = globby.sync('./src/svgs/general/solid/*.svg');
-const sproutOutlinePaths = globby.sync('./src/svgs/sprout/outline/*.svg');
-const sproutSolidPaths = globby.sync('./src/svgs/sprout/solid/*.svg');
+const generalOutlinePaths = sync('./svgs/general/outline/*.svg');
+const generalSolidPaths = sync('./svgs/general/solid/*.svg');
+const sproutOutlinePaths = sync('./svgs/sprout/outline/*.svg');
+const sproutSolidPaths = sync('./svgs/sprout/solid/*.svg');
 
 const generalOutlineIcons = readAndMinifyIcons(generalOutlinePaths, 'outline');
 const generalSolidIcons = readAndMinifyIcons(generalSolidPaths, 'solid');
@@ -40,8 +40,8 @@ type TypeIcon = {
 
 function readAndMinifyIcons (paths: string[], variant: 'outline' | 'solid'): TypeIcon[] {
     return paths.map(svgPath => {
-        const svg = fs.readFileSync(svgPath, 'utf8');
-        const iconName = `${path.basename(svgPath, path.extname(svgPath))}-${variant}`;
+        const svg = readFileSync(svgPath, 'utf8');
+        const iconName = `${basename(svgPath, extname(svgPath))}-${variant}`;
         const viewBox = svg.match(/viewBox="(\d+ \d+ \d+ \d+)"/)?.[1] ?? '0 0 18 18';
         const minified = optimize(svg, {...config, path: svgPath}).data;
         return {svg: minified, svgPath, iconName, variant, viewBox}
@@ -50,23 +50,23 @@ function readAndMinifyIcons (paths: string[], variant: 'outline' | 'solid'): Typ
 
 // Generate sprite and types for an array of svgs.
 function createAssets (svgs: TypeIcon[], scope: 'general' | 'sprout' | 'all') {
-    if (fs.existsSync(`src/${scope}`)) {
-        fs.rmSync(`src/${scope}`, { recursive: true});
-        fs.mkdirSync(`src/${scope}`);
+    if (existsSync(`src/${scope}`)) {
+        rmSync(`src/${scope}`, { recursive: true});
+        mkdirSync(`src/${scope}`);
     } else {
-        fs.mkdirSync(`src/${scope}`);
+        mkdirSync(`src/${scope}`);
     }
 
     const store = createSvgSpriteStore(svgs);
     const stringStore = store.toString({inline:true})
-    fs.writeFileSync(`./src/${scope}/sprite.ts`, `const sprite = '${stringStore}';\nexport default sprite;`);
+    writeFileSync(`./src/${scope}/sprite.ts`, `const sprite = '${stringStore}';\nexport default sprite;`);
 
     createIconNameList(svgs, scope);
 
     const viewBoxes: { [index: string]: any } = {}
     svgs.forEach(svg => viewBoxes[svg.iconName] = svg.viewBox)
     const stringifiedViewBoxes=JSON.stringify(viewBoxes);
-    fs.writeFileSync(`./src/${scope}/viewBoxes.ts`, `const viewBoxes = ${stringifiedViewBoxes};\nexport default viewBoxes;`);
+    writeFileSync(`./src/${scope}/viewBoxes.ts`, `const viewBoxes = ${stringifiedViewBoxes};\nexport default viewBoxes;`);
 }
 
 function createSvgSpriteStore(svgs: TypeIcon[]) {
@@ -97,5 +97,5 @@ function createIconNameList(svgs: TypeIcon[], scope: 'general' | 'sprout' | 'all
     const svgNames = [...svgNamesWithSuffixes, ...svgNamesWithoutSuffixes];
 
     // Export an array of possible icon names for the scope
-    fs.writeFileSync(`./src/${scope}/iconNames.ts`, `const IconNames = ${JSON.stringify(svgNames)};\nexport default IconNames;`);
+    writeFileSync(`./src/${scope}/iconNames.ts`, `const IconNames = ${JSON.stringify(svgNames)};\nexport default IconNames;`);
 }
