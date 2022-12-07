@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-icons",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Seeds Icons",
   "main": "dist/seeds-icons.js",
   "types": "dist/seeds-icons.d.ts",
