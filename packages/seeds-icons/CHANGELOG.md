@@ -1,5 +1,13 @@
 # @sproutsocial/seeds-icons
 
+## 0.3.0
+
+### Minor Changes
+
+- 85c22ff: Replaced SVGs with versions that fill the viewBox
+  - Previously, all SVGs in the package had a 24x24 viewBox despite the graphic usually being about 18x18, leading to unintended margins
+  - New versions have been added that include accurate viewBoxes that hug the content on each side
+
 ## 0.2.0
 
 ### Minor Changes
