@@ -1,6 +1,10 @@
 {
-  "extends": "@sproutsocial/seeds-tsconfig/base.json",
-  "ts-node": {
-    "transpileOnly": true
-  }
+  "extends": "@sproutsocial/seeds-tsconfig/node16.json",
+  "compilerOptions": {
+    "typeRoots" : ["./types"],
+    "rootDir": "src",
+    "outDir": "dist",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "types"]
 }

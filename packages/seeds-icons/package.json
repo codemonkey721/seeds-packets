@@ -14,7 +14,7 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "build": "ts-node build.ts",
+    "build": "ts-node index.ts && tsc",
     "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
