@@ -1,5 +1,11 @@
 # @sproutsocial/seeds-icons
 
+## 0.3.1
+
+### Patch Changes
+
+- 8a07e70: Fixed seeds-color import syntax/typing
+
 ## 0.3.0
 
 ### Minor Changes
