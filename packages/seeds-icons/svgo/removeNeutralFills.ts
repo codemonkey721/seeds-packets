@@ -1,20 +1,24 @@
 import type {CustomPlugin} from "svgo";
-import * as colors from "@sproutsocial/seeds-color";
+import {
+    COLOR_NEUTRAL_100,
+    COLOR_NEUTRAL_200,
+    COLOR_NEUTRAL_300,
+    COLOR_NEUTRAL_400,
+    COLOR_NEUTRAL_500,
+    COLOR_NEUTRAL_600,
+    COLOR_NEUTRAL_700,
+    COLOR_NEUTRAL_800,
+    COLOR_NEUTRAL_900,
+    COLOR_NEUTRAL_1000,
+    COLOR_NEUTRAL_1100
+} from "@sproutsocial/seeds-color";
 
 type CustomPluginWithDescription = CustomPlugin & { description: string }
 
 // Designers usually add fills to the icons in Figma, usually a neutral color by default.
 // For those "default fills", we want to strip them out of the resulting icon entirely.
 // If the color isn't neutral, we assume this icon is a special, pre-colored icon, so we don't strip out the fill.
-const obj: { [index: string]: any } = {}
-const neutralColorObjects = Object.keys(colors)
-    .filter((colorName) => colorName.includes('NEUTRAL') && colorName !== 'COLOR_NEUTRAL_0')
-    .reduce((obj, key) => {
-        obj[key] = colors[key];
-        return obj;
-    }, obj);
-
-const neutralColors = ['#FFF', ...Object.values(neutralColorObjects)];
+const neutralColors = ['#FFF', COLOR_NEUTRAL_100, COLOR_NEUTRAL_200, COLOR_NEUTRAL_300, COLOR_NEUTRAL_400, COLOR_NEUTRAL_500, COLOR_NEUTRAL_600, COLOR_NEUTRAL_700, COLOR_NEUTRAL_800, COLOR_NEUTRAL_900, COLOR_NEUTRAL_1000, COLOR_NEUTRAL_1100];
 
 const plugin: CustomPluginWithDescription = {
     name: 'removeNeutralFills',
@@ -24,7 +28,7 @@ const plugin: CustomPluginWithDescription = {
             element: {
                 enter: (node) => {
                     if (neutralColors.includes(node?.attributes?.fill)) {
-                            node.attributes.fill = "currentColor";
+                        node.attributes.fill = "currentColor";
                     }
                 }
             }
