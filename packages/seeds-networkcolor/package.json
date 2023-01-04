@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-networkcolor",
-  "version": "2.10.3",
+  "version": "2.11.0",
   "description": "Seeds Network Color Tokens",
   "main": "dist/seeds-networkcolor.js",
   "types": "dist/seeds-networkcolor.d.ts",
