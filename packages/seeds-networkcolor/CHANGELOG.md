@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.11.0
+
+### Minor Changes
+
+- 799febd: Add network colors for Apple's App Store and Google's Play Store.
+
 ## 2.10.3
 
 ### Patch Changes
