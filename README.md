@@ -27,7 +27,7 @@ To build Seeds packages, simply install dependencies by running `yarn` and build
 
 ### Contributing
 
-- Create a pull request against the `develop` branch
+- Create a pull request against the `main` branch
 - Get approval and merge the pull request
 - A version PR labled `Version Packages` will be created automatically by the github-actions bot. This PR will bump the version of all packages that have changed since the last release and generate a changelog.
 - Get approval and merge the version PR
