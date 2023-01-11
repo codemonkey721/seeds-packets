@@ -2,8 +2,8 @@
   "name": "@sproutsocial/seeds-icons",
   "version": "0.3.1",
   "description": "Seeds Icons",
-  "main": "dist/seeds-icons.js",
-  "types": "dist/seeds-icons.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -14,12 +14,11 @@
   "author": "Sprout Social, Inc.",
   "license": "MIT",
   "scripts": {
-    "build": "ts-node index.ts && tsc",
+    "build": "ts-node build.ts && tsc",
     "clean": "rm -rf .turbo && rm -rf dist && rm -rf node_modules"
   },
   "devDependencies": {
     "@sproutsocial/seeds-color": "^1.6.3",
-    "@sproutsocial/seeds-dataviz": "^0.6.3",
     "@sproutsocial/seeds-tsconfig": "*",
     "@types/node": "^14.18.33",
     "@types/cheerio": "^0.22.31",
