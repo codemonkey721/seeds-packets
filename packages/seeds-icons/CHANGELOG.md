@@ -1,5 +1,17 @@
 # @sproutsocial/seeds-icons
 
+## 0.4.0
+
+### Minor Changes
+
+- c9e0c40: Removed "All" category exports
+  - The "All" category exports, which bundled the Sprout and General category icons together, have been removed. Please import all the assets you need and combine them manually.
+  - Note: This is a breaking change but the package will get a minor version bump only, to avoid promoting the package to v1/stable.
+- c9e0c40: Added "external" icon category
+  - 14 new icons were added
+  - This category is for icons owned by their respective companies, not Sprout Social
+  - Added ExternalSprite, ExternalViewBoxes, and ExternalIconNames to the package exports
+
 ## 0.3.1
 
 ### Patch Changes
