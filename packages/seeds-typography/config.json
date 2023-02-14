@@ -30,6 +30,16 @@
           "destination": "seeds-typography.js",
           "format": "template/js-exports-typography",
           "options": { "showFileHeader": false }
+        },
+        {
+          "destination": "seeds-typography.test.js",
+          "format": "javascript/module-flat",
+          "options": { "showFileHeader": false }
+        },
+        {
+          "destination": "seeds-typography.d.ts",
+          "format": "typescript/es6-declarations",
+          "options": { "showFileHeader": false }
         }
       ]
     },
@@ -41,18 +51,6 @@
         {
           "destination": "seeds-typography-unitless.js",
           "format": "template/js-exports-typography-unitless",
-          "options": { "showFileHeader": false }
-        }
-      ]
-    },
-    "web/ts": {
-      "transformGroup": "ts",
-      "transforms": ["name/cti/constant", "attribute/cti", "attribute/tokens", "attribute/typography"],
-      "buildPath": "dist/",
-      "files": [
-        {
-          "destination": "seeds-typography.d.ts",
-          "format": "template/ts-exports-typography",
           "options": { "showFileHeader": false }
         }
       ]

@@ -27,20 +27,13 @@
       "files": [
         {
           "destination": "seeds-color.js",
-          "format": "template/js-exports",
+          "format": "javascript/module-flat",
           "options": { "showFileHeader": false }
-        }
-      ]
-    },
-    "web/ts": {
-      "transformGroup": "ts",
-      "transforms": ["name/cti/constant"],
-      "buildPath": "dist/",
-      "files": [
-        {
-          "destination": "seeds-color.d.ts",
-          "format": "template/ts-exports",
-          "options": { "showFileHeader": false }
+        },
+         {
+           "destination": "seeds-color.d.ts",
+           "format": "typescript/es6-declarations",
+           "options": { "showFileHeader": false }
         }
       ]
     },

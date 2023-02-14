@@ -28,19 +28,12 @@
       "files": [
         {
           "destination": "seeds-networkcolor.js",
-          "format": "template/js-exports",
+          "format": "javascript/module-flat",
           "options": { "showFileHeader": false }
-        }
-      ]
-    },
-    "web/ts": {
-      "transformGroup": "ts",
-      "transforms": ["name/cti/constant"],
-      "buildPath": "dist/",
-      "files": [
+        },
         {
           "destination": "seeds-networkcolor.d.ts",
-          "format": "template/ts-exports",
+          "format": "typescript/es6-declarations",
           "options": { "showFileHeader": false }
         }
       ]
