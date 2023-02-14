@@ -28,11 +28,6 @@
       "files": [
         {
           "destination": "seeds-typography.js",
-          "format": "template/js-exports-typography",
-          "options": { "showFileHeader": false }
-        },
-        {
-          "destination": "seeds-typography.test.js",
           "format": "javascript/module-flat",
           "options": { "showFileHeader": false }
         },
