@@ -27,7 +27,12 @@
       "files": [
         {
           "destination": "seeds-motion.js",
-          "format": "template/js-exports",
+          "format": "javascript/module-flat",
+          "options": { "showFileHeader": false }
+        },
+        {
+          "destination": "seeds-motion.d.ts",
+          "format": "typescript/es6-declarations",
           "options": { "showFileHeader": false }
         }
       ]
@@ -40,18 +45,6 @@
         {
           "destination": "seeds-motion-unitless.js",
           "format": "template/js-exports-number",
-          "options": { "showFileHeader": false }
-        }
-      ]
-    },
-    "web/ts": {
-      "transformGroup": "ts",
-      "transforms": ["name/cti/constant"],
-      "buildPath": "dist/",
-      "files": [
-        {
-          "destination": "seeds-motion.d.ts",
-          "format": "template/ts-exports",
           "options": { "showFileHeader": false }
         }
       ]

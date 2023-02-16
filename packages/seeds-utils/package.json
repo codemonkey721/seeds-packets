@@ -22,7 +22,7 @@
     "mround": "^1.0.0",
     "pascal-case": "^2.0.1",
     "rimraf": "^2.6.3",
-    "style-dictionary": "^2.7.0",
+    "style-dictionary": "^3.7.2",
     "tinycolor2": "^1.4.1"
   },
   "engines": {
