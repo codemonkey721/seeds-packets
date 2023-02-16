@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.3.0
+
+### Minor Changes
+
+- 0f6d5e8: Tokens now include more accurate typescript types and js modules
+
 ## 1.2.4
 
 ### Patch Changes
