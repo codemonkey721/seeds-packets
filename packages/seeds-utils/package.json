@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-utils",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Seeds utility functions for generating tokens",
   "seeds_ignore": true,
   "main": "style-dictionary/index.js",

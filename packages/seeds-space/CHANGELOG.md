@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.7.0
+
+### Minor Changes
+
+- 75a7bda: revert js object keys to literals instead of strings
+
 ## 0.6.0
 
 ### Minor Changes
