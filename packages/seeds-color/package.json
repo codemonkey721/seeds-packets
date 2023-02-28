@@ -1,6 +1,6 @@
 {
   "name": "@sproutsocial/seeds-color",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Seeds Color Tokens",
   "main": "dist/seeds-color.js",
   "types": "dist/seeds-color.d.ts",
