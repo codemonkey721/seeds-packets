@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 .DS_Store
 dist
+build
 
 # Project dependencies
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
@@ -15,3 +16,4 @@ yarn-error.log
 .idea
 .npmrc
 .turbo
+.env

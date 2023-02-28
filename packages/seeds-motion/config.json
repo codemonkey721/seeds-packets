@@ -27,7 +27,7 @@
       "files": [
         {
           "destination": "seeds-motion.js",
-          "format": "javascript/module-flat",
+          "format": "template/js-exports",
           "options": { "showFileHeader": false }
         },
         {

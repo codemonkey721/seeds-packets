@@ -28,7 +28,7 @@
       "files": [
         {
           "destination": "seeds-networkcolor.js",
-          "format": "javascript/module-flat",
+          "format": "template/js-exports",
           "options": { "showFileHeader": false }
         },
         {

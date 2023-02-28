@@ -28,7 +28,7 @@
       "files": [
         {
           "destination": "seeds-typography.js",
-          "format": "javascript/module-flat",
+          "format": "template/js-exports-typography",
           "options": { "showFileHeader": false }
         },
         {
